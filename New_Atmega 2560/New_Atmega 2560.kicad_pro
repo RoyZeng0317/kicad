@@ -479,7 +479,14 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "+5V": [
+        "8"
+      ],
+      "GND": [
+        "4"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
