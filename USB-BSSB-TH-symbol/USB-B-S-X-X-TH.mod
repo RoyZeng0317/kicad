@@ -1,0 +1,90 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+SAMTEC_USB-B-S-X-X-TH
+$EndINDEX
+$MODULE SAMTEC_USB-B-S-X-X-TH
+Po 0 0 0 15 00000000 00000000 ~~
+Li SAMTEC_USB-B-S-X-X-TH
+Cd 
+Sc 00000000
+At STD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -3.46 -8.635 1 1 0 0.05 N V 21 "SAMTEC_USB-B-S-X-X-TH"
+T1 -2.825 -7.135 1 1 0 0.05 N V 21 "VAL**"
+DS -6.05 -5.8 6.05 -5.8 0.2 21
+DS 6.05 -5.8 6.05 -2.01 0.2 21
+DS 6.05 2.01 6.05 10.4 0.2 21
+DS 6.05 10.4 -6.05 10.4 0.2 21
+DS -6.05 10.4 -6.05 2.01 0.2 21
+DS -6.05 -2.01 -6.05 -5.8 0.2 21
+DS -6.05 -5.8 6.05 -5.8 0.1 27
+DS 6.05 -5.8 6.05 10.4 0.1 27
+DS 6.05 10.4 -6.05 10.4 0.1 27
+DS -6.05 10.4 -6.05 -5.8 0.1 27
+DC 6.75 -4.7 6.85 -4.7 0.2 27
+DC 6.75 -4.7 6.85 -4.7 0.2 21
+DS -6.3 -6.05 6.3 -6.05 0.05 26
+DS 6.3 -6.05 6.3 -1.91 0.05 26
+DS 6.3 -1.91 7.93 -1.91 0.05 26
+DS 7.93 -1.91 7.93 1.91 0.05 26
+DS 7.93 1.91 6.3 1.91 0.05 26
+DS 6.3 1.91 6.3 10.65 0.05 26
+DS 6.3 10.65 -6.3 10.65 0.05 26
+DS -6.3 10.65 -6.3 1.91 0.05 26
+DS -6.3 1.91 -7.93 1.91 0.05 26
+DS -7.93 1.91 -7.93 -1.91 0.05 26
+DS -7.93 -1.91 -6.3 -1.91 0.05 26
+DS -6.3 -1.91 -6.3 -6.05 0.05 26
+$PAD
+Sh "1" R 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 1.25 -4.7
+$EndPAD
+$PAD
+Sh "2" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -1.25 -4.7
+$EndPAD
+$PAD
+Sh "3" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -1.25 -2.7
+$EndPAD
+$PAD
+Sh "4" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 1.25 -2.7
+$EndPAD
+$PAD
+Sh "S1" C 3.316 3.316 0 0 0
+Dr 2.3 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -6.02 0
+$EndPAD
+$PAD
+Sh "S2" C 3.316 3.316 0 0 0
+Dr 2.3 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 6.02 0
+$EndPAD
+$EndMODULE SAMTEC_USB-B-S-X-X-TH
