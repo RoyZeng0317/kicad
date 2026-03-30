@@ -1,0 +1,64 @@
+Reference,Value,Description,Footprint,Quantity
+C1,22pF,Load capacitor for ceramic resonator Y1,Capacitor_SMD:C_0603_1608Metric,1
+C2,100nF,Decoupling capacitor,Capacitor_SMD:C_0603_1608Metric,1
+C3,100nF,Decoupling capacitor,Capacitor_SMD:C_0603_1608Metric,1
+C4,100nF,Decoupling capacitor,Capacitor_SMD:C_0603_1608Metric,1
+C5,100nF,Decoupling capacitor,Capacitor_SMD:C_0603_1608Metric,1
+C6,100nF,Decoupling capacitor,Capacitor_SMD:C_0603_1608Metric,1
+C7,100nF,Decoupling capacitor (ATmega16U2),Capacitor_SMD:C_0603_1608Metric,1
+C8,100nF,Decoupling capacitor (ATmega16U2),Capacitor_SMD:C_0603_1608Metric,1
+C9,100nF,Decoupling capacitor,Capacitor_SMD:C_0603_1608Metric,1
+C10,1uF,Bypass capacitor,Capacitor_SMD:C_0603_1608Metric,1
+C11,100nF,Decoupling capacitor (IC6/T1 area),Capacitor_SMD:C_0603_1608Metric,1
+C12,100nF,Decoupling capacitor (IC6/T1 area),Capacitor_SMD:C_0603_1608Metric,1
+C13,1uF,Bypass capacitor,Capacitor_SMD:C_0603_1608Metric,1
+C14,22pF,Load capacitor for crystal Y2,Capacitor_SMD:C_0603_1608Metric,1
+C15,22pF,Load capacitor for crystal Y2,Capacitor_SMD:C_0603_1608Metric,1
+C16,100nF,Decoupling capacitor (IC3 area - Rev3e新增),Capacitor_SMD:C_0603_1608Metric,1
+PC1,47uF,Bulk electrolytic capacitor 47uF 16V radial,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,1
+PC2,47uF,Bulk electrolytic capacitor 47uF 16V radial,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,1
+R1,1M,Pull-up resistor 1MΩ 0603 SMD,Resistor_SMD:R_0603_1608Metric,1
+R2,1M,Pull-up resistor 1MΩ 0603 SMD,Resistor_SMD:R_0603_1608Metric,1
+RN1,10K,Resistor network 10KΩ x4 bussed SIP8,Resistor_THT:R_Array_SIP8,1
+RN2,22R,Resistor network 22Ω x4 isolated SIP8 (USB D+/D-),Resistor_THT:R_Array_SIP8,1
+RN3,1K,Resistor network 1KΩ x4 isolated SIP8,Resistor_THT:R_Array_SIP8,1
+RN4,1K,Resistor network 1KΩ x4 isolated SIP8,Resistor_THT:R_Array_SIP8,1
+RN5,10K,Resistor network 10KΩ x4 bussed SIP8,Resistor_THT:R_Array_SIP8,1
+IC1,LD1117S50CTR,Fixed LDO 5V 1A SOT-223 STMicroelectronics,Package_TO_SOT_SMD:SOT-223-3_TabPin2,1
+IC3,ATMEGA2560-16AU,8-bit AVR MCU 256KB Flash 16MHz TQFP-100,Package_QFP:TQFP-100_14x14mm_P0.8mm,1
+IC4,ATMEGA16U2-MU,USB-UART bridge 8-bit AVR QFN-32,Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm,1
+IC6,LP2985-33DBUR,Fixed LDO 3.3V 150mA SOT-23-5 Texas Instruments,Package_TO_SOT_SMD:SOT-23-5,1
+IC7,LMV358IDGKR,Dual general-purpose op-amp MSOP-8 Texas Instruments,Package_SO:MSOP-8_3x3mm_P0.65mm,1
+T1,PMV48XP,P-channel MOSFET 30V 3.1A SOT-23 NXP (USB power switch),Package_TO_SOT_SMD:SOT-23,1
+D1,M7,General purpose rectifier diode 1A 1000V SMB (DO-214AA),Diode_SMD:D_SMB,1
+D2,CD1206-S01575,High-speed switching diode 75V 150mA MiniMELF Bourns,Diode_SMD:D_MiniMELF,1
+D3,CD1206-S01575,High-speed switching diode 75V 150mA MiniMELF Bourns,Diode_SMD:D_MiniMELF,1
+Z1,CG0603MLC-05E,ESD protection varistor 5V 0603 Bourns,Capacitor_SMD:C_0603_1608Metric,1
+Z2,CG0603MLC-05E,ESD protection varistor 5V 0603 Bourns,Capacitor_SMD:C_0603_1608Metric,1
+F1,MF-MSMF050-2 500mA,PPTC resettable fuse 500mA 15V 1812 Bourns,Fuse:Fuse_1812_4532Metric,1
+L1,MH2029-300Y,Ferrite bead 0805 (USB power filter),Inductor_SMD:L_0805_2012Metric,1
+Y1,CSTCE16M0V53-R0,Ceramic resonator 16MHz 3-pin SMD Murata,Crystal:Crystal_SMD_Murata_CSTxExxV-3Pin_3.2x1.3mm,1
+Y2,16MHz,Crystal oscillator 16MHz HC-49/S SMD (for ATmega16U2),Crystal:Crystal_SMD_HC49-SD,1
+RESET,TS42,Tactile push button switch SMD SPST,Button_Switch_SMD:SW_SPST_Omron_B3FS-1xxx,1
+ON,GREEN,LED green 0805 SMD (power indicator),LED_SMD:LED_0805_2012Metric,1
+L,YELLOW,LED yellow 0805 SMD (user LED pin 13),LED_SMD:LED_0805_2012Metric,1
+RX,YELLOW,LED yellow 0805 SMD (RX serial indicator),LED_SMD:LED_0805_2012Metric,1
+TX,YELLOW,LED yellow 0805 SMD (TX serial indicator),LED_SMD:LED_0805_2012Metric,1
+X1,POWERSUPPLY_DC21MMX,DC power jack 2.1mm barrel connector,Connector_BarrelJack:BarrelJack_CUI_PJ-102A_Horizontal,1
+X2,USB-B_TH,USB Type-B through-hole connector,Connector_USB:USB_B_Lumberg_2411_01_Horizontal,1
+ICSP,3x2M,ICSP header 2x3 2.54mm (ATmega2560 SPI),Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,1
+ICSP1,3x2M,ICSP header 2x3 2.54mm (ATmega16U2 SPI),Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,1
+JP5,2x2M,2x2 header NM (no mount),Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical,1
+JP6,10x1F-H8.5,1x10 female pin header 2.54mm (PWM/digital),Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical,1
+POWER,8x1F-H8.5,1x8 female pin header 2.54mm (POWER),Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,1
+ADCH,8x1F-H8.5,1x8 female pin header 2.54mm (Analog A8-A15),Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,1
+ADCL,8x1F-H8.5,1x8 female pin header 2.54mm (Analog A0-A7),Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,1
+COMMUNICATION,8x1F-H8.5,1x8 female pin header 2.54mm (UART/SPI/I2C),Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,1
+PWML,8x1F-H8.5,1x8 female pin header 2.54mm (PWM low side),Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,1
+XIO,18x2F-H8.5,2x18 female pin header 2.54mm (digital I/O),Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical,1
+GROUND,SJ,Solder jumper (GND),Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,1
+RESET-EN,SJ,Solder jumper (reset enable),Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,1
+FD1,FIDUCIALMOUNT,Fiducial marker,Fiducial:Fiducial_1mm_Mask2mm,1
+FD2,FIDUCIALMOUNT,Fiducial marker,Fiducial:Fiducial_1mm_Mask2mm,1
+FD3,FIDUCIALMOUNT,Fiducial marker,Fiducial:Fiducial_1mm_Mask2mm,1
+FD4,FIDUCIALMOUNT,Fiducial marker,Fiducial:Fiducial_1mm_Mask2mm,1
