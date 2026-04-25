@@ -678,7 +678,7 @@
         "uuid": "f123d371-868a-48f0-9f6c-663b3f4e9af5"
       }
     ],
-    "used_designators": "FB1,C12,R6-7",
+    "used_designators": "RN1C1,FB1,C12,RN3A1,R6-7,ADCH1,#PWR39,RN3B1,GREEN1,RN1B1,RN3D1,RN4A1,RN4B1,RN4C2,RN5A1,RN5C1,RN5D1,RX1,TX1,XIO1,YELLOW1",
     "variants": []
   },
   "sheets": [

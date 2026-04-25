@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "mh2029-300y") (type "KiCad") (uri "${KIPRJMOD}/mh2029-300y.pretty") (options "") (descr ""))
 	(lib (name "MF-MSMF050") (type "KiCad") (uri "${KIPRJMOD}/MF-MSMF050.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/Library.pretty") (options "") (descr ""))
 )

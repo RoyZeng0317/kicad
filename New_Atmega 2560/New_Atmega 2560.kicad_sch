@@ -11647,7 +11647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 117.8052 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -13055,7 +13055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 234.6452 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -13214,7 +13214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54a9dc27-5be8-4692-96b8-cb98f51cf7de")
-		(property "Reference" "RN1B"
+		(property "Reference" "RN1B1"
 			(at 269.748 28.956 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13278,7 +13278,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
-					(reference "RN1B")
+					(reference "RN1B1")
 					(unit 1)
 				)
 			)
@@ -13689,7 +13689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "659a6497-1d62-40a7-a46c-b9b9d581a208")
-		(property "Reference" "RN5A"
+		(property "Reference" "RN5A1"
 			(at 243.586 25.146 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13753,7 +13753,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
-					(reference "RN5A")
+					(reference "RN5A1")
 					(unit 1)
 				)
 			)
@@ -14030,7 +14030,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:TO229P990X238-4N"
 			(at 76.2 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -14611,7 +14611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 22.5552 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -14670,7 +14670,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98345624-a829-425b-8228-68a07d10c11e")
-		(property "Reference" "RN1C"
+		(property "Reference" "RN1C1"
 			(at 276.352 28.956 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14734,7 +14734,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
-					(reference "RN1C")
+					(reference "RN1C1")
 					(unit 1)
 				)
 			)
@@ -15520,7 +15520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a609dc5c-6051-405a-91f9-efe3bc5e2772")
-		(property "Reference" "YELLOW"
+		(property "Reference" "YELLOW1"
 			(at 208.28 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15540,7 +15540,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
 			(at 209.55 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -15593,7 +15593,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
-					(reference "YELLOW")
+					(reference "YELLOW1")
 					(unit 1)
 				)
 			)
@@ -16004,7 +16004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae5fb6b5-281c-4dc1-a216-674a2a8f8e98")
-		(property "Reference" "RN3A"
+		(property "Reference" "RN3A1"
 			(at 200.406 16.256 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16066,7 +16066,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
-					(reference "RN3A")
+					(reference "RN3A1")
 					(unit 1)
 				)
 			)
@@ -16164,7 +16164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b09b87a2-4e8d-4b19-b773-35d25b29333c")
-		(property "Reference" "GREEN"
+		(property "Reference" "GREEN1"
 			(at 208.534 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16184,7 +16184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
 			(at 209.55 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -16237,7 +16237,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
-					(reference "GREEN")
+					(reference "GREEN1")
 					(unit 1)
 				)
 			)
@@ -16491,7 +16491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bab243c2-67fa-47d8-bbf4-3d0bef88a719")
-		(property "Reference" "RN5C"
+		(property "Reference" "RN5C1"
 			(at 53.34 149.352 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16555,7 +16555,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
-					(reference "RN5C")
+					(reference "RN5C1")
 					(unit 1)
 				)
 			)
@@ -16756,7 +16756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.102 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -16815,7 +16815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1b10e49-0dd1-4b4e-8235-4700d15958fe")
-		(property "Reference" "ADCH"
+		(property "Reference" "ADCH1"
 			(at 99.568 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16896,7 +16896,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
-					(reference "ADCH")
+					(reference "ADCH1")
 					(unit 1)
 				)
 			)
@@ -17148,7 +17148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbc5d530-7219-4836-baef-ff012addf3a6")
-		(property "Reference" "RN3B"
+		(property "Reference" "RN3B1"
 			(at 200.406 21.844 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17210,7 +17210,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
-					(reference "RN3B")
+					(reference "RN3B1")
 					(unit 1)
 				)
 			)
@@ -17227,7 +17227,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd94d5e1-f40a-4bfa-ad3a-1c98fff7dfb9")
-		(property "Reference" "XIO"
+		(property "Reference" "XIO1"
 			(at 27.432 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17391,7 +17391,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
-					(reference "XIO")
+					(reference "XIO1")
 					(unit 1)
 				)
 			)
@@ -17486,7 +17486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e94eb7d5-5b51-4fd9-bde6-aaba28f5a370")
-		(property "Reference" "RN5D"
+		(property "Reference" "RN5D1"
 			(at 53.34 159.258 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17550,7 +17550,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
-					(reference "RN5D")
+					(reference "RN5D1")
 					(unit 1)
 				)
 			)
@@ -17928,7 +17928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 69.5452 158.75 0)
 			(hide yes)
 			(show_name no)

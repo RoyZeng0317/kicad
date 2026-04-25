@@ -4262,6 +4262,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 54.61) (xy 74.93 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0bf5fb-daf9-41f2-b8f6-d06c727b733e")
+	)
+	(wire
+		(pts
 			(xy 97.79 142.24) (xy 57.15 142.24)
 		)
 		(stroke
@@ -4882,7 +4892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08503e2e-3560-428c-af0c-fb17de4aca8c")
-		(property "Reference" "RX"
+		(property "Reference" "RX1"
 			(at 186.3725 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4902,7 +4912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
 			(at 187.96 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4955,7 +4965,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5/afb03c50-fd2e-450d-8b7a-da4257288ef8"
-					(reference "RX")
+					(reference "RX1")
 					(unit 1)
 				)
 			)
@@ -5073,7 +5083,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.79 100.838 90)
 			(hide yes)
 			(show_name no)
@@ -5405,7 +5415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 184.15 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5720,7 +5730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.79 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5881,7 +5891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.902 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -5963,7 +5973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 118.872 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -6042,7 +6052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.79 105.918 90)
 			(hide yes)
 			(show_name no)
@@ -6101,7 +6111,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5316d25d-ed06-4307-8a71-c4e6fdfd5222")
-		(property "Reference" "RN4C"
+		(property "Reference" "RN4C2"
 			(at 198.12 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6163,7 +6173,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5/afb03c50-fd2e-450d-8b7a-da4257288ef8"
-					(reference "RN4C")
+					(reference "RN4C2")
 					(unit 1)
 				)
 			)
@@ -6202,7 +6212,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "L0805"
+		(property "Footprint" "mh2029-300y:L0805"
 			(at 48.26 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6296,7 +6306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FUSER_MF-MSMF050"
+		(property "Footprint" "MF-MSMF050:FUSER_MF-MSMF050"
 			(at 64.77 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6825,7 +6835,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Plug_Molex_105444"
 			(at 27.94 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6918,7 +6928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d6e0d4f-9d36-4a20-b255-09669260c7de")
-		(property "Reference" "TX"
+		(property "Reference" "TX1"
 			(at 186.3725 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6938,7 +6948,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_PLCC_2835"
 			(at 187.96 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6991,7 +7001,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5/afb03c50-fd2e-450d-8b7a-da4257288ef8"
-					(reference "TX")
+					(reference "TX1")
 					(unit 1)
 				)
 			)
@@ -7087,7 +7097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84e87986-59b3-4347-a9cb-a5e8dfe42ca5")
-		(property "Reference" "RN3D"
+		(property "Reference" "RN3D1"
 			(at 186.69 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7151,7 +7161,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5/afb03c50-fd2e-450d-8b7a-da4257288ef8"
-					(reference "RN3D")
+					(reference "RN3D1")
 					(unit 1)
 				)
 			)
@@ -7168,7 +7178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "950d9933-18d4-46df-bbd0-c3237a4f8493")
-		(property "Reference" "RN4A"
+		(property "Reference" "RN4A1"
 			(at 180.34 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7230,7 +7240,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5/afb03c50-fd2e-450d-8b7a-da4257288ef8"
-					(reference "RN4A")
+					(reference "RN4A1")
 					(unit 1)
 				)
 			)
@@ -7443,7 +7453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 198.12 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7584,7 +7594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2101e8e-6926-494e-8e4b-ca308f9a3902")
-		(property "Reference" "RN4B"
+		(property "Reference" "RN4B1"
 			(at 180.34 99.314 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7646,7 +7656,7 @@
 		(instances
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5/afb03c50-fd2e-450d-8b7a-da4257288ef8"
-					(reference "RN4B")
+					(reference "RN4B1")
 					(unit 1)
 				)
 			)
@@ -7683,7 +7693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.63 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7840,7 +7850,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.63 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7922,7 +7932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 74.93 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7965,6 +7975,84 @@
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5/afb03c50-fd2e-450d-8b7a-da4257288ef8"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 54.61 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f74d57d3-ad7b-41cd-8e86-931e9bac9354")
+		(property "Reference" "#PWR039"
+			(at 74.93 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "948f0463-0bd8-4778-8cc8-d7458774c9c7")
+		)
+		(instances
+			(project "New_Atmega 2560"
+				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5/afb03c50-fd2e-450d-8b7a-da4257288ef8"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
