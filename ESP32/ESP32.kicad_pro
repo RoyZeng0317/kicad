@@ -430,13 +430,17 @@
         "uuid": "21854826-38d8-4bae-b9c0-6b760ec4509b"
       }
     ],
-    "used_designators": "U2-3,#PWR16-17",
+    "used_designators": "#PWR18-21,U4,P1,R2,R17,C6-7",
     "variants": []
   },
   "sheets": [
     [
       "21854826-38d8-4bae-b9c0-6b760ec4509b",
       "ESP32"
+    ],
+    [
+      "2f232100-d014-491c-b63c-6b5845a99fd7",
+      "Wi-Fi Module"
     ]
   ],
   "text_variables": {},
