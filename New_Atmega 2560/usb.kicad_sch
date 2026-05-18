@@ -5321,7 +5321,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 			(at 99.06 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6131,7 +6131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP8"
 			(at 200.66 121.158 90)
 			(hide yes)
 			(show_name no)
@@ -6568,7 +6568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
 			(at 127 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6670,7 +6670,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 			(at 205.74 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6755,7 +6755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP8"
 			(at 200.66 130.048 90)
 			(hide yes)
 			(show_name no)
@@ -7119,7 +7119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP8"
 			(at 182.372 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -7198,7 +7198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP8"
 			(at 182.88 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -7614,7 +7614,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Array_SIP8"
 			(at 182.88 103.378 90)
 			(hide yes)
 			(show_name no)
