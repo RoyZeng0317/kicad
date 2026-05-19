@@ -12618,7 +12618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 86.36 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -12717,7 +12717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_HC49-SD"
 			(at 80.01 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -15540,7 +15540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 209.55 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -16836,7 +16836,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 104.14 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -17588,7 +17588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 181.61 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -17846,7 +17846,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-1xxx"
 			(at 25.4 186.69 0)
 			(hide yes)
 			(show_name no)
