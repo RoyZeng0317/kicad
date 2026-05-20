@@ -468,7 +468,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "ESP32-S3-DevKitC-1_V1.1"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -582,14 +584,92 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vlotage",
+          "name": "Vlotage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "描述",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "參考"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -632,17 +712,13 @@
         "uuid": "6cc9da53-cb29-41ce-8a86-79b68d4c2680"
       }
     ],
-    "used_designators": "U1,D6-7,#PWR5-6,#PWR13,#PWR16-19,#PWR23-24,#PWR27-32,#PWR37,IC1,J4,R3-13,C1,C3-5,C7,C10-12,Q3-4,S1-2",
+    "used_designators": "D4-5,D8-14,#PWR22,#PWR26,#PWR33,C8,P2",
     "variants": []
   },
   "sheets": [
     [
       "6cc9da53-cb29-41ce-8a86-79b68d4c2680",
       "根目錄"
-    ],
-    [
-      "977a5ab7-4b70-4bdc-bca7-dc775a674ee0",
-      "Wi-Fi Module"
     ]
   ],
   "text_variables": {},
