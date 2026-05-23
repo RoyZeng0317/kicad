@@ -4498,6 +4498,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -5066,6 +5230,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VDD"
 			(power global)
 			(pin_numbers
@@ -5373,6 +5676,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cf7df70-7bcd-4f54-82aa-2f99fc475d1c")
+	)
+	(junction
+		(at 114.3 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4191def-36cb-4bc2-bada-a35d5a817dd8")
+	)
+	(junction
+		(at 128.27 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a968a4cc-e855-4ad6-8fb8-6c2f88e5432c")
 	)
 	(junction
 		(at 242.57 27.94)
@@ -5742,6 +6057,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 133.35) (xy 114.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b928a83-be5d-4b8b-82d0-1b525cb64aa6")
+	)
+	(wire
+		(pts
 			(xy 226.06 44.45) (xy 226.06 41.91)
 		)
 		(stroke
@@ -5799,6 +6124,16 @@
 			(type default)
 		)
 		(uuid "25883eae-28cf-4324-a1ef-2c6a363a2124")
+	)
+	(wire
+		(pts
+			(xy 125.73 133.35) (xy 128.27 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ebb779-56b6-47ba-bb76-d69b8c7437d7")
 	)
 	(wire
 		(pts
@@ -6442,6 +6777,36 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 139.7) (xy 118.11 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574e3056-7402-474a-84fe-f5a0525ba476")
+	)
+	(wire
+		(pts
+			(xy 114.3 133.35) (xy 114.3 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59089640-e521-480f-afb5-63ef69d0d136")
+	)
+	(wire
+		(pts
+			(xy 86.36 64.77) (xy 106.68 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5badd069-beb6-4af5-9842-e026f6523016")
+	)
+	(wire
+		(pts
 			(xy 83.82 140.97) (xy 83.82 146.05)
 		)
 		(stroke
@@ -6742,6 +7107,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 133.35) (xy 130.81 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8290c408-c5e7-4ef4-b903-a12995f616c3")
+	)
+	(wire
+		(pts
 			(xy 210.82 21.59) (xy 199.39 21.59)
 		)
 		(stroke
@@ -6782,6 +7157,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 133.35) (xy 146.05 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "863d7266-26a3-40d3-ae5c-25e58702fc75")
+	)
+	(wire
+		(pts
 			(xy 220.98 68.58) (xy 220.98 69.85)
 		)
 		(stroke
@@ -6809,6 +7194,16 @@
 			(type default)
 		)
 		(uuid "87f6b0ea-e7ef-4714-bb78-06d019eaab93")
+	)
+	(wire
+		(pts
+			(xy 114.3 143.51) (xy 114.3 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e3e583-bd00-4b77-ba02-8bdc70d79b5f")
 	)
 	(wire
 		(pts
@@ -6899,6 +7294,16 @@
 			(type default)
 		)
 		(uuid "90049d85-5411-4f6a-8497-f6a293640eea")
+	)
+	(wire
+		(pts
+			(xy 74.93 52.07) (xy 74.93 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907e855e-e716-42b9-8032-15f2e6ddb908")
 	)
 	(wire
 		(pts
@@ -6999,6 +7404,16 @@
 			(type default)
 		)
 		(uuid "9b4e2263-6aed-49ea-a3ac-841f6b91f7c7")
+	)
+	(wire
+		(pts
+			(xy 128.27 133.35) (xy 128.27 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b54aa99-bd4f-4ba8-800a-707a1187225d")
 	)
 	(wire
 		(pts
@@ -7432,16 +7847,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 64.77) (xy 106.68 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7085ec4-7149-4316-bc63-a0591ce38540")
-	)
-	(wire
-		(pts
 			(xy 19.05 179.07) (xy 31.75 179.07)
 		)
 		(stroke
@@ -7499,6 +7904,16 @@
 			(type default)
 		)
 		(uuid "ce2924a3-4379-47ff-8b02-053f2bbb5707")
+	)
+	(wire
+		(pts
+			(xy 74.93 64.77) (xy 74.93 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce48fbf6-d48b-4b24-804c-458036d43e5a")
 	)
 	(wire
 		(pts
@@ -7712,6 +8127,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 139.7) (xy 123.19 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8cf224c-c62a-429a-b916-4b2b20953846")
+	)
+	(wire
+		(pts
 			(xy 137.16 64.77) (xy 152.4 64.77)
 		)
 		(stroke
@@ -7779,6 +8204,16 @@
 			(type default)
 		)
 		(uuid "f37cd872-2ab9-4940-9b0b-60c011833e43")
+	)
+	(wire
+		(pts
+			(xy 78.74 64.77) (xy 74.93 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44d216b-c3cb-416d-b843-2b3358a4ef60")
 	)
 	(wire
 		(pts
@@ -8031,12 +8466,12 @@
 		(uuid "1f88d0cf-b579-4ba4-937b-63955a3e6b10")
 	)
 	(label "GPIO0"
-		(at 93.98 64.77 0)
+		(at 93.98 64.77 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "23122a61-2ef1-46b3-851a-6adb08334e38")
 	)
@@ -8799,6 +9234,16 @@
 			(justify left bottom)
 		)
 		(uuid "f2070499-8761-4ddb-a4c7-ca9dd5244276")
+	)
+	(label "EN"
+		(at 146.05 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f519e15b-cb4b-4ef2-abb6-1a419a962f59")
 	)
 	(label "GPIO13"
 		(at 93.98 97.79 0)
@@ -9760,6 +10205,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 120.65 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13df80be-3237-4ff8-97b9-78db813cb05e")
+		(property "Reference" "SW3"
+			(at 120.65 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 120.65 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Tactile push button switch SMD SPST"
+			(at 120.65 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 120.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45777301-fb9e-42d5-9c1e-bd5f2e2176ad")
+		)
+		(pin "2"
+			(uuid "6152a872-8c4f-489d-bd97-88400739198a")
+		)
+		(instances
+			(project "ESP32-S3-DevKitC-1_V1.1"
+				(path "/6cc9da53-cb29-41ce-8a86-79b68d4c2680"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 184.15 138.43 0)
 		(unit 1)
@@ -9832,6 +10357,84 @@
 			(project "ESP32-S3-DevKitC-1_V1.1"
 				(path "/6cc9da53-cb29-41ce-8a86-79b68d4c2680"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 114.3 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18fec1f7-33c9-44fb-a312-27009518da9c")
+		(property "Reference" "#PWR01"
+			(at 114.3 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 114.3 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 114.3 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3955231d-c890-4219-a414-950365847ede")
+		)
+		(instances
+			(project "ESP32-S3-DevKitC-1_V1.1"
+				(path "/6cc9da53-cb29-41ce-8a86-79b68d4c2680"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -12671,6 +13274,85 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 82.55 64.77 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "702dc70d-a252-4d75-8760-04274c8692e7")
+		(property "Reference" "R15"
+			(at 78.486 62.992 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 86.614 62.992 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 82.296 65.786 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 82.55 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6db77c33-2730-4c86-8319-54ba4370f3f9")
+		)
+		(pin "1"
+			(uuid "58fcc444-2695-4289-af9c-70ab8cdc9c31")
+		)
+		(instances
+			(project "ESP32-S3-DevKitC-1_V1.1"
+				(path "/6cc9da53-cb29-41ce-8a86-79b68d4c2680"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 271.78 44.45 90)
 		(unit 1)
 		(body_style 1)
@@ -13353,6 +14035,85 @@
 			(project "ESP32-S3-DevKitC-1_V1.1"
 				(path "/6cc9da53-cb29-41ce-8a86-79b68d4c2680"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 120.65 139.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88d20fb8-c989-4896-b9ed-3f457703d4bc")
+		(property "Reference" "C9"
+			(at 118.364 138.684 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 124.714 138.684 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 120.65 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 120.65 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a8f23b6b-33b2-4886-8acc-760a3b6082af")
+		)
+		(pin "1"
+			(uuid "12abb450-94c1-4111-9ba6-f43a62918fe3")
+		)
+		(instances
+			(project "ESP32-S3-DevKitC-1_V1.1"
+				(path "/6cc9da53-cb29-41ce-8a86-79b68d4c2680"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -14057,6 +14818,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 134.62 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a39cc278-6906-46d1-97a2-7f78e24fc5cf")
+		(property "Reference" "R14"
+			(at 130.556 132.334 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 138.684 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.874 132.334 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 134.62 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bae7526c-2120-493b-94b6-e89d5341b06b")
+		)
+		(pin "2"
+			(uuid "623e468b-8c91-4894-ac58-1664275e719b")
+		)
+		(instances
+			(project "ESP32-S3-DevKitC-1_V1.1"
+				(path "/6cc9da53-cb29-41ce-8a86-79b68d4c2680"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 55.88 107.95 270)
 		(unit 1)
@@ -14467,6 +15307,88 @@
 			(project "ESP32-S3-DevKitC-1_V1.1"
 				(path "/6cc9da53-cb29-41ce-8a86-79b68d4c2680"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 74.93 58.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b10f3087-852f-4de2-9b50-27673d246ae1")
+		(property "Reference" "SW4"
+			(at 78.74 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 78.74 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Tactile push button switch SMD SPST"
+			(at 80.01 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 74.93 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61915c4a-49c0-4d97-9c09-f2c4232d34b9")
+		)
+		(pin "2"
+			(uuid "9426336e-2a51-45c9-a407-3ff931afff53")
+		)
+		(instances
+			(project "ESP32-S3-DevKitC-1_V1.1"
+				(path "/6cc9da53-cb29-41ce-8a86-79b68d4c2680"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -15837,6 +16759,84 @@
 			(project "ESP32-S3-DevKitC-1_V1.1"
 				(path "/6cc9da53-cb29-41ce-8a86-79b68d4c2680"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 74.93 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5e72d40-fd63-44fd-bf04-80fd8e7309d3")
+		(property "Reference" "#PWR02"
+			(at 74.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 74.93 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 74.93 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e65f70e4-883f-455d-b127-b340ead4e56c")
+		)
+		(instances
+			(project "ESP32-S3-DevKitC-1_V1.1"
+				(path "/6cc9da53-cb29-41ce-8a86-79b68d4c2680"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
