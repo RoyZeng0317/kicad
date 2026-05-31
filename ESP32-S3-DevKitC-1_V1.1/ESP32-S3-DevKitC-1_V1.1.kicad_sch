@@ -5767,24 +5767,6 @@
 		(color 0 0 0 0)
 		(uuid "fcc1dbc6-301f-4841-8d0d-298040181026")
 	)
-	(bus_entry
-		(at 21.59 20.32)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccca0f13-e4bd-4f9b-9db2-530b2b0ce638")
-	)
-	(bus_entry
-		(at 24.13 77.47)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce269f3c-09bb-45f1-95c9-61377ea09805")
-	)
 	(wire
 		(pts
 			(xy 236.22 59.69) (xy 241.3 59.69)
@@ -10236,7 +10218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Tactile push button switch SMD SPST"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 			(at 120.65 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -12794,7 +12776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NTC013AT1JA160T"
+		(property "Footprint" "ESP32-S3-DevKitC-1_V1.1:NTC013AT1JA160T"
 			(at 114.3 271.45 0)
 			(hide yes)
 			(show_name no)
@@ -14223,7 +14205,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x22"
+		(property "Value" "Conn01x02"
 			(at 194.31 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15346,7 +15328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Tactile push button switch SMD SPST"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
