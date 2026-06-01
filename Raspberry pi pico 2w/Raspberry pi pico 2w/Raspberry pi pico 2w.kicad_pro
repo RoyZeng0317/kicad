@@ -489,8 +489,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Raspberry pi pico 2w"
+    ],
+    "pinned_symbol_libs": [
+      "Raspberry pi pico 2w"
+    ]
   },
   "meta": {
     "filename": "Raspberry pi pico 2w.kicad_pro",
@@ -685,7 +689,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "",
+    "used_designators": "Y1,J3,R14-17,C18-19,D2,#PWR39-41",
     "variants": []
   },
   "sheets": [
