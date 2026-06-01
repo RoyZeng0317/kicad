@@ -122,7 +122,7 @@
 		)
 		(symbol "RP2350A_1_0"
 			(pin power_in line
-				(at 15.24 45.72 270)
+				(at 13.97 45.72 270)
 				(length 3.81)
 				(name "DVDD"
 					(effects
