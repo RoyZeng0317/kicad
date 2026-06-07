@@ -161,6 +161,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -1201,7 +1390,7 @@
 					)
 				)
 				(pin power_in line
-					(at 30.48 22.86 180)
+					(at 30.48 20.32 180)
 					(length 5.08)
 					(name "VOUT_3P3"
 						(effects
@@ -1599,7 +1788,7 @@
 					)
 				)
 				(pin output line
-					(at 30.48 -2.54 180)
+					(at -30.48 -27.94 0)
 					(length 5.08)
 					(name "WLRF_2G_RF"
 						(effects
@@ -1882,6 +2071,260 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CYW43439KUBGT_1_0"
+				(pin power_in line
+					(at 30.48 -35.56 180)
+					(length 5.08)
+					(name "WCC_VDDIO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "F6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 22.86 180)
+					(length 5.08)
+					(name "VDDC_G4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Raspberry pi pico 2w:LFB212G45CG7D227"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FL"
+				(at 19.05 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "LFB212G45CG7D227"
+				(at 19.05 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LFB212G45CG7D227"
+				(at 19.05 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.murata.com/products/productdata/8802290761758/LFB212G45CG7D227.pdf?1531193409000"
+				(at 19.05 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Nominal Center Frequency 2450.00MHz Band Pass Filter , 2450.00MHz , 50 , 500mW , -40 to 85"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.95"
+				(at 19.05 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 19.05 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LFB212G45CG7D227"
+				(at 19.05 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "81-LFB212G45CG7D227"
+				(at 19.05 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LFB212G45CG7D227?qs=2RtB0a6pEcZZ8%252B5RJ7Jx%2Fg%3D%3D"
+				(at 19.05 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 19.05 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 19.05 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "LFB212G45CG7D227_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2181,6 +2624,12 @@
 		)
 	)
 	(junction
+		(at 283.21 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02e2b216-363a-4535-8301-433ae560e7a6")
+	)
+	(junction
 		(at 280.67 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2193,16 +2642,16 @@
 		(uuid "07c92492-b7f2-4078-b259-bb59c8ceb4b1")
 	)
 	(junction
-		(at 309.88 35.56)
+		(at 297.18 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09b3a515-dd3c-49ec-91e1-385a05d6e2ae")
+		(uuid "1d38a488-22d3-4e1f-8334-b08e9e0ecdeb")
 	)
 	(junction
-		(at 283.21 26.67)
+		(at 320.04 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1ea55df0-b6a9-45ce-82a6-951b9a59e932")
+		(uuid "1ef70894-e1a6-4f29-8f33-b07407d59767")
 	)
 	(junction
 		(at 280.67 148.59)
@@ -2215,6 +2664,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e270493-a451-4673-ab27-293a4976fae6")
+	)
+	(junction
+		(at 334.01 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34dc6112-a8da-4fce-bbff-2adfc1b402ad")
 	)
 	(junction
 		(at 280.67 176.53)
@@ -2235,10 +2690,40 @@
 		(uuid "581c65b3-f3c6-4aff-883f-02e9d53a9d02")
 	)
 	(junction
-		(at 297.18 74.93)
+		(at 287.02 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8120bbe9-3776-427f-bf38-340bfaa312e2")
+		(uuid "72d14e93-26f0-49ff-986e-f30c02c0cd9f")
+	)
+	(junction
+		(at 115.57 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "790acf39-59a8-4378-bb75-cefd941d2b4b")
+	)
+	(junction
+		(at 295.91 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "791a9743-1bfa-449b-99c5-db3b53a17a28")
+	)
+	(junction
+		(at 306.07 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e173a91-9776-402b-bb18-8a0dd8b93089")
+	)
+	(junction
+		(at 341.63 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7eaf1980-8e1b-402e-9f66-e9ed8aea4fe0")
+	)
+	(junction
+		(at 180.34 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8be55b17-d327-4000-b7e7-dfcedf7c5b79")
 	)
 	(junction
 		(at 280.67 156.21)
@@ -2253,10 +2738,22 @@
 		(uuid "8e6a4c69-8f0f-443c-97c6-c37d7e7fd0e0")
 	)
 	(junction
+		(at 328.93 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a386ea63-b8c6-473e-8eac-c310f74a48f7")
+	)
+	(junction
 		(at 280.67 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b345153f-df13-45bf-8dac-d8689dc489bd")
+	)
+	(junction
+		(at 320.04 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7073919-f770-40f5-b370-d85672837cd4")
 	)
 	(junction
 		(at 280.67 153.67)
@@ -2265,26 +2762,98 @@
 		(uuid "c850ffa5-12b9-413f-a362-d9df222f6a3a")
 	)
 	(junction
-		(at 316.23 57.15)
+		(at 325.12 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cfeb62df-756c-4294-be9b-2b7084251ac9")
+		(uuid "e5cbc7bb-8566-441c-b5e4-28f2026c680d")
 	)
 	(junction
-		(at 309.88 45.72)
+		(at 278.13 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e7ee0979-2cb6-4e76-b100-8c7b0039935e")
+		(uuid "f80b0b84-eba5-433c-bf3c-60f98df65115")
+	)
+	(junction
+		(at 279.4 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8f84c12-b9e8-472a-80bf-80eb05e5f498")
+	)
+	(no_connect
+		(at 214.63 123.19)
+		(uuid "0791ccf9-8600-45ba-80e8-4eac8706c230")
+	)
+	(no_connect
+		(at 214.63 113.03)
+		(uuid "0bef7aea-048e-4244-a458-56b6b4ef87b1")
+	)
+	(no_connect
+		(at 214.63 110.49)
+		(uuid "116b23b6-cd0d-4b00-97fd-f68b86ec80ce")
+	)
+	(no_connect
+		(at 214.63 118.11)
+		(uuid "408f8f96-374e-49a5-8aab-bab92b77c0c0")
+	)
+	(no_connect
+		(at 214.63 115.57)
+		(uuid "4ff0249a-6bd5-4896-ab4a-e7183f97150e")
+	)
+	(no_connect
+		(at 275.59 140.97)
+		(uuid "922fcef1-e084-4d32-a3e9-8ccbce94a0ac")
+	)
+	(no_connect
+		(at 214.63 105.41)
+		(uuid "9cd70db3-97ac-44bf-8338-4e5260c12260")
+	)
+	(no_connect
+		(at 214.63 97.79)
+		(uuid "d564816b-9cf8-4eab-9d1a-4ec900a2ff1d")
+	)
+	(no_connect
+		(at 214.63 102.87)
+		(uuid "f421261d-8000-4850-9b5c-00c801b2914a")
 	)
 	(wire
 		(pts
-			(xy 316.23 57.15) (xy 316.23 67.31)
+			(xy 275.59 87.63) (xy 288.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0356cf07-328f-43fb-99ed-13798f4fbc7c")
+	)
+	(wire
+		(pts
+			(xy 328.93 57.15) (xy 328.93 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "03c231a9-6a7c-4132-95d8-366acd7bea34")
+	)
+	(wire
+		(pts
+			(xy 325.12 120.65) (xy 325.12 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03dab585-278d-4a56-8f90-242aafb2abf1")
+	)
+	(wire
+		(pts
+			(xy 275.59 158.75) (xy 314.96 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0441601a-813d-4873-96d2-a8ce490cb302")
 	)
 	(wire
 		(pts
@@ -2295,6 +2864,96 @@
 			(type default)
 		)
 		(uuid "05342ed0-5f40-49fe-bc14-29001898619e")
+	)
+	(wire
+		(pts
+			(xy 275.59 82.55) (xy 278.13 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "057e08f8-3722-4d7b-a158-33fb72328de9")
+	)
+	(wire
+		(pts
+			(xy 325.12 120.65) (xy 331.47 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e7c29d-e356-4a51-a498-9198cf807b7d")
+	)
+	(wire
+		(pts
+			(xy 180.34 135.89) (xy 196.85 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0687300f-3c43-4c43-a424-d48e60cead7e")
+	)
+	(wire
+		(pts
+			(xy 115.57 133.35) (xy 118.11 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8ce863-03ea-41ef-941f-48c1d16e6c7e")
+	)
+	(wire
+		(pts
+			(xy 275.59 138.43) (xy 287.02 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e74f253-1bca-4298-a13b-0fcc53156604")
+	)
+	(wire
+		(pts
+			(xy 313.69 135.89) (xy 307.34 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ecd91de-083b-4648-832c-a244ea411c54")
+	)
+	(wire
+		(pts
+			(xy 323.85 82.55) (xy 323.85 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ffe569e-5873-420a-bf4b-ebd3f5999b5b")
+	)
+	(wire
+		(pts
+			(xy 306.07 152.4) (xy 306.07 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f0eea6-3667-4770-bdc9-467e8039795b")
+	)
+	(wire
+		(pts
+			(xy 123.19 133.35) (xy 144.78 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111a81ee-3653-40f2-8977-930bb377e40d")
 	)
 	(wire
 		(pts
@@ -2318,23 +2977,23 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 59.69) (xy 294.64 67.31)
+			(xy 187.96 129.54) (xy 180.34 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "178287f3-cdec-4526-8f42-477b7937b18b")
+		(uuid "170c5ee7-3c3e-4f16-9571-c3a7255ea27c")
 	)
 	(wire
 		(pts
-			(xy 306.07 45.72) (xy 309.88 45.72)
+			(xy 334.01 57.15) (xy 341.63 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20404d72-641f-43b1-831d-fcf46dac0728")
+		(uuid "1bb765f8-8072-4d9c-b933-efc010ebb223")
 	)
 	(wire
 		(pts
@@ -2358,7 +3017,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 54.61) (xy 294.64 52.07)
+			(xy 295.91 54.61) (xy 295.91 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2378,23 +3037,33 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 82.55) (xy 297.18 85.09)
+			(xy 275.59 130.81) (xy 281.94 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27a0d596-eb2f-4507-80fb-ca057845d7bd")
+		(uuid "2a8d0a74-f043-486f-9ede-5fb3dd45690b")
 	)
 	(wire
 		(pts
-			(xy 275.59 85.09) (xy 288.29 85.09)
+			(xy 300.99 138.43) (xy 294.64 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30a84a6f-539b-4bc2-9e71-6c7fe138a0df")
+		(uuid "2d9dad73-f523-452f-babf-345ad45a3606")
+	)
+	(wire
+		(pts
+			(xy 88.9 128.27) (xy 88.9 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f19ed9a-b298-4515-b48e-85ce38ee29b6")
 	)
 	(wire
 		(pts
@@ -2428,13 +3097,43 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 158.75) (xy 306.07 45.72)
+			(xy 340.36 123.19) (xy 340.36 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb2451f-b356-44a1-a58d-ae9f74aaba1d")
+	)
+	(wire
+		(pts
+			(xy 314.96 45.72) (xy 314.96 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3cc863e4-12ff-4105-98fb-2ac757c2cb1d")
+	)
+	(wire
+		(pts
+			(xy 287.02 143.51) (xy 287.02 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d9bd754-3a97-4177-8dfa-f929ed7ba1d4")
+	)
+	(wire
+		(pts
+			(xy 275.59 105.41) (xy 299.72 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e95c09a-3861-4a59-ae01-c85bfa6b1312")
 	)
 	(wire
 		(pts
@@ -2448,7 +3147,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 35.56) (xy 309.88 40.64)
+			(xy 320.04 35.56) (xy 320.04 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2488,26 +3187,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 72.39) (xy 322.58 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4743a8be-49bf-41c7-812d-d06873de468d")
-	)
-	(wire
-		(pts
-			(xy 275.59 158.75) (xy 306.07 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48247551-5da9-435f-bb82-1b9052146ea1")
-	)
-	(wire
-		(pts
 			(xy 299.72 22.86) (xy 299.72 26.67)
 		)
 		(stroke
@@ -2518,7 +3197,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 54.61) (xy 334.01 46.99)
+			(xy 347.98 50.8) (xy 347.98 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2528,23 +3207,23 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 57.15) (xy 322.58 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a4a6ca3-b4df-404f-a928-87fcb7eff15f")
-	)
-	(wire
-		(pts
-			(xy 297.18 74.93) (xy 322.58 74.93)
+			(xy 297.18 74.93) (xy 317.5 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4bef0361-8cf1-4f23-a767-701297264c02")
+	)
+	(wire
+		(pts
+			(xy 341.63 80.01) (xy 341.63 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dcdf2c7-a235-4bec-8370-284628894a7c")
 	)
 	(wire
 		(pts
@@ -2568,13 +3247,33 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 52.07) (xy 294.64 52.07)
+			(xy 275.59 52.07) (xy 295.91 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "552ee3e0-337c-44be-a43d-c2ec3d96c164")
+	)
+	(wire
+		(pts
+			(xy 300.99 142.24) (xy 306.07 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f7b476-4273-48ca-a5e6-6208944dcff0")
+	)
+	(wire
+		(pts
+			(xy 87.63 133.35) (xy 99.06 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564e5c26-077e-4b68-a17f-fd061da36c99")
 	)
 	(wire
 		(pts
@@ -2598,6 +3297,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 74.93) (xy 341.63 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e74e00f-e3e5-4831-af46-643cc0deb03a")
+	)
+	(wire
+		(pts
 			(xy 278.13 26.67) (xy 283.21 26.67)
 		)
 		(stroke
@@ -2608,7 +3317,27 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 91.44) (xy 288.29 95.25)
+			(xy 88.9 135.89) (xy 180.34 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61efe9a3-bf81-41dd-bb8e-9872253d3035")
+	)
+	(wire
+		(pts
+			(xy 201.93 135.89) (xy 214.63 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66145b3b-2e7a-4cc3-8f61-4a7746b2114d")
+	)
+	(wire
+		(pts
+			(xy 288.29 92.71) (xy 288.29 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2628,13 +3357,43 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 35.56) (xy 313.69 35.56)
+			(xy 180.34 129.54) (xy 180.34 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d523ffa-494f-4ea3-a9dd-e3bcb2ddc4a7")
+		(uuid "6ce56cfc-0c65-4792-a350-6640b262be53")
+	)
+	(wire
+		(pts
+			(xy 341.63 57.15) (xy 341.63 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70174551-be98-4e05-a817-5b75e3e8106b")
+	)
+	(wire
+		(pts
+			(xy 328.93 57.15) (xy 334.01 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71705ff2-a73e-43ba-8db1-a3d44078974c")
+	)
+	(wire
+		(pts
+			(xy 87.63 128.27) (xy 88.9 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73cbfc60-bb61-47d3-89ff-33b7c9888176")
 	)
 	(wire
 		(pts
@@ -2658,6 +3417,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 90.17) (xy 323.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b49ef0c-5a1c-4659-95c5-1cfe7605f857")
+	)
+	(wire
+		(pts
 			(xy 275.59 156.21) (xy 280.67 156.21)
 		)
 		(stroke
@@ -2675,6 +3444,16 @@
 			(type default)
 		)
 		(uuid "7e20e480-2719-47b8-ac82-04c4f56bc38c")
+	)
+	(wire
+		(pts
+			(xy 275.59 135.89) (xy 295.91 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8227a149-003a-4e15-a0ac-afbfa34c4887")
 	)
 	(wire
 		(pts
@@ -2698,6 +3477,36 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 142.24) (xy 300.99 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e39584-76f3-4a5d-8132-33d7f9f0d127")
+	)
+	(wire
+		(pts
+			(xy 214.63 129.54) (xy 195.58 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "840d147b-ea0c-45f0-817a-cde877034fd7")
+	)
+	(wire
+		(pts
+			(xy 306.07 142.24) (xy 306.07 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84584671-2685-462a-8d0b-7b2170a85cb3")
+	)
+	(wire
+		(pts
 			(xy 283.21 26.67) (xy 283.21 30.48)
 		)
 		(stroke
@@ -2708,17 +3517,77 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 86.36) (xy 288.29 85.09)
+			(xy 295.91 133.35) (xy 295.91 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f848054-3e3e-4bf4-947f-9e2144a8fa29")
+		(uuid "859589f5-375b-4abe-8a3d-b855e25d3510")
 	)
 	(wire
 		(pts
-			(xy 297.18 74.93) (xy 297.18 77.47)
+			(xy 287.02 151.13) (xy 287.02 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fa3587-658f-4c8f-a528-ab2f1d8bdfd4")
+	)
+	(wire
+		(pts
+			(xy 92.71 130.81) (xy 87.63 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89741ab7-6e27-4d5a-acfe-44f825bf9274")
+	)
+	(wire
+		(pts
+			(xy 278.13 85.09) (xy 278.13 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a34065-7a7f-440b-bb9a-1466ce592906")
+	)
+	(wire
+		(pts
+			(xy 115.57 144.78) (xy 115.57 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db4c5f0-e65e-41a5-ad4e-aa195fb6ed35")
+	)
+	(wire
+		(pts
+			(xy 275.59 100.33) (xy 299.72 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8223ee-e904-47c9-bee4-f9c167b94a9b")
+	)
+	(wire
+		(pts
+			(xy 278.13 82.55) (xy 323.85 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ad3690-372b-4012-8031-65ff81474728")
+	)
+	(wire
+		(pts
+			(xy 297.18 74.93) (xy 297.18 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2748,6 +3617,26 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 64.77) (xy 334.01 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9989e803-b6fc-4852-97e0-d1787ecd9f05")
+	)
+	(wire
+		(pts
+			(xy 328.93 66.04) (xy 328.93 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d30f756-c7f8-4c3b-ad8c-2edaff62a826")
+	)
+	(wire
+		(pts
 			(xy 281.94 39.37) (xy 281.94 72.39)
 		)
 		(stroke
@@ -2755,6 +3644,16 @@
 			(type default)
 		)
 		(uuid "9d6865c6-0724-4930-9f6a-772bf0eefb58")
+	)
+	(wire
+		(pts
+			(xy 275.59 120.65) (xy 279.4 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e0fbd9e-543a-4213-9d05-43e45d25e7f9")
 	)
 	(wire
 		(pts
@@ -2778,6 +3677,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 137.16) (xy 92.71 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f76697-56c5-4e4f-8bcc-3fbefedbde30")
+	)
+	(wire
+		(pts
 			(xy 275.59 72.39) (xy 281.94 72.39)
 		)
 		(stroke
@@ -2798,7 +3707,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 35.56) (xy 309.88 35.56)
+			(xy 307.34 35.56) (xy 320.04 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2808,23 +3717,23 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 57.15) (xy 322.58 64.77)
+			(xy 275.59 118.11) (xy 340.36 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a877c34f-e20a-4f82-9971-b35f6fb32f94")
+		(uuid "a77fd787-85c0-4ea4-9c96-ca006099b087")
 	)
 	(wire
 		(pts
-			(xy 316.23 72.39) (xy 316.23 76.2)
+			(xy 115.57 133.35) (xy 106.68 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abb1e8b7-8a27-4cda-bd90-d6cb68ffc4d4")
+		(uuid "a9e1b4a4-bef9-4caf-9342-dde070ca52fe")
 	)
 	(wire
 		(pts
@@ -2848,7 +3757,17 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 26.67) (xy 288.29 26.67)
+			(xy 214.63 133.35) (xy 214.63 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f23a48-a921-4e61-951a-2e37fa0b10ad")
+	)
+	(wire
+		(pts
+			(xy 283.21 26.67) (xy 289.56 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2858,7 +3777,47 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 46.99) (xy 334.01 46.99)
+			(xy 275.59 123.19) (xy 332.74 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29e41e8-05b9-498a-bc8a-93d21073ed6c")
+	)
+	(wire
+		(pts
+			(xy 347.98 55.88) (xy 347.98 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30d3642-ff34-46a7-908c-f47640509f11")
+	)
+	(wire
+		(pts
+			(xy 279.4 128.27) (xy 279.4 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5471c6b-39e4-4ef8-960e-9a7866452ac6")
+	)
+	(wire
+		(pts
+			(xy 149.86 133.35) (xy 162.56 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7397561-254b-4c0a-a9f2-1cfb25ed62f9")
+	)
+	(wire
+		(pts
+			(xy 279.4 46.99) (xy 347.98 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2868,13 +3827,33 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 59.69) (xy 334.01 62.23)
+			(xy 279.4 120.65) (xy 325.12 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd70ac20-2791-42ed-ae7f-1687b84bf80b")
+		(uuid "b8198720-252d-44f6-af72-4c26313788f1")
+	)
+	(wire
+		(pts
+			(xy 334.01 57.15) (xy 334.01 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc59398f-88a5-4bd7-af37-29be26eba86a")
+	)
+	(wire
+		(pts
+			(xy 295.91 135.89) (xy 299.72 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03735cc-2dd3-47e9-9fec-63c3070e6c91")
 	)
 	(wire
 		(pts
@@ -2888,13 +3867,53 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 26.67) (xy 295.91 26.67)
+			(xy 314.96 45.72) (xy 320.04 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5228a6f-7d11-4e9c-bf60-9a5d899d1f5e")
+	)
+	(wire
+		(pts
+			(xy 299.72 26.67) (xy 297.18 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c5301b38-c6ec-49e0-846c-75c7045aea93")
+	)
+	(wire
+		(pts
+			(xy 275.59 85.09) (xy 278.13 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd400a45-4a4d-414f-92ed-435d35b857df")
+	)
+	(wire
+		(pts
+			(xy 115.57 139.7) (xy 115.57 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf94f96a-77bf-4997-8a7f-7b65b65d47ae")
+	)
+	(wire
+		(pts
+			(xy 275.59 125.73) (xy 317.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe2c269-f078-4471-b121-0e83f44a00f6")
 	)
 	(wire
 		(pts
@@ -2908,13 +3927,53 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 57.15) (xy 316.23 57.15)
+			(xy 280.67 57.15) (xy 328.93 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d384ac1e-bf81-433b-a79c-f514ac6a75d8")
+	)
+	(wire
+		(pts
+			(xy 275.59 128.27) (xy 279.4 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63179f2-dd79-4d72-89e7-522c4e0e6f7e")
+	)
+	(wire
+		(pts
+			(xy 295.91 127) (xy 295.91 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68b2b67-0ad5-4f0c-93af-6470818042d4")
+	)
+	(wire
+		(pts
+			(xy 275.59 102.87) (xy 299.72 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da113aa8-72cd-484a-aac2-48b82b3d7d9b")
+	)
+	(wire
+		(pts
+			(xy 306.07 142.24) (xy 313.69 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad97370-ce12-438b-8faf-e1e27c25c0e9")
 	)
 	(wire
 		(pts
@@ -2925,6 +3984,16 @@
 			(type default)
 		)
 		(uuid "dadf624e-a16c-4d18-938d-27918d052921")
+	)
+	(wire
+		(pts
+			(xy 275.59 143.51) (xy 287.02 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc11e10-0cac-4723-9c08-3e32ec768d10")
 	)
 	(wire
 		(pts
@@ -2948,13 +4017,23 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 45.72) (xy 309.88 49.53)
+			(xy 320.04 45.72) (xy 320.04 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ec9a60b9-0b7c-4b88-8fad-138418aee5ae")
+	)
+	(wire
+		(pts
+			(xy 287.02 143.51) (xy 290.83 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08a883e-431a-4d93-8b8f-50c25dde84b2")
 	)
 	(wire
 		(pts
@@ -2965,6 +4044,26 @@
 			(type default)
 		)
 		(uuid "f10ad22a-c6a1-41b8-a072-fbe0d8a05cf4")
+	)
+	(wire
+		(pts
+			(xy 295.91 59.69) (xy 295.91 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1480c36-2ae8-42ab-acf0-123dfa8b659c")
+	)
+	(wire
+		(pts
+			(xy 320.04 35.56) (xy 326.39 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f156e011-8b5b-4bf2-8ba9-27133a055a1c")
 	)
 	(wire
 		(pts
@@ -2988,6 +4087,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 142.24) (xy 313.69 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fabdbeb1-d259-4920-857d-9b55ca614c1e")
+	)
+	(wire
+		(pts
 			(xy 275.59 39.37) (xy 281.94 39.37)
 		)
 		(stroke
@@ -3006,8 +4115,38 @@
 		)
 		(uuid "1bb119a5-1ac6-478a-a87e-ce82d143f1ce")
 	)
+	(label "WL_CLK"
+		(at 327.66 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "520051ba-3937-4824-982d-a40cfec462fd")
+	)
+	(label "WL_GPIO1"
+		(at 299.72 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c7a5b83-9ee3-49a9-9775-d934d2c13715")
+	)
+	(label "VIN_LDO"
+		(at 344.17 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "612f021a-33a9-4b79-b00a-12884545e78f")
+	)
 	(label "VOUT_3P3"
-		(at 284.48 85.09 0)
+		(at 284.48 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3017,7 +4156,7 @@
 		(uuid "6324ee80-05a7-4ae3-a4d3-c2b87518613c")
 	)
 	(label "VDD_BAT"
-		(at 279.4 26.67 0)
+		(at 278.13 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3026,8 +4165,18 @@
 		)
 		(uuid "669a9319-c48b-47ec-8f71-bc8afb7000e8")
 	)
+	(label "WL_D"
+		(at 331.47 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77493582-bec7-437a-9b59-dfe045431ac0")
+	)
 	(label "VIN_LDO"
-		(at 313.69 35.56 0)
+		(at 326.39 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3035,6 +4184,36 @@
 			(justify left bottom)
 		)
 		(uuid "7ad6403f-f583-45b3-9555-0664a14d1c63")
+	)
+	(label "VDDBAT"
+		(at 290.83 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b0e9d30-9929-47fa-a8e1-3ade194ae455")
+	)
+	(label "WL_CS"
+		(at 281.94 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "903df3f6-7f67-422e-9b8e-1d96b0c804f4")
+	)
+	(label "VOUT_3P3"
+		(at 303.53 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9eebad0e-8809-4832-80c7-ad7e4d9bd44d")
 	)
 	(label "VOUT_LNLDO"
 		(at 283.21 52.07 0)
@@ -3045,6 +4224,36 @@
 			(justify left bottom)
 		)
 		(uuid "b560ddb9-a8e2-4b3a-98d9-99af3167eec0")
+	)
+	(label "VOUT_CORE"
+		(at 323.85 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "caf70aae-545f-406b-81b4-993e1e0d1b67")
+	)
+	(label "WL_GPIO0"
+		(at 299.72 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce085845-1e6f-463d-9d88-4414940e7dcc")
+	)
+	(label "WL_GPIO2"
+		(at 299.72 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7f08233-6bc2-494d-b483-b434da12e317")
 	)
 	(label "VOUT_CLDO"
 		(at 283.21 54.61 0)
@@ -3058,7 +4267,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 334.01 57.15 0)
+		(at 295.91 130.81 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3066,9 +4275,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1c25fe7e-0dcc-4505-8c21-fa6ba77e0f6b")
-		(property "Reference" "M1009"
-			(at 336.296 59.944 0)
+		(uuid "17700b45-2a13-472e-bc36-6fe8a6abd8d5")
+		(property "Reference" "C33"
+			(at 293.624 128.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3078,8 +4287,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
-			(at 336.296 58.166 0)
+		(property "Value" "18p"
+			(at 293.624 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3090,7 +4299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 334.01 57.15 0)
+			(at 295.91 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3101,7 +4310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334.01 57.15 0)
+			(at 295.91 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3112,7 +4321,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 338.582 51.308 0)
+			(at 291.338 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3122,8 +4331,111 @@
 				)
 			)
 		)
-		(property "module" "M1005/X5R/20%"
-			(at 343.154 61.976 0)
+		(property "module" "M0603/C0G/5%"
+			(at 286.004 125.984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "vlotage" "25V"
+			(at 291.592 131.826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2a91dbf1-9eaf-4bf8-bf90-1a460a8b70c8")
+		)
+		(pin "1"
+			(uuid "b2e0df39-8b16-4897-9229-627fae88e0a0")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 347.98 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c25fe7e-0dcc-4505-8c21-fa6ba77e0f6b")
+		(property "Reference" "C22"
+			(at 350.266 56.134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 350.266 54.356 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 352.552 47.498 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "module" "M0603/X5R/20%"
+			(at 357.124 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3134,7 +4446,7 @@
 			)
 		)
 		(property "vlotage" "6.3V"
-			(at 338.328 56.134 0)
+			(at 352.298 52.324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3153,7 +4465,7 @@
 		(instances
 			(project "Raspberry pi pico 2w"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
-					(reference "M1009")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3212,18 +4524,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 303.53 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "description" "M1608"
+		(property "Description" "M1608"
 			(at 303.53 37.084 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3250,8 +4551,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 294.64 67.31 0)
+		(lib_id "Device:R_US")
+		(at 290.83 138.43 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3259,30 +4561,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "256605d8-a5b5-4d95-bfa2-2fa9e559d64c")
-		(property "Reference" "#PWR047"
-			(at 294.64 73.66 0)
-			(hide yes)
+		(uuid "2196d480-8c5b-44b6-ad91-e1df87674513")
+		(property "Reference" "R21"
+			(at 287.02 140.462 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GNDREF"
-			(at 296.164 71.628 0)
+		(property "Value" "22R"
+			(at 293.37 136.906 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 294.64 67.31 0)
+			(at 290.576 137.414 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3293,7 +4596,98 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 294.64 67.31 0)
+			(at 290.83 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M0603"
+			(at 296.672 140.208 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Watt" "50mW/1%"
+			(at 286.258 136.652 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc54cc9f-9984-48db-b98d-ceabdd0d658a")
+		)
+		(pin "2"
+			(uuid "3415a74b-60e2-4e6b-b8c7-2550a794497a")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 295.91 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "256605d8-a5b5-4d95-bfa2-2fa9e559d64c")
+		(property "Reference" "#PWR047"
+			(at 295.91 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 297.434 71.628 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3304,7 +4698,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 294.64 67.31 0)
+			(at 295.91 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3328,7 +4722,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 322.58 68.58 0)
+		(at 321.31 74.93 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3339,7 +4733,7 @@
 		(dnp no)
 		(uuid "26815292-32a2-4c45-bb01-c11202c630b0")
 		(property "Reference" "R20"
-			(at 325.12 69.8501 0)
+			(at 317.5 76.962 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3349,8 +4743,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200"
-			(at 325.12 67.3101 0)
+		(property "Value" "22R"
+			(at 322.834 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3361,7 +4755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.596 68.326 90)
+			(at 321.056 73.914 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3372,7 +4766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 68.58 0)
+			(at 321.31 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3382,8 +4776,8 @@
 				)
 			)
 		)
-		(property "Description" "M1005"
-			(at 327.914 71.882 0)
+		(property "Description" "M0603"
+			(at 327.152 76.708 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3393,8 +4787,8 @@
 				)
 			)
 		)
-		(property "Watt" "63mW/1%"
-			(at 329.184 65.532 0)
+		(property "Watt" "50mW/1%"
+			(at 320.294 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3420,8 +4814,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 316.23 76.2 0)
+		(lib_id "Raspberry pi pico 2w:LFB212G45CG7D227")
+		(at 87.63 133.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3430,9 +4824,178 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4549682a-697f-4c09-9646-667ec90361f8")
-		(property "Reference" "#PWR053"
-			(at 316.23 82.55 0)
+		(uuid "3ea85821-f5e1-467b-a157-87b8c2f09cbc")
+		(property "Reference" "FL1"
+			(at 76.2 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LFB212G45CG7D227"
+			(at 76.2 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LFB212G45CG7D227"
+			(at 68.58 38.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdata/8802290761758/LFB212G45CG7D227.pdf?1531193409000"
+			(at 68.58 -61.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Nominal Center Frequency 2450.00MHz Band Pass Filter , 2450.00MHz , 50 , 500mW , -40 to 85"
+			(at 87.63 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.95"
+			(at 68.58 -261.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 68.58 -361.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LFB212G45CG7D227"
+			(at 68.58 -461.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "81-LFB212G45CG7D227"
+			(at 68.58 -561.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LFB212G45CG7D227?qs=2RtB0a6pEcZZ8%252B5RJ7Jx%2Fg%3D%3D"
+			(at 68.58 -661.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 68.58 -761.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 68.58 -861.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "c3b0d4cb-f15b-4dcd-bb0e-de810e646aee")
+		)
+		(pin "1"
+			(uuid "89304d4e-b5bd-4e4b-88e6-66820fe5d393")
+		)
+		(pin "2"
+			(uuid "3e8141f0-a1f9-49d4-908a-edd85d73ede8")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "FL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 287.02 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41ca9fd7-9545-4662-9001-c7372891db60")
+		(property "Reference" "#PWR056"
+			(at 287.02 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3443,7 +5006,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 316.23 81.28 0)
+			(at 287.02 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3453,7 +5016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 316.23 76.2 0)
+			(at 287.02 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3464,7 +5027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 76.2 0)
+			(at 287.02 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3475,7 +5038,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 316.23 76.2 0)
+			(at 287.02 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66110221-cf2d-4298-9bdc-137949ab55fc")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 328.93 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4549682a-697f-4c09-9646-667ec90361f8")
+		(property "Reference" "#PWR053"
+			(at 328.93 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 328.93 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 328.93 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3576,8 +5217,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 316.23 69.85 180)
+		(lib_id "power:GNDREF")
+		(at 306.07 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3585,31 +5226,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5485b6e3-e815-4b19-9a5b-ccf51c8d1b38")
-		(property "Reference" "M1011"
-			(at 313.944 67.056 0)
+		(fields_autoplaced yes)
+		(uuid "470f0fcc-c34e-4f70-a455-c66e3a8d6871")
+		(property "Reference" "#PWR060"
+			(at 306.07 161.29 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "4u7"
-			(at 313.944 68.834 0)
+		(property "Value" "GNDREF"
+			(at 306.07 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 316.23 69.85 0)
+			(at 306.07 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3620,7 +5261,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 69.85 0)
+			(at 306.07 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 306.07 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba62e832-9c9f-43e8-8105-a46ff89fee6e")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 115.57 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53b84c3c-99f1-4752-bedf-198e921e2d6a")
+		(property "Reference" "C35"
+			(at 117.856 145.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NF"
+			(at 117.856 143.256 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3631,7 +5350,110 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 311.658 75.692 0)
+			(at 120.142 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "module" "M0603"
+			(at 120.904 146.812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "vlotage" "25V"
+			(at 119.888 141.224 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5b38f2d5-2139-4687-a2ee-0657f0b5f18f")
+		)
+		(pin "1"
+			(uuid "ab9d7e2c-290e-4cb0-a4a2-418d3cb2524f")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 328.93 63.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5485b6e3-e815-4b19-9a5b-ccf51c8d1b38")
+		(property "Reference" "C27"
+			(at 326.644 60.706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 326.644 62.484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 324.358 69.342 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3642,7 +5464,7 @@
 			)
 		)
 		(property "module" "M1005/X5R/20%"
-			(at 307.086 65.024 0)
+			(at 319.786 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3653,7 +5475,7 @@
 			)
 		)
 		(property "vlotage" "6.3V"
-			(at 311.912 70.866 0)
+			(at 324.612 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3672,7 +5494,7 @@
 		(instances
 			(project "Raspberry pi pico 2w"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
-					(reference "M1011")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -3680,7 +5502,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 297.18 80.01 0)
+		(at 297.18 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3689,8 +5511,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55d42f10-42c1-4588-adbf-057f8ca8b4d7")
-		(property "Reference" "M1010"
-			(at 299.466 82.804 0)
+		(property "Reference" "C25"
+			(at 299.466 85.344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3701,7 +5523,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 299.466 81.026 0)
+			(at 299.466 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3712,7 +5534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 80.01 0)
+			(at 297.18 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3723,7 +5545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 80.01 0)
+			(at 297.18 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3734,7 +5556,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 301.752 74.168 0)
+			(at 301.752 76.708 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3745,7 +5567,7 @@
 			)
 		)
 		(property "module" "M1005/X5R/20%"
-			(at 306.324 84.836 0)
+			(at 306.324 87.376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3756,7 +5578,7 @@
 			)
 		)
 		(property "vlotage" "6.3V"
-			(at 301.498 78.994 0)
+			(at 301.498 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3775,163 +5597,7 @@
 		(instances
 			(project "Raspberry pi pico 2w"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
-					(reference "M1010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 283.21 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6aa6dfdb-be0b-47f3-9413-3e2de83ac760")
-		(property "Reference" "#PWR051"
-			(at 283.21 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 283.21 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 283.21 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 283.21 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "79bfcb60-48b6-4e37-b6c0-10d26494913f")
-		)
-		(instances
-			(project "Raspberry pi pico 2w"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 297.18 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6de3442e-1a68-4566-8342-f958c1d59dd9")
-		(property "Reference" "#PWR054"
-			(at 297.18 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 297.18 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 297.18 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6892844c-d996-4928-8002-7f7bb54fd6d2")
-		)
-		(instances
-			(project "Raspberry pi pico 2w"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
-					(reference "#PWR054")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -3948,7 +5614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6e2bb7b0-2635-44f0-a1ad-6f9a9f49635b")
+		(uuid "59cc73a8-d625-4e06-a56c-45729d73cb81")
 		(property "Reference" "U3"
 			(at 245.11 31.75 0)
 			(show_name no)
@@ -4148,194 +5814,200 @@
 				(justify bottom)
 			)
 		)
-		(pin "B4"
-			(uuid "8e24b7ad-c849-433c-a516-8d2c72c6ae01")
-		)
-		(pin "C1"
-			(uuid "c73d9b30-0a6d-437f-9d18-aa0dd5b12ac2")
-		)
-		(pin "C2"
-			(uuid "62b7be97-eac9-49ba-83d2-b2b58bb7610b")
-		)
-		(pin "D6"
-			(uuid "f8bd78b0-39f9-4273-93f5-d83a9768b2bd")
-		)
-		(pin "A5"
-			(uuid "f42cf362-6d1e-468d-ad5c-b8080c13a107")
-		)
-		(pin "B6"
-			(uuid "16d61539-1ab4-4279-ae8f-92cce9e9f5f6")
-		)
-		(pin "C3"
-			(uuid "267ee2cd-821d-4c73-85d8-4a6bb289832b")
-		)
-		(pin "C7"
-			(uuid "8a975916-9c02-4445-bfa9-fbb7aef835b4")
-		)
-		(pin "F6"
-			(uuid "0a102680-ab9a-40ce-9cad-edcea3adff50")
-		)
-		(pin "G1"
-			(uuid "6a2e23b3-afdf-4dbf-b33a-b126fe7ae859")
-		)
-		(pin "G4"
-			(uuid "05334b34-356d-4da3-af36-1c81f8c87b13")
+		(pin "E3"
+			(uuid "767e99df-2de4-4d09-ae4b-4a75d91e22af")
 		)
 		(pin "B1"
-			(uuid "c8469ddb-19c1-4bf2-83db-27e44461576d")
+			(uuid "533f1b52-fbf8-444c-8730-e9e3763c5f4d")
 		)
-		(pin "E7"
-			(uuid "96414a75-7c3c-4af0-96ce-256b64f95e9b")
+		(pin "B4"
+			(uuid "2b8b4050-fdcb-4271-8e77-409f29eee8da")
 		)
-		(pin "A6"
-			(uuid "a77ce0e6-c67f-4f71-9b36-8b13f036ea62")
-		)
-		(pin "E2"
-			(uuid "1246d01d-c77c-4dbb-86b5-0acf02abd200")
-		)
-		(pin "E1"
-			(uuid "cd55098a-9143-41b6-b794-cac995fcd1ac")
-		)
-		(pin "C6"
-			(uuid "24acde91-c01e-4098-b6e8-85c8c7b76758")
-		)
-		(pin "D3"
-			(uuid "4014f966-784d-4bb1-8caa-45a8a872f435")
-		)
-		(pin "B2"
-			(uuid "76d2d041-b4ff-4ef4-b43e-f411bf09d9ec")
+		(pin "B6"
+			(uuid "eee5aa9e-cf2b-414d-9963-25a29b695e63")
 		)
 		(pin "A1"
-			(uuid "3d4e6398-0654-4c53-ad62-5368bfacddb2")
+			(uuid "7904e377-0984-4014-a4a0-015802165054")
+		)
+		(pin "C2"
+			(uuid "3257dda8-5951-4193-914d-079865cb5f7e")
+		)
+		(pin "A6"
+			(uuid "267b01e4-2205-47fb-9da4-02a4551d38db")
+		)
+		(pin "A5"
+			(uuid "c7478b89-7360-40e6-872b-a7020399ad1e")
+		)
+		(pin "C1"
+			(uuid "d77871fb-9a22-4929-b6bf-fc4dd0cf7f2f")
 		)
 		(pin "A2"
-			(uuid "97602217-06a7-41b1-a9de-05fb61a03d9a")
-		)
-		(pin "A7"
-			(uuid "4500fb74-838a-446d-a53c-6bfa7c49ccf1")
+			(uuid "4cf2e1f0-f5c3-4898-b31d-09ced521521b")
 		)
 		(pin "C4"
-			(uuid "60164ba1-f6e9-42c5-9487-da08ad6d2861")
+			(uuid "7db468ce-33fb-413d-9db5-20abae2fc62a")
 		)
-		(pin "B5"
-			(uuid "4709e76b-e138-407d-aee6-cd87fc89a2ca")
+		(pin "C7"
+			(uuid "77047e3b-419b-441f-883c-729906cb0573")
 		)
-		(pin "B7"
-			(uuid "ec359459-f545-4fd0-9404-fe6d1fd3fadb")
+		(pin "C3"
+			(uuid "cc9839ab-506c-4565-8f2a-656f4bb45079")
 		)
 		(pin "D2"
-			(uuid "81553f58-0c3d-4cd4-9fa6-3887d08ad5c5")
+			(uuid "17d07c5f-ffed-470a-ac37-d1081e3503a0")
+		)
+		(pin "B7"
+			(uuid "2ae1bb49-9a06-4edf-a406-e696dae49e2f")
+		)
+		(pin "C6"
+			(uuid "8592da0a-a9b4-4acc-ac21-4fdd1cc27ea6")
+		)
+		(pin "D3"
+			(uuid "f8f37f99-c214-4d36-a9e8-5fe2c75f2769")
+		)
+		(pin "B2"
+			(uuid "4c96d363-3e8c-4af0-a964-b1a3b445fcb4")
 		)
 		(pin "D4"
-			(uuid "ac4d3fc6-d314-4496-a045-131c4b1e0442")
+			(uuid "68bc15cc-bef8-45a8-b7b2-6d19a19e96e3")
 		)
-		(pin "E3"
-			(uuid "f1533d6d-b48a-4bd2-b04f-e6c97dfe6bf5")
+		(pin "D6"
+			(uuid "a495eb2a-4feb-4964-bc40-880b209f71e6")
 		)
-		(pin "E6"
-			(uuid "b976b024-2ae5-4071-a7fb-72753505d729")
+		(pin "E1"
+			(uuid "cdd3c683-699c-49a2-83df-8ea1bff1f565")
 		)
-		(pin "F2"
-			(uuid "8ad9f656-4cf8-49a3-8b5a-c35607d78ecb")
+		(pin "E2"
+			(uuid "6b96bf7b-4591-424c-80eb-aa153185ff87")
+		)
+		(pin "A7"
+			(uuid "1ee4e454-09ab-490f-bd4a-b2877a5f4656")
+		)
+		(pin "B5"
+			(uuid "cb9bed66-3836-417e-9619-c82ec4437fcb")
 		)
 		(pin "F5"
-			(uuid "bc9e8655-0ef1-4d06-ac51-1ba72f67a44d")
+			(uuid "88d3272b-ab11-4b28-87c1-7162c0a7597a")
+		)
+		(pin "E6"
+			(uuid "a5527a02-04de-4226-9468-10bb0793fa3a")
 		)
 		(pin "F1"
-			(uuid "04d7a7b5-7caf-4dbb-9822-36c0de78e872")
-		)
-		(pin "F7"
-			(uuid "47cf0e77-1449-4853-bd38-cd5fa126731b")
-		)
-		(pin "G2"
-			(uuid "976b14fb-c63d-4270-ae6c-6bbbf5e48850")
-		)
-		(pin "K2"
-			(uuid "4b5fca81-2261-4036-90f6-cfd305d41c87")
-		)
-		(pin "J3"
-			(uuid "aff51e4c-4a1c-4b17-8f70-79121940b544")
-		)
-		(pin "M3"
-			(uuid "92697b49-4fc0-4eb6-a706-cbe2dafd5a9a")
-		)
-		(pin "L3"
-			(uuid "905d459a-86cd-4a20-8f44-d753ee558b01")
-		)
-		(pin "M1"
-			(uuid "56f10fa0-7591-406e-a39e-ea521735fd48")
-		)
-		(pin "H7"
-			(uuid "6a8fed7e-534e-4ceb-9ccb-b3b328b5dc9d")
-		)
-		(pin "J7"
-			(uuid "417c5965-604f-4016-994d-369e43a444b1")
-		)
-		(pin "L4"
-			(uuid "5dd14a8a-f6b4-47b7-9e26-1d4ac59f7fcd")
-		)
-		(pin "K6"
-			(uuid "fa538e31-e896-4474-8652-c601ff303ed7")
-		)
-		(pin "H4"
-			(uuid "3e5d2854-00ac-4ea4-abd9-1c66004c6207")
+			(uuid "7263c785-307a-4456-919b-9be7feb61fb3")
 		)
 		(pin "H3"
-			(uuid "2177af1d-4d22-4964-a596-c88745e3b7d3")
+			(uuid "5d24564e-84b7-48b6-941f-f81725be960a")
 		)
-		(pin "G6"
-			(uuid "5d3fd213-97db-4870-8d88-681a12f760f6")
-		)
-		(pin "J2"
-			(uuid "1a783aef-b174-4876-9370-0e6f8ec5b7ec")
-		)
-		(pin "J1"
-			(uuid "0edddfa5-dcba-4b64-8b2c-8d4a16b8f8fa")
-		)
-		(pin "H2"
-			(uuid "48c47efa-b3d2-42e1-a292-0385f0b01e13")
+		(pin "H7"
+			(uuid "79122e48-6b5e-45dc-9d64-d40786c065b0")
 		)
 		(pin "J5"
-			(uuid "d459b7cb-4a06-4770-b502-d55fde070318")
+			(uuid "ce49afe7-e47c-4719-9ed4-083e4603def7")
 		)
-		(pin "L2"
-			(uuid "4cda64f9-f691-4c61-99f6-b03ac947a1fa")
+		(pin "J7"
+			(uuid "7ad1d5af-abc2-4c3e-8aa6-6cde20c5e771")
 		)
-		(pin "J6"
-			(uuid "948eb3df-9656-441e-8887-bb64a2b86410")
+		(pin "F2"
+			(uuid "1b47ee51-3ced-4fbc-80bf-c34490e70f3e")
 		)
-		(pin "L5"
-			(uuid "5f087f88-a33c-457e-b69d-ba791b316c85")
-		)
-		(pin "L6"
-			(uuid "c18ae53a-bda6-4c61-9354-43b591997748")
-		)
-		(pin "H1"
-			(uuid "7ddf1bfa-f4e7-4e6d-9877-be24ce490d19")
-		)
-		(pin "H6"
-			(uuid "7319ab22-1af9-41cf-9189-6ffddb48e5db")
-		)
-		(pin "K1"
-			(uuid "ee9de72a-0e33-40f5-bbcf-b0e90d5894b4")
+		(pin "J3"
+			(uuid "216b572f-e005-416b-845a-a186e4cd31dd")
 		)
 		(pin "L7"
-			(uuid "90f895b8-e923-491c-a66f-2e02a1448f25")
+			(uuid "7094deb7-2e64-4013-af94-14624a18a8fa")
+		)
+		(pin "K6"
+			(uuid "c5d7e1aa-7ace-4ce4-8cd2-c0f317522949")
 		)
 		(pin "M2"
-			(uuid "a49978c7-8af2-4a00-853b-e5f66c4209e8")
+			(uuid "0990fec8-e3fe-4df9-a73a-55437967f058")
 		)
-		(pin "M4"
-			(uuid "dafe99dc-8820-4f4f-b31b-1d8d3feda3d8")
+		(pin "F6"
+			(uuid "ea1bc3b7-e690-487d-a70c-8a157a1a6bb7")
 		)
-		(pin "M5"
-			(uuid "15ccc00b-eef9-436d-a08e-c52755e8f3f5")
+		(pin "G1"
+			(uuid "09e17543-15e8-4eb2-b47c-2b354bd77866")
+		)
+		(pin "G4"
+			(uuid "b88741f9-cc14-45df-9ad8-0fdd78d3314c")
+		)
+		(pin "K2"
+			(uuid "a4601d49-cefe-4128-baa6-192f4c6ad703")
+		)
+		(pin "G6"
+			(uuid "bddf88c5-7864-443c-8e32-f51600990ab9")
+		)
+		(pin "L3"
+			(uuid "aca1a95e-5b3e-4ab0-8fbe-23c02e85d229")
+		)
+		(pin "J2"
+			(uuid "ac44e99f-7db7-41e6-9c53-eeaf7bd0299d")
+		)
+		(pin "L4"
+			(uuid "a97f2207-4a36-436f-90b7-6b0fbd9a3e6e")
+		)
+		(pin "K1"
+			(uuid "aeece50c-a578-4f87-aa3d-3a9b3e036731")
+		)
+		(pin "E7"
+			(uuid "c4aafacc-1463-4ed2-b409-04dd263f21c7")
+		)
+		(pin "H1"
+			(uuid "5d31487a-80b0-4fed-bd56-84726d6683da")
+		)
+		(pin "H2"
+			(uuid "1032657a-e7a5-45f7-8af8-50079b0dd98d")
+		)
+		(pin "H4"
+			(uuid "daad9565-0e20-42c9-a569-3902c4fa8aae")
+		)
+		(pin "G2"
+			(uuid "cbc8aa68-af31-4247-9332-db7d1a20faae")
+		)
+		(pin "F7"
+			(uuid "ece82b36-0534-4402-b498-8044a91b218e")
+		)
+		(pin "H6"
+			(uuid "14dc4c69-4027-4717-b593-bc63d62de18e")
+		)
+		(pin "J1"
+			(uuid "391ffae0-71f1-4c37-b54c-623e27197e4b")
+		)
+		(pin "J6"
+			(uuid "db0b8cd9-02a3-4970-9ed4-86af32618013")
+		)
+		(pin "L2"
+			(uuid "b2d87c2d-58f6-47eb-9f5f-d3faac8a3123")
+		)
+		(pin "L5"
+			(uuid "f0744e65-fb61-48d1-b684-a5a5e1bcfa57")
+		)
+		(pin "L6"
+			(uuid "0f5cf45b-2e35-4ee5-b2ad-53baf2712106")
+		)
+		(pin "M1"
+			(uuid "4622f386-bcd4-4e44-8051-f591214545b9")
+		)
+		(pin "M3"
+			(uuid "4755c2a1-47c4-4620-9777-c68e3c91738f")
 		)
 		(pin "M6"
-			(uuid "f78e92a4-71f2-4c39-8e2e-dd96b0f094ab")
+			(uuid "50013c2f-0d10-4aad-be25-ed49c52d6b89")
+		)
+		(pin "M5"
+			(uuid "16eb31ac-8b79-4eb3-8399-b8fd320ecef3")
 		)
 		(pin "M7"
-			(uuid "3c17b4de-68f0-4649-88e6-2b9e14ce0a2f")
+			(uuid "3e284cb9-4084-4d78-88b8-ad0328601cff")
+		)
+		(pin "M4"
+			(uuid "7c056cd2-49e3-42a2-bbc3-cc5221a1888e")
+		)
+		(pin "F6"
+			(uuid "210a8431-4989-4978-8d11-35b80eeccc0c")
+		)
+		(pin "G4"
+			(uuid "0ac9b5f7-4fdf-4785-9485-de505da0818f")
 		)
 		(instances
 			(project "Raspberry pi pico 2w"
@@ -4347,8 +6019,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 288.29 95.25 0)
+		(lib_id "Device:C_Small")
+		(at 287.02 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4356,31 +6028,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7823a8f3-a6ac-449f-8aa0-81c49899580a")
-		(property "Reference" "#PWR048"
-			(at 288.29 101.6 0)
-			(hide yes)
+		(uuid "5e7cdcc6-cb50-4608-8e0e-b30ec600b9c8")
+		(property "Reference" "C28"
+			(at 289.306 151.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GNDREF"
-			(at 288.29 100.33 0)
+		(property "Value" "100n"
+			(at 289.306 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 95.25 0)
+			(at 287.02 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4391,7 +6063,316 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 95.25 0)
+			(at 287.02 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 291.592 142.748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "module" "M0603/X5R/10%"
+			(at 296.164 153.416 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "vlotage" "6.3V"
+			(at 291.338 147.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "56ed8865-6c14-458a-95ce-8dc8e537dbf7")
+		)
+		(pin "1"
+			(uuid "dd6e18de-ea84-4776-ac3d-db0efd5b7b07")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 306.07 149.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6940ad88-9047-45cd-92db-75b0ef6acecf")
+		(property "Reference" "C34"
+			(at 303.784 147.066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18p"
+			(at 303.784 148.844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 301.498 155.702 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "module" "M0603/C0G/5%"
+			(at 296.164 145.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "vlotage" "25V"
+			(at 301.752 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b84cf7ad-88ef-41a5-bfbd-afa37e845536")
+		)
+		(pin "1"
+			(uuid "2b8fe229-7e11-4d03-ae5d-1ce0ad80bef3")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 147.32 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69dacdf7-dde1-4664-8715-0426cba4bff2")
+		(property "Reference" "C37"
+			(at 153.416 135.128 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.36pF"
+			(at 146.304 135.128 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 141.478 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "module" "M0603/C0G/5%"
+			(at 156.718 131.318 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "vlotage" "25V"
+			(at 144.272 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a6a8aa13-fab9-4df0-8988-91f6285306d1")
+		)
+		(pin "1"
+			(uuid "d9215333-0180-41b7-91ee-ea54004fdffd")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 283.21 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aa6dfdb-be0b-47f3-9413-3e2de83ac760")
+		(property "Reference" "#PWR051"
+			(at 283.21 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 283.21 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4402,7 +6383,265 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 288.29 95.25 0)
+			(at 283.21 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79bfcb60-48b6-4e37-b6c0-10d26494913f")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 297.18 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6de3442e-1a68-4566-8342-f958c1d59dd9")
+		(property "Reference" "#PWR054"
+			(at 297.18 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 297.688 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 297.18 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6892844c-d996-4928-8002-7f7bb54fd6d2")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 334.01 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70fa153c-cc5b-408e-a879-7ebf63d63e44")
+		(property "Reference" "C29"
+			(at 336.296 65.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 336.296 63.246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 338.582 56.388 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "module" "M1005/X5R/20%"
+			(at 343.154 67.056 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "vlotage" "6.3V"
+			(at 338.328 61.214 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b415f67b-020f-4565-aadf-a68ecb058e12")
+		)
+		(pin "1"
+			(uuid "bb3e038d-86f6-4138-a635-6cb6692a1af5")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 288.29 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7823a8f3-a6ac-449f-8aa0-81c49899580a")
+		(property "Reference" "#PWR048"
+			(at 288.29 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 288.29 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 288.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4425,8 +6664,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 288.29 88.9 0)
+		(lib_id "Device:Crystal")
+		(at 303.53 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4434,31 +6673,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8948ee6b-ae8c-4bf2-aed7-11c55332925b")
-		(property "Reference" "M1008"
-			(at 290.576 91.694 0)
+		(fields_autoplaced yes)
+		(uuid "87740332-e9d7-4971-8110-fd7fc8c3fd1d")
+		(property "Reference" "Y2"
+			(at 303.53 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "4u7"
-			(at 290.576 89.916 0)
+		(property "Value" "37.4MHz"
+			(at 303.53 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 88.9 0)
+			(at 303.53 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4469,7 +6707,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 88.9 0)
+			(at 303.53 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 303.53 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0ac58c0-8486-4fbb-95db-73d9b761b0b7")
+		)
+		(pin "2"
+			(uuid "e9190064-a2eb-4fa7-a2ab-fab70f7c731c")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 288.29 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8948ee6b-ae8c-4bf2-aed7-11c55332925b")
+		(property "Reference" "C26"
+			(at 290.576 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 290.576 91.186 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4480,7 +6799,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 292.862 83.058 0)
+			(at 292.862 84.328 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4491,7 +6810,7 @@
 			)
 		)
 		(property "module" "M1005/X5R/20%"
-			(at 297.434 93.726 0)
+			(at 297.434 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4502,7 +6821,7 @@
 			)
 		)
 		(property "vlotage" "6.3V"
-			(at 292.608 87.884 0)
+			(at 292.608 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4521,15 +6840,16 @@
 		(instances
 			(project "Raspberry pi pico 2w"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
-					(reference "M1008")
+					(reference "C26")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 294.64 57.15 0)
+		(lib_id "Device:R_US")
+		(at 336.55 123.19 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4537,9 +6857,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9fae0d41-6c3c-4be1-ae93-a57680027fb6")
-		(property "Reference" "M1006"
-			(at 296.926 59.944 0)
+		(uuid "89d87b63-9f97-47af-a72b-7bc0600e51fe")
+		(property "Reference" "R23"
+			(at 332.74 125.222 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4549,8 +6869,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
-			(at 296.926 58.166 0)
+		(property "Value" "22R"
+			(at 339.09 121.666 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4561,7 +6881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 294.64 57.15 0)
+			(at 336.296 122.174 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4572,7 +6892,99 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 294.64 57.15 0)
+			(at 336.55 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M0603"
+			(at 342.392 124.968 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Watt" "50mW/1%"
+			(at 329.946 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb9be5ec-3a6c-44c1-98db-a0f17bfcd96a")
+		)
+		(pin "2"
+			(uuid "161e67d6-a0df-46a8-936f-bc58c6de1874")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 323.85 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90ac6f24-9696-427e-9044-569b96e94369")
+		(property "Reference" "C24"
+			(at 326.136 90.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 326.136 88.646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4583,7 +6995,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 299.212 51.308 0)
+			(at 328.422 81.788 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4593,8 +7005,8 @@
 				)
 			)
 		)
-		(property "module" "M1005/X5R/20%"
-			(at 304.292 61.976 0)
+		(property "module" "M0603/X5R/10%"
+			(at 332.994 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4605,7 +7017,452 @@
 			)
 		)
 		(property "vlotage" "6.3V"
-			(at 298.958 56.134 0)
+			(at 328.168 86.614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d4ad0417-aa28-49d0-8302-52a1586b62f1")
+		)
+		(pin "1"
+			(uuid "bc6754b9-b5c7-4274-a02e-e3dd89a6f617")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 334.01 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9224728c-6e40-4a5e-a362-478586609276")
+		(property "Reference" "#PWR057"
+			(at 334.01 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 334.01 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 334.01 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d53d88b8-f81e-4634-9ca4-7b3715d55765")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 323.85 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "971125a5-1c76-41b1-a699-3ada5f67c75a")
+		(property "Reference" "#PWR055"
+			(at 323.85 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 323.85 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 323.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68cbd095-ee94-4993-935b-5913fb5f25de")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 102.87 133.35 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "972d7235-b9c8-4e4f-b1c1-22b8aa906dc9")
+		(property "Reference" "Jumper"
+			(at 95.25 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 105.41 131.826 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.616 132.334 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M0603"
+			(at 109.982 134.874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Watt" "50mW"
+			(at 98.298 131.572 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a8ba2cf-0e34-4cb5-bd9a-982f6d9118e3")
+		)
+		(pin "2"
+			(uuid "bbcb2a1e-9dc8-4ab8-aff1-4fe9cc398803")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "Jumper")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 321.31 125.73 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "985c2987-4cd0-4aa5-ab18-6462031790cf")
+		(property "Reference" "R22"
+			(at 315.468 127.762 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22R"
+			(at 323.85 124.206 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 321.056 124.714 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M0603"
+			(at 325.374 127.762 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Watt" "50mW/1%"
+			(at 317.246 124.206 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4aace468-66eb-4266-921a-e55b05df233a")
+		)
+		(pin "2"
+			(uuid "1144636f-5a81-40f7-87eb-b599a87893fa")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 295.91 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9fae0d41-6c3c-4be1-ae93-a57680027fb6")
+		(property "Reference" "C23"
+			(at 298.196 59.944 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 298.196 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 300.482 51.308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "module" "M1005/X5R/20%"
+			(at 305.562 61.976 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "vlotage" "6.3V"
+			(at 300.228 56.134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4624,7 +7481,266 @@
 		(instances
 			(project "Raspberry pi pico 2w"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
-					(reference "M1006")
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 120.65 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3857ddf-1962-456a-867d-e9a65f9c2f79")
+		(property "Reference" "C36"
+			(at 126.746 135.128 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.3pF"
+			(at 119.634 135.128 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 114.808 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "module" "M0603/C0G/5%"
+			(at 130.556 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "vlotage" "25V"
+			(at 117.602 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6e712790-41ea-4042-b843-18e3337cfbbc")
+		)
+		(pin "1"
+			(uuid "0c1013a1-6a69-4d69-b631-2292984b1df4")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 295.91 127 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc973a28-31b3-4026-93a6-89cfdaf8d8b4")
+		(property "Reference" "#PWR059"
+			(at 295.91 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 295.91 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 295.91 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb37b637-891d-485d-a714-682fa61683ee")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 92.71 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2491f45-deb8-4fdb-ae1a-58fa552e3d41")
+		(property "Reference" "#PWR061"
+			(at 92.71 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 92.71 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 92.71 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "024da09c-1855-4366-9753-8d78693ff11d")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4641,7 +7757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2a95924-1f86-4d17-912e-a444be449682")
-		(property "Reference" "M1007"
+		(property "Reference" "C20"
 			(at 290.576 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4727,7 +7843,7 @@
 		(instances
 			(project "Raspberry pi pico 2w"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
-					(reference "M1007")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -4735,7 +7851,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 334.01 62.23 0)
+		(at 347.98 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4746,7 +7862,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc32a1b8-5f86-40eb-bf95-3748de73d26b")
 		(property "Reference" "#PWR052"
-			(at 334.01 68.58 0)
+			(at 347.98 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4757,7 +7873,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 334.01 67.31 0)
+			(at 347.98 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4767,7 +7883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 334.01 62.23 0)
+			(at 347.98 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4778,7 +7894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334.01 62.23 0)
+			(at 347.98 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4789,7 +7905,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 334.01 62.23 0)
+			(at 347.98 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4812,8 +7928,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 292.1 26.67 90)
+		(lib_id "power:GNDREF")
+		(at 162.56 133.35 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4821,9 +7937,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "db2827bf-4d93-40e5-ad2e-509edad76a44")
-		(property "Reference" "L3"
-			(at 292.1 21.59 90)
+		(fields_autoplaced yes)
+		(uuid "d26fadad-b763-49ab-a725-1946373829a8")
+		(property "Reference" "#PWR063"
+			(at 168.91 133.35 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4832,18 +7950,19 @@
 				)
 			)
 		)
-		(property "Value" "600@100MHz"
-			(at 292.1 24.13 90)
+		(property "Value" "GNDREF"
+			(at 166.37 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 292.1 26.67 0)
+			(at 162.56 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4854,7 +7973,162 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 26.67 0)
+			(at 162.56 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 162.56 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af7ebe60-b009-4953-a5cf-dad07040a845")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 191.77 129.54 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d400e909-7eb6-41e8-bc12-d56552868fe8")
+		(property "Reference" "L4"
+			(at 191.77 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4n7"
+			(at 191.77 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LQP03HQ4N7H02D"
+			(at 191.77 131.064 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 98 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "079aa123-c95d-4a2e-b030-145215ac026d")
+		)
+		(pin "2"
+			(uuid "76ec2bfe-f6f1-4447-aa0d-76713b154393")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 293.37 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db2827bf-4d93-40e5-ad2e-509edad76a44")
+		(property "Reference" "L3"
+			(at 293.37 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600@100MHz"
+			(at 293.37 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4865,7 +8139,7 @@
 			)
 		)
 		(property "Description" "M1608"
-			(at 292.1 28.194 90)
+			(at 293.37 28.194 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4969,8 +8243,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 309.88 43.18 0)
+		(lib_id "power:GNDREF")
+		(at 115.57 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4978,31 +8252,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e49e5602-2681-4f15-b80d-ccb49f04ea72")
-		(property "Reference" "M1005"
-			(at 312.166 45.974 0)
+		(fields_autoplaced yes)
+		(uuid "e146313f-ddf6-424f-b3a6-5200be63d65d")
+		(property "Reference" "#PWR062"
+			(at 115.57 153.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "4u7"
-			(at 312.166 44.196 0)
+		(property "Value" "GNDREF"
+			(at 115.57 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 309.88 43.18 0)
+			(at 115.57 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5013,7 +8287,163 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 43.18 0)
+			(at 115.57 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 115.57 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb0169be-634f-41e6-953c-17ec298baea4")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 341.63 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e16dd796-1a73-4799-9214-1fd609ee81a1")
+		(property "Reference" "#PWR058"
+			(at 341.63 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 341.63 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 341.63 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "143bbed0-b279-4226-bc63-c20fc7f08a17")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 320.04 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e49e5602-2681-4f15-b80d-ccb49f04ea72")
+		(property "Reference" "C21"
+			(at 322.326 45.974 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 322.326 44.196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5024,7 +8454,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 314.452 37.338 0)
+			(at 324.612 37.338 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5035,7 +8465,7 @@
 			)
 		)
 		(property "module" "M1005/X5R/20%"
-			(at 320.548 40.386 0)
+			(at 330.708 40.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5046,7 +8476,7 @@
 			)
 		)
 		(property "vlotage" "6.3V"
-			(at 314.198 42.164 0)
+			(at 324.358 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5065,7 +8495,7 @@
 		(instances
 			(project "Raspberry pi pico 2w"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
-					(reference "M1005")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -5082,7 +8512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb9ab023-ba65-4403-a060-478681e371f7")
-		(property "Reference" "M1005"
+		(property "Reference" "C26"
 			(at 285.496 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5168,7 +8598,7 @@
 		(instances
 			(project "Raspberry pi pico 2w"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
-					(reference "M1005")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -5253,8 +8683,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 309.88 49.53 0)
+		(lib_id "Device:C_Small")
+		(at 341.63 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5262,31 +8692,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb52fc9f-c119-4487-a947-f079816f9cee")
-		(property "Reference" "#PWR045"
-			(at 309.88 55.88 0)
-			(hide yes)
+		(uuid "f4f95e8e-53d2-49c9-b2cd-cb196d4cf7b8")
+		(property "Reference" "C30"
+			(at 343.916 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GNDREF"
-			(at 309.88 54.61 0)
+		(property "Value" "4u7"
+			(at 343.916 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 309.88 49.53 0)
+			(at 341.63 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5297,7 +8727,316 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 49.53 0)
+			(at 341.63 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 346.202 71.628 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "module" "M1005/X5R/20%"
+			(at 350.774 82.296 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "vlotage" "6.3V"
+			(at 345.948 76.454 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "291ae726-a90b-495a-8d40-2af372d41fad")
+		)
+		(pin "1"
+			(uuid "5e58016d-dd49-4121-a6db-06b7a105d881")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 180.34 133.35 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6b13a00-4559-4d67-b747-d1c63764258b")
+		(property "Reference" "C32"
+			(at 178.054 130.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10p"
+			(at 178.054 132.334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 175.768 139.192 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "module" "M0603/C0G/5%"
+			(at 171.196 128.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "vlotage" "25V"
+			(at 176.022 134.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "435a4008-d4a2-446c-bbb3-548621848ff6")
+		)
+		(pin "1"
+			(uuid "d03d2aa3-efcc-4847-a974-2ff2659e843f")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 199.39 135.89 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb4059da-b584-4d25-9379-4f084b8f5c1d")
+		(property "Reference" "C31"
+			(at 193.294 134.112 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10p"
+			(at 200.406 134.112 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 205.232 140.462 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "module" "M0603/C0G/5%"
+			(at 189.484 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "vlotage" "25V"
+			(at 202.438 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a62d0aae-645a-4faf-9c8d-f2728c9a5ebb")
+		)
+		(pin "1"
+			(uuid "324f7f51-ab5e-4b9c-a44e-3b2087057fc7")
+		)
+		(instances
+			(project "Raspberry pi pico 2w"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0c507759-c57e-4957-877d-de300c4b34eb"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 320.04 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb52fc9f-c119-4487-a947-f079816f9cee")
+		(property "Reference" "#PWR045"
+			(at 320.04 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 320.04 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5308,7 +9047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 309.88 49.53 0)
+			(at 320.04 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
