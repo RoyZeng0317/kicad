@@ -845,7 +845,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "U3-4,M1012,L4,#PWR55-63,C28-37,Y2,R21-23,FL1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -856,6 +856,10 @@
     [
       "0c507759-c57e-4957-877d-de300c4b34eb",
       "SHIELD"
+    ],
+    [
+      "b5d72f3a-1c8e-4a90-bd56-7e3491028cff",
+      "EXPANSION"
     ]
   ],
   "text_variables": {},
