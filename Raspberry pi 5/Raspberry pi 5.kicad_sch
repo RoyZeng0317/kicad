@@ -4958,6 +4958,17 @@
 				(justify bottom)
 			)
 		)
+		(property "MPN" "USB4105-GF-A"
+			(at 194.31 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "SH2"
 			(uuid "885798a2-0d9f-40c8-a239-70ff803942c6")
 		)
