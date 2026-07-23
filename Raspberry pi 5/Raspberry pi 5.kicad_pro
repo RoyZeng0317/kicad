@@ -767,13 +767,17 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "R3-6,J2,U2,CR1,D1-2,#PWR5-7",
+    "used_designators": "R3-8,J2-3,U2-3,CR1,D1-2,#PWR5-9",
     "variants": []
   },
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       "Raspberry pi 5"
+    ],
+    [
+      "c93c5551-bbc2-499a-9f11-7ebb9b21275e",
+      "ComputeModule4"
     ]
   ],
   "text_variables": {},
