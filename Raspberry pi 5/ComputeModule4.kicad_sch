@@ -6565,10 +6565,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3dafa97f-994d-4762-bac0-da373af98662")
+			(uuid "44992be8-73f0-4a94-b0fb-356ab4063cf4")
 		)
 		(pin "1"
-			(uuid "795f67f5-8492-4308-b61c-b1014383d70c")
+			(uuid "3cb4c027-e6aa-431d-9249-71fd7c2a8bda")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -6647,10 +6647,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5282f2af-6cc8-4116-ad73-99228dc9b9ac")
+			(uuid "9294a775-50a7-40e2-b6b0-5161dcde8785")
 		)
 		(pin "1"
-			(uuid "16941520-7971-4bd7-9353-674a283ca9ad")
+			(uuid "915ab3df-7a90-4841-a4e3-1a1dcc0fbdb4")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -6838,16 +6838,16 @@
 			)
 		)
 		(pin "4"
-			(uuid "c8001467-70d0-485b-8b80-f612eee2b80f")
+			(uuid "85e71e59-6531-4c95-877a-0d3be07d8eb5")
 		)
 		(pin "3"
-			(uuid "1ae62ced-feb3-40e0-a749-93d1bc014d7a")
+			(uuid "f881bff7-dda4-4dde-aded-985e1e1beaab")
 		)
 		(pin "1"
-			(uuid "1b97200c-cf87-427e-a4b4-4919b75e9d0d")
+			(uuid "e925184c-d5a9-486b-b084-e401916bc979")
 		)
 		(pin "2"
-			(uuid "3c214bc4-9054-414c-a8a0-50ef31924bde")
+			(uuid "4c063566-16c8-460c-927b-62d83bf3d040")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -6926,10 +6926,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ab89d504-e09a-4ac8-8376-0bee6a015204")
+			(uuid "cb01c07d-c3d7-4a74-9b84-989c4773fb2c")
 		)
 		(pin "1"
-			(uuid "155603b7-7888-41d5-b581-aba77b621c9b")
+			(uuid "d29cb41b-b271-4fd2-8017-5cb419922bda")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -7007,7 +7007,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e65ca01-4986-4257-8d5f-4a3fc42c5552")
+			(uuid "0afb03ef-063b-4dba-88ae-de7370a56c7a")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -7217,52 +7217,52 @@
 			)
 		)
 		(pin "SH2"
-			(uuid "0d9f5e51-c3b0-4dd4-a0e2-1ebf17b97e4f")
+			(uuid "b4794a21-28bb-4234-b5bc-11cc81477c53")
 		)
 		(pin "B1_A12"
-			(uuid "07d02958-2481-4937-b022-d606ee8153da")
+			(uuid "961e7eba-4fd9-422a-8951-926c7a005b75")
 		)
 		(pin "A4_B9"
-			(uuid "a52db93a-f5c1-4462-aa05-2f4277eeb456")
+			(uuid "f1f1e952-6d5e-466a-8520-76fdcc36a8e2")
 		)
 		(pin "B8"
-			(uuid "9d16b4eb-8923-4576-8539-64e95dc66e4a")
+			(uuid "e859a19e-d6ec-4a03-91bf-6fe2e08355a2")
 		)
 		(pin "SH4"
-			(uuid "58afd901-5ae8-41b8-aba0-5ccdc424869b")
+			(uuid "826bd9bd-5006-41c0-8635-c2780d33f716")
 		)
 		(pin "A8"
-			(uuid "4b74db89-2e06-455e-a5cf-e21df9e2549c")
+			(uuid "9120bcdf-f049-492e-9f23-8051677ad74c")
 		)
 		(pin "B5"
-			(uuid "c2e33a58-096a-412b-81db-2f50d4601d8c")
+			(uuid "03018a32-97e6-48d8-908e-7c4fd7919c6d")
 		)
 		(pin "B6"
-			(uuid "7f24b6c9-bc21-487c-95e0-95d54bb13881")
+			(uuid "77595890-146d-4a08-ba3e-bb5df5f58df1")
 		)
 		(pin "B7"
-			(uuid "6ba78310-f3c7-41d8-88bd-5c90b0b68a8e")
+			(uuid "d8ab9043-4026-495e-935c-12f10c5d6634")
 		)
 		(pin "SH3"
-			(uuid "271ce900-1399-4ae0-a47f-dd1f201d3322")
+			(uuid "2fe94f11-ca49-456b-b667-93dcc60689a2")
 		)
 		(pin "A7"
-			(uuid "b7553f8a-1d89-425b-af85-82a2fa1cccbb")
+			(uuid "7e15278d-e49b-4667-928b-a72f54aa5701")
 		)
 		(pin "SH1"
-			(uuid "2618a4cc-1e64-4f75-9ac5-4241f088ed9d")
+			(uuid "8e24d480-5e13-4e23-9e3c-1cf7350669a0")
 		)
 		(pin "A6"
-			(uuid "d5e1d4f8-417a-49cf-bb22-4bfc7079116f")
+			(uuid "b15b3e1a-cb41-4f04-a0b4-62e4f35083c9")
 		)
 		(pin "A5"
-			(uuid "77ab28be-e356-41c0-b88c-0692b908095f")
+			(uuid "41987f42-e441-4c56-8382-979b786add73")
 		)
 		(pin "A1_B12"
-			(uuid "b3a6e255-a00f-44d0-a7a6-0f148184f8a3")
+			(uuid "331f792c-3213-42e1-b03d-cbee3e4eb4bd")
 		)
 		(pin "B4_A9"
-			(uuid "02c53034-fda0-4bff-8743-f4682902901e")
+			(uuid "eb16608a-b173-4fe8-b926-0ce86d69c48d")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -7343,10 +7343,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2996d9c9-59db-4e05-a5b9-6b831561211f")
+			(uuid "299976d7-3106-49b1-998e-98b695294712")
 		)
 		(pin "1"
-			(uuid "87a1bfc2-22d8-4332-b5f3-7d838218c8e7")
+			(uuid "10f2957e-c494-4827-b1e4-939adc9158fa")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -7424,34 +7424,34 @@
 			)
 		)
 		(pin "3"
-			(uuid "8b3da98b-c88a-42a4-b4f8-ee28d80ba673")
+			(uuid "96e60f5b-8bde-423d-90b6-ba85e35468d5")
 		)
 		(pin "6"
-			(uuid "eb90a878-85b4-4835-ae3d-0d3192f60fc3")
+			(uuid "467ed12a-1a83-4c40-946e-d18da3422b3e")
 		)
 		(pin "5"
-			(uuid "dfc2500a-8875-42bb-93a2-ba660e45fb7f")
+			(uuid "77d6d860-2917-48e5-9441-df1820657365")
 		)
 		(pin "10"
-			(uuid "b0577cca-4c08-4206-a5ad-c26baa13263e")
+			(uuid "ef570d99-5838-49ca-95b3-485e8ae09836")
 		)
 		(pin "7"
-			(uuid "e42244a0-226d-4ce5-8b05-0d9a70d9178c")
+			(uuid "feade733-5e31-44b5-a9a7-bf6d70cafec7")
 		)
 		(pin "9"
-			(uuid "27463f34-817d-42ae-96f6-7dabde9a64ec")
+			(uuid "8ab2121b-2124-4840-a166-2818783558e0")
 		)
 		(pin "2"
-			(uuid "2c8b5c68-4294-4ddd-aa35-2820769540f4")
+			(uuid "cf4e5af9-6653-42b1-a138-b54c808d090f")
 		)
 		(pin "4"
-			(uuid "6ded4179-e0c2-4f6d-bc09-a5eb68befdff")
+			(uuid "7424b8ba-0e2e-46cd-9992-084af2060d4f")
 		)
 		(pin "8"
-			(uuid "7c53cf40-7610-4945-8122-8270ace45da7")
+			(uuid "9b7e6c95-bbd9-445c-b45e-0f964008ffbc")
 		)
 		(pin "1"
-			(uuid "3d1d5ae1-e9ba-4922-b45b-80243c661ce9")
+			(uuid "7be78a7e-1a16-42ce-b1a6-b5ad1996ad29")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -7529,7 +7529,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0a040f7a-a4d6-4196-800b-9f940e334075")
+			(uuid "59b10ee6-d6d0-482f-a597-fef757ffd01f")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -7607,7 +7607,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "aedccbdf-d2d9-45bc-8f8c-d7ad4cc183be")
+			(uuid "1e1d0fa7-c71a-403a-826f-f11b5633b5b8")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -7630,7 +7630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "572b28cb-1e35-498f-98a1-e0bc29d4019b")
-		(property "Reference" "U3"
+		(property "Reference" "Module1A"
 			(at 74.93 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7684,303 +7684,303 @@
 			)
 		)
 		(pin "3"
-			(uuid "5fbb3b37-08f4-4be2-867c-95f8f09fc0f9")
+			(uuid "ed02520e-a136-4b68-b5e9-bc093232374e")
 		)
 		(pin "4"
-			(uuid "c573a9ec-ffaa-476b-96d0-5ee5320e3740")
+			(uuid "35147654-02c5-44a0-97b6-eee975744478")
 		)
 		(pin "14"
-			(uuid "31b0d8e2-87b8-443a-88c7-f45f6918948a")
+			(uuid "b2bf8cff-988d-4b23-bb0a-95cbd2ddeab5")
 		)
 		(pin "8"
-			(uuid "5e38c9b2-d86a-4cd0-805d-399bffefe285")
+			(uuid "335ec67e-88d3-416b-a787-bde336225d2a")
 		)
 		(pin "27"
-			(uuid "c575708d-252e-47a7-ac7c-7abfcbebdb42")
+			(uuid "cc9757e0-51da-46e3-8859-5d5cbdcee629")
 		)
 		(pin "18"
-			(uuid "35a5f44b-fba2-4f0e-b7f0-484449319d34")
+			(uuid "9db5d5ea-e58f-4862-b27d-afa9b186f0ec")
 		)
 		(pin "7"
-			(uuid "64022682-803b-4a93-a0dd-0a58f42ce892")
+			(uuid "32e938be-5ac5-4888-96f9-b1ef44576727")
 		)
 		(pin "11"
-			(uuid "515a71b2-fe90-421f-8bc8-1f0d38c8276e")
+			(uuid "e754d9ba-94d8-4107-a16c-ce712e82723f")
 		)
 		(pin "16"
-			(uuid "3a8391a3-5ee7-4f30-9de5-6d8d4502bb2a")
+			(uuid "33aa918d-f0fd-4b40-a62e-01b1ed48be8e")
 		)
 		(pin "2"
-			(uuid "2cf26a4d-fdeb-413d-9996-09140ae4755f")
+			(uuid "93ec9913-5f74-4303-a1e4-b833e94b8d81")
 		)
 		(pin "30"
-			(uuid "74cc94a1-859d-43a6-8934-c698b8713501")
+			(uuid "1506e99c-6ca2-4b5b-88a4-21346ca7b6c3")
 		)
 		(pin "10"
-			(uuid "13a013b5-8cb2-47e2-8a6d-81847f81e127")
+			(uuid "4adc856d-5f75-4081-a00d-f26c1f182a6e")
 		)
 		(pin "6"
-			(uuid "9492a974-f35c-4c30-b11f-e4397dfe67b1")
+			(uuid "0cf52e77-d544-4281-93e9-1cd0a3d3944f")
 		)
 		(pin "12"
-			(uuid "0e7b12d1-76e3-4e18-88c7-535fbec3e80a")
+			(uuid "1d425f1e-7e8b-41e3-9467-d703f31c63ec")
 		)
 		(pin "23"
-			(uuid "55cfe978-d5a2-4e2b-be95-0c6b73cc0687")
+			(uuid "645f4c75-2fff-4cff-af21-7eeb705c88a8")
 		)
 		(pin "24"
-			(uuid "ebc03102-99e3-4f36-9303-1e007213194f")
+			(uuid "ff3fed5b-6edd-4483-8a10-079a0cc0974a")
 		)
 		(pin "26"
-			(uuid "6176068b-478a-4dd1-95b6-84c6e55b1645")
+			(uuid "8efaf89e-d34d-4dfb-a119-104936bea89b")
 		)
 		(pin "1"
-			(uuid "3635b5eb-8ebe-4722-876a-0808f211a537")
+			(uuid "c844b4ce-a5ea-4d49-bc9f-47a16c6784ef")
 		)
 		(pin "5"
-			(uuid "7373c14e-26b2-4538-a864-7866d8c5bd9c")
+			(uuid "899699ac-0fd4-4081-ac81-a28b9ace5b6e")
 		)
 		(pin "15"
-			(uuid "f7fce08d-904a-4830-9d81-09272e7f79d2")
+			(uuid "cd8d0d05-e4a1-45fa-b202-00c49c0dcd2b")
 		)
 		(pin "21"
-			(uuid "b25aca10-b8bd-4647-aafd-a94575b65d1a")
+			(uuid "f419b7fa-0dea-4edd-91e5-ebd639fd543b")
 		)
 		(pin "20"
-			(uuid "0f0fcf32-2e59-4bd8-8a1e-e3eb130a23c8")
+			(uuid "261b2ef1-367a-44a6-bc96-415478b526e4")
 		)
 		(pin "25"
-			(uuid "9279fef6-a967-4c8f-8088-d26cafef6442")
+			(uuid "80c75f6d-523f-41e1-b85e-e4dafd20d6a7")
 		)
 		(pin "17"
-			(uuid "f15ee6a2-a118-4281-9786-aba3f5944e98")
+			(uuid "8bce0926-c253-4343-8bc9-047bf9419528")
 		)
 		(pin "9"
-			(uuid "2254be48-93dc-42ca-ab42-3fe631bf3691")
+			(uuid "9c936b7e-23f2-4392-822c-a19f453890e2")
 		)
 		(pin "19"
-			(uuid "597e3915-4a43-4e7f-8704-8ff6d40348ff")
+			(uuid "69720444-0906-43ec-b15b-593422831cb1")
 		)
 		(pin "22"
-			(uuid "26b701dd-13a8-41b6-b9a9-f0d5d6ba61b6")
+			(uuid "715e110c-026d-452e-9d7c-ff7cc8a8a276")
 		)
 		(pin "23"
-			(uuid "da757fd6-58de-4085-a198-42315c3121ed")
+			(uuid "a0ec6fe4-0c37-4b4f-95cc-500aa80852b7")
 		)
 		(pin "28"
-			(uuid "198f1893-a329-4c20-9f7c-9b89e3bedb48")
+			(uuid "b6b0c9d8-58db-4058-9656-9d4e55bf1243")
 		)
 		(pin "29"
-			(uuid "18bc64ef-b95d-4a77-9752-f981db6b0e73")
+			(uuid "92a9d085-7d46-421e-b3b6-a16bb2cd8fdd")
 		)
 		(pin "35"
-			(uuid "981be4c5-92fe-4ad5-8828-ab53f9a67dce")
+			(uuid "9f8f3d70-f75f-40c7-8063-edd9d5d47d1c")
 		)
 		(pin "46"
-			(uuid "f10fa137-f952-44cb-8eb6-19b1f6fceb95")
+			(uuid "a08f817b-90cd-420e-a243-224584400097")
 		)
 		(pin "54"
-			(uuid "3f961077-5e83-460d-b61c-62b476ac95e4")
+			(uuid "110238aa-d205-48ba-aab9-ad093a3403b1")
 		)
 		(pin "39"
-			(uuid "a1bc6052-1114-43dc-94b3-949aedb3de5e")
+			(uuid "8c924622-a2dd-4fc2-9f0a-becb0db9601e")
 		)
 		(pin "42"
-			(uuid "8e73aa34-f310-4275-a160-6bc059f1ce67")
+			(uuid "e5c4c3b3-c2a6-4b35-8d5e-c39341ce37b1")
 		)
 		(pin "47"
-			(uuid "6c4b945b-cc89-4321-a836-763d5e12ecd2")
+			(uuid "32f887ca-9430-4795-9c5a-5083a8edfd00")
 		)
 		(pin "33"
-			(uuid "48da949d-47e4-4e1f-b0bf-8a7af1b8a5d1")
+			(uuid "47400541-559a-465d-a0db-4d6caee6b848")
 		)
 		(pin "50"
-			(uuid "583b9a7a-6502-4fa6-8606-eb96f1fb9f68")
+			(uuid "a551bc35-8cb6-49d6-bc28-d1037fdae0b8")
 		)
 		(pin "52"
-			(uuid "07fe8c99-a895-4557-8000-b65e957a46e1")
+			(uuid "613275b1-1586-4468-8cc0-eee697238461")
 		)
 		(pin "43"
-			(uuid "a5efa76d-8e55-4ece-b04d-3bfaf325a8d4")
+			(uuid "063cd5e4-9b86-4415-9e9e-3b54293c0d3b")
 		)
 		(pin "38"
-			(uuid "8767f693-6477-473d-8f8e-bfe16a94509b")
+			(uuid "fd7741ea-85a5-4cbf-aeae-07061ee26592")
 		)
 		(pin "58"
-			(uuid "db120444-c31f-4f1e-a237-b8bbcbe530ac")
+			(uuid "262fb59e-f9b0-41ee-b396-304d6989c92c")
 		)
 		(pin "64"
-			(uuid "c0bb052b-aca3-462e-988c-1550541aeff1")
+			(uuid "d408f02e-b46b-453e-9a12-36b6818b48ff")
 		)
 		(pin "37"
-			(uuid "335874a6-a909-45e1-8cc6-5d555d1a6094")
+			(uuid "411f6818-eab7-43ef-8c29-044e5a741c8a")
 		)
 		(pin "36"
-			(uuid "7d1e44ec-5b85-4ca3-949a-8c9cc9bbfb24")
+			(uuid "7a7a312b-309c-45ed-bd88-76c0ed884ef3")
 		)
 		(pin "40"
-			(uuid "e3c4ebaa-2e56-4d1d-9443-877efd811573")
+			(uuid "adef2729-5a01-4959-b26f-00eba5879e1d")
 		)
 		(pin "34"
-			(uuid "9a6d3d38-9317-4eab-9d63-41a77d190cc7")
+			(uuid "04bb5555-26d9-4964-9c93-f56be6d6d79a")
 		)
 		(pin "41"
-			(uuid "09ebca84-6394-49cf-9420-a4ab2218f419")
+			(uuid "be116b9a-dae0-4497-a218-02281d8e094c")
 		)
 		(pin "44"
-			(uuid "687f55f5-3394-49aa-8086-8cf948196caf")
+			(uuid "1c9a9ee6-77ba-481a-a4cd-4af5e8a70c5a")
 		)
 		(pin "45"
-			(uuid "2e216125-322c-4494-96a2-70448072d1df")
+			(uuid "63b4a8bc-a25b-4669-834f-7f1800093624")
 		)
 		(pin "31"
-			(uuid "1ce5a83a-2b18-49e8-844d-46b41968095a")
+			(uuid "f412de9a-11cb-49d6-99e1-a726a97411df")
 		)
 		(pin "48"
-			(uuid "a674e22d-119f-410c-93b5-19edd1ac96b2")
+			(uuid "bc557b21-2946-4a5e-b9e4-a961d648dca4")
 		)
 		(pin "49"
-			(uuid "b026fac4-f29e-47a1-95bb-c6fe373d6c38")
+			(uuid "a7961c82-d0a4-427d-98db-5e59e01322eb")
 		)
 		(pin "32"
-			(uuid "8e6fe4a9-f21d-4e1f-ac05-6317765b0d22")
+			(uuid "77d8cd12-7a87-4395-a6b6-25ad4cd02f4d")
 		)
 		(pin "51"
-			(uuid "be85bb07-b238-4b7f-82fb-12089b4f905c")
+			(uuid "b803bf4b-1677-439d-b7b3-a1d02b533ce3")
 		)
 		(pin "53"
-			(uuid "a4772f54-0183-4e50-b001-f08cff374ea9")
+			(uuid "031566de-6c10-4228-a9c8-6a3bf178ab17")
 		)
 		(pin "56"
-			(uuid "f9377efc-094a-4512-b89f-0899b848d4a3")
+			(uuid "510a30d9-5265-4761-8346-221df1c864b8")
 		)
 		(pin "57"
-			(uuid "e5cb02f2-b206-438b-8cd8-c5edb495561e")
+			(uuid "fda104e3-4f65-4a27-bafb-35f2a7dbfe8c")
 		)
 		(pin "60"
-			(uuid "bb8f4b57-65a8-4825-9cc6-1d99612bed69")
+			(uuid "15cf373f-05a5-48b2-914a-e3302c53db56")
 		)
 		(pin "61"
-			(uuid "2337cffa-7c31-48a1-9b0b-c461858d5696")
+			(uuid "ec1ff7be-1e9b-418a-8f51-b04014f3d0cd")
 		)
 		(pin "55"
-			(uuid "bbf24f4e-0cc7-486f-9ffe-47cd40301f4d")
+			(uuid "726da1d8-b2d7-490c-8b47-53070e662a34")
 		)
 		(pin "62"
-			(uuid "efb91046-b06a-4fe4-9f66-895418450bc3")
+			(uuid "a6b51478-d7db-4c17-af3a-0ba4e2642872")
 		)
 		(pin "59"
-			(uuid "96895b20-dae9-4369-af9b-a9d5d0a3b063")
+			(uuid "8f1e269d-fa55-40e1-b715-132e674afbc9")
 		)
 		(pin "63"
-			(uuid "492a60b5-ca54-47c0-bc29-fa4d25af99da")
+			(uuid "853540af-d6da-484c-8948-2b373c680f8f")
 		)
 		(pin "66"
-			(uuid "c7be44f0-b2a7-4501-9199-467921a4fb3b")
+			(uuid "d27ea09a-34f0-4c49-bb31-898c14ced78f")
 		)
 		(pin "69"
-			(uuid "df648549-e890-4631-9ee9-5900f020e677")
+			(uuid "f3f2e9e1-fbc5-466c-88c9-38782e61bf68")
 		)
 		(pin "67"
-			(uuid "1e8d5a0a-ed5e-4223-a18d-9a168b189a1c")
+			(uuid "647e3fbf-9860-4f7b-9192-26a84090cc5d")
 		)
 		(pin "70"
-			(uuid "511b4c32-9698-4927-8332-ba9e5c612392")
+			(uuid "3cc33a6f-a7a5-4224-a9a1-cc1946315e7f")
 		)
 		(pin "65"
-			(uuid "f15589a0-488d-4a27-8d56-dbd68e9b4bc4")
+			(uuid "12c9b7f2-16bc-482f-931d-f4a3e2f4e466")
 		)
 		(pin "68"
-			(uuid "d70c4d8b-1c70-44e2-b977-539699a6e39f")
+			(uuid "fb39b12c-c7c9-40c7-b628-58f9081fbc64")
 		)
 		(pin "74"
-			(uuid "b83ca04a-3f3c-4f52-b131-ba907a4f7333")
+			(uuid "13b4ad05-f7c7-41ee-ae20-9d846f48ab92")
 		)
 		(pin "92"
-			(uuid "808c61b3-8333-475e-891b-0aada4f9bd93")
+			(uuid "bce90513-b593-41f3-8b74-fec72c8fa30d")
 		)
 		(pin "76"
-			(uuid "5a05476d-26e2-4b22-ad84-58f473e0f632")
+			(uuid "9afa8dc0-14e7-40e0-ba3d-73b25c23cc6d")
 		)
 		(pin "98"
-			(uuid "9fc748c1-f6e6-4dd2-84fb-6a6e448f2df7")
+			(uuid "ad7e6996-3a35-4f10-af9f-0852e7e929ab")
 		)
 		(pin "94"
-			(uuid "6dcdaff1-1637-4f36-82e6-0751ab59aa3c")
+			(uuid "1029eea8-fdc1-4a39-b8eb-924956e9228b")
 		)
 		(pin "94"
-			(uuid "62a547aa-fddf-4ca0-8916-1e1948be4b65")
+			(uuid "ab3bdf70-2cc0-4dba-8e80-e615abc187d0")
 		)
 		(pin "89"
-			(uuid "7db8d184-8ef7-4918-a957-27051a89316b")
+			(uuid "5e41ad25-b9c9-46ed-a5d8-fa5fb37cc35c")
 		)
 		(pin "100"
-			(uuid "c659d4e1-60f1-46fd-8b87-1fae1bc12476")
+			(uuid "87f82edd-df1c-41f5-9192-18185091745b")
 		)
 		(pin "83"
-			(uuid "59aa6a63-9319-421f-aba0-f878a6610673")
+			(uuid "b35d62a3-c782-4541-8cf0-7e1eeff9259d")
 		)
 		(pin "73"
-			(uuid "143c4ac6-d294-4f56-89e6-182f7045639e")
+			(uuid "bdf4627e-141f-42a6-a063-db3df09a79bd")
 		)
 		(pin "90"
-			(uuid "cce96af8-7b17-4f2e-a003-4a2edcc34089")
+			(uuid "6e5b78b1-e355-4d7f-bf8f-e4a2518da7ff")
 		)
 		(pin "91"
-			(uuid "7d97cb1b-04e6-4d17-9caa-b143ec76d394")
+			(uuid "9dd80ee2-ada9-47b2-b246-efda9973d9a9")
 		)
 		(pin "71"
-			(uuid "9aed410a-c420-4162-a1e1-a39d39d1c056")
+			(uuid "3570e11d-604d-4c7c-a3e7-451af5238c14")
 		)
 		(pin "81"
-			(uuid "25d180b4-37bd-4edc-bbfc-d530ef96074e")
+			(uuid "b0cab08c-41e9-4085-b4a6-8e08ada201f2")
 		)
 		(pin "82"
-			(uuid "b1385d1c-5850-4b3f-86a0-b453cce670a6")
+			(uuid "a48c8cb9-9be4-47fb-8172-b931e136f7de")
 		)
 		(pin "84"
-			(uuid "383ba393-82b1-4885-8f70-b4398aff1cff")
+			(uuid "21f6a3fe-f51f-4acf-9d28-f09cc4a32383")
 		)
 		(pin "93"
-			(uuid "42964582-2061-4501-ac82-c69e933ac18e")
+			(uuid "ceb1e7ff-a092-44f9-a911-010e2f6c6740")
 		)
 		(pin "80"
-			(uuid "32143cae-2eaa-4320-99ef-79035a222938")
+			(uuid "1135167e-7a7d-472b-a1a8-cb6c0cd0a3a7")
 		)
 		(pin "79"
-			(uuid "4d99f37b-5d0a-4ca4-9ae6-1dc3d0f9a82a")
+			(uuid "1f1814b7-c91a-4462-aa10-729e25419154")
 		)
 		(pin "86"
-			(uuid "329e455b-df21-4f50-9659-1ce04eb7d85a")
+			(uuid "6829641c-e29c-4f78-9568-d8eb9e475fad")
 		)
 		(pin "75"
-			(uuid "d4c15c2f-06d7-40ba-85e4-2c1a318dbf7b")
+			(uuid "9a3a509a-66dc-4ca9-a415-310cd12a8655")
 		)
 		(pin "78"
-			(uuid "b354a484-4e4b-4d34-8cd8-d4176e5b0c02")
+			(uuid "a657776e-a1b1-4890-9df3-97e7f6696921")
 		)
 		(pin "85"
-			(uuid "be25aae5-39bf-4bbc-9a1b-02cb7fb8e4a9")
+			(uuid "657a4fff-0063-4355-accd-75361943fd16")
 		)
 		(pin "88"
-			(uuid "23c04f4a-bcb8-4769-99c9-8748d80f5185")
+			(uuid "4e136462-df43-44da-ad76-e0769da1fa69")
 		)
 		(pin "87"
-			(uuid "6b28f3e8-f77b-461e-bfa3-5e994016ebf1")
+			(uuid "7e6d943e-1e0b-4cbc-9c9e-6cdd2ef71193")
 		)
 		(pin "95"
-			(uuid "da0d5666-8757-4a9c-9765-8b37d1ab84e5")
+			(uuid "2aa4b8ea-965f-417f-a20f-7322e9d0c40a")
 		)
 		(pin "97"
-			(uuid "6b5d31cb-6aa4-4732-a49d-4b67a5300916")
+			(uuid "d82f8cde-c116-40ed-8d41-3b16fd60a0aa")
 		)
 		(pin "99"
-			(uuid "f54c2019-dd06-44bd-82fe-a0955148ceb0")
+			(uuid "ee5977da-b889-4305-9f9f-8871f8ff6da9")
 		)
 		(instances
 			(project "Raspberry pi 5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c93c5551-bbc2-499a-9f11-7ebb9b21275e"
-					(reference "U3")
+					(reference "Module1A")
 					(unit 1)
 				)
 			)
@@ -8054,10 +8054,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a7bb7788-bd22-4566-8142-a7aabcb8a4c7")
+			(uuid "e66d537e-a506-4a95-a1be-875e64f1830b")
 		)
 		(pin "2"
-			(uuid "10a50125-c04d-45bb-bde8-f6b45ba032e3")
+			(uuid "2e508928-bef4-43d2-81b1-8e689de64482")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -8158,10 +8158,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "72816298-5263-4669-9a08-fce89f805b68")
+			(uuid "eebc5a48-5c47-4d67-ba98-f72e4736506f")
 		)
 		(pin "1"
-			(uuid "a816fddf-6632-447a-a710-25f1bc9522a3")
+			(uuid "5bc08d4d-9d54-4e91-8b29-98dc9917958a")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -8238,10 +8238,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4a33b553-f263-411f-a18e-cd1ee1c4a22b")
+			(uuid "ac1dddd3-b471-480d-a2d7-0c08af110d29")
 		)
 		(pin "1"
-			(uuid "40dc8544-6e24-4f49-96cc-a6b04df99c56")
+			(uuid "f167c50b-d8b1-4170-a25f-1ffa785d9e9c")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -8320,10 +8320,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3ba6dd28-e7ea-4c66-91f5-9446c2b29a52")
+			(uuid "e3fd3263-098e-4ca7-a16a-8a77134e1ac8")
 		)
 		(pin "1"
-			(uuid "01379cd4-958a-479c-895b-8f73ef974b30")
+			(uuid "c951d7eb-9c4e-4c86-9962-b6d3a9ca9833")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -8401,7 +8401,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "58b40fc2-df3e-4d8a-9a09-de44a4bcff8d")
+			(uuid "1661d2a4-9ee1-4419-97d3-7643b9ca72da")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -8479,7 +8479,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0222f38b-2352-4ef5-bc6f-639a89372d9a")
+			(uuid "bce6f520-d6cc-4a23-adc7-07d8ad505ea9")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -8557,7 +8557,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e280e130-c1ba-423e-afa5-883a64a9aae4")
+			(uuid "e830128c-46a3-4c41-be72-002ae554737c")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -8633,16 +8633,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "7eb8b989-e55d-49a2-9b34-cbe3dd238f74")
+			(uuid "1272ed6a-2bd0-48ba-9a9f-9ee7a56c6533")
 		)
 		(pin "4"
-			(uuid "55ba3d6f-663a-4a14-a1bf-e4f8483bf4c3")
+			(uuid "45bf6adb-7d8b-46d0-bc9d-985f5698ac2e")
 		)
 		(pin "5"
-			(uuid "fc972aa1-c67a-4c8c-9266-4608192ba23c")
+			(uuid "cb61675d-79c8-4f6a-97bc-7f6dafda1924")
 		)
 		(pin "3"
-			(uuid "91a6f969-9650-4670-b6a6-dd9af5158111")
+			(uuid "198534d0-608c-4338-a87f-b90ca0c98976")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -8743,10 +8743,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ffd668f3-ecbe-43e1-ac03-34e673b3ba6e")
+			(uuid "f9132233-a4e8-4d58-996f-06982e93be1c")
 		)
 		(pin "1"
-			(uuid "095e97bf-23f5-43fd-bf4e-c307eefa39f5")
+			(uuid "f9b3bc39-1da6-442a-b3ed-9dc482604df0")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -8824,7 +8824,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3607b4d4-fde2-446b-aa68-8129157b2ff5")
+			(uuid "42b04859-6023-4222-aaba-4f7a597b08ec")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -8903,10 +8903,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "55ff6226-6f8b-48b3-9c19-2e4bdf3ccfd9")
+			(uuid "7ffdd000-b7dd-44a2-908c-b3cc02c83c9b")
 		)
 		(pin "2"
-			(uuid "18d1b2bb-2085-4f6f-8e10-2cecab6cd828")
+			(uuid "5fd2e8d2-f94d-4c5c-9e65-492cbe2a9c41")
 		)
 		(instances
 			(project "Raspberry pi 5"
@@ -8984,7 +8984,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa1ef16e-7d76-4598-bfd5-ea29fef84373")
+			(uuid "8dd76ade-56b5-4738-adef-52ca8392cb9b")
 		)
 		(instances
 			(project "Raspberry pi 5"

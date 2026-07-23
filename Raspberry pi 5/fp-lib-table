@@ -2,4 +2,6 @@
 	(version 7)
 	(lib (name "USB4105-GF-A") (type "KiCad") (uri "${KIPRJMOD}/USB4105-GF-A") (options "") (descr ""))
 	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/SMBJ5_0A_TR/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "MAGJACK-A70-112-331N126") (type "KiCad") (uri "${KIPRJMOD}/MAGJACK-A70-112-331N126") (options "") (descr ""))
+	(lib (name "RT9742GGJ5") (type "KiCad") (uri "${KIPRJMOD}/RT9742GGJ5") (options "") (descr ""))
 )

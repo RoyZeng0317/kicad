@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAGJACK-A70-112-331N126
+D 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX
+K
+F http://www.link-pp.com/upload/file/20180411/20180411182938293829.pdf
+$ENDCMP
+#
+#End Doc Library

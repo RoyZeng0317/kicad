@@ -483,7 +483,9 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "2x DF40C-100DS-0.4V"
+      "2x DF40C-100DS-0.4V",
+      "74LVC1G07GW_125",
+      "74LVC1G07SE-7"
     ]
   },
   "meta": {
@@ -769,7 +771,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "R3-8,J2-4,U2-3,CR1,D1-2,#PWR5-12,JP2",
+    "used_designators": "R3-16,J2-19,U2-10,CR1-2,D1-4,#PWR5-30,JP2-3,TP1,C2-3",
     "variants": []
   },
   "sheets": [
@@ -780,6 +782,18 @@
     [
       "c93c5551-bbc2-499a-9f11-7ebb9b21275e",
       "ComputeModule4"
+    ],
+    [
+      "8ddd5382-c29a-4ed3-8be9-b30b4659f3e1",
+      "CM4 High Speed"
+    ],
+    [
+      "c91add89-c203-4283-833f-5c818ffce6d6",
+      "CM4 Ethernet"
+    ],
+    [
+      "bb3bcaf6-4e04-4bcc-8510-1e84453d8d63",
+      "CM4 PCIe"
     ]
   ],
   "text_variables": {},
