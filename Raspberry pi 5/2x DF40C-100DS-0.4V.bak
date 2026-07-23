@@ -1979,28 +1979,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 31.75 63.5 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at 31.75 60.96 180)
 				(length 2.54)
-				(name "Ethernet_Pai3_P"
+				(name "USB2_N"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2854,6 +2836,24 @@
 					)
 				)
 				(number "99"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 63.5 180)
+				(length 3.81)
+				(name "USB_OTG_ID"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "101"
 					(effects
 						(font
 							(size 1.27 1.27)

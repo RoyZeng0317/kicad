@@ -482,7 +482,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "2x DF40C-100DS-0.4V"
+    ]
   },
   "meta": {
     "filename": "Raspberry pi 5.kicad_pro",
