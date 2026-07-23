@@ -1826,7 +1826,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.285 -55.6869 0)
+				(at -34.29 -55.88 0)
 				(length 2.54)
 				(name "GND"
 					(effects
