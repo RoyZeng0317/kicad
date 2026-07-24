@@ -1,0 +1,6 @@
+(design_block_lib_table
+	(version 7)
+	(lib (name "EMC2301-1-ACZL-TR") (type "KiCad") (uri "${KIPRJMOD}/EMC2301-1-ACZL-TR") (options "") (descr ""))
+	(lib (name "BAT54C-7-F") (type "KiCad") (uri "${KIPRJMOD}/BAT54C-7-F") (options "") (descr ""))
+	(lib (name "470531000") (type "KiCad") (uri "${KIPRJMOD}/470531000") (options "") (descr ""))
+)

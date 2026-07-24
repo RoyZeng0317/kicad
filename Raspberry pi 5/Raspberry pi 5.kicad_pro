@@ -486,7 +486,8 @@
       "2x DF40C-100DS-0.4V",
       "74LVC1G07GW_125",
       "74LVC1G07SE-7",
-      "MAGJACK-A70-112-331N126"
+      "MAGJACK-A70-112-331N126",
+      "MMBZ5242BLT3G"
     ]
   },
   "meta": {
@@ -772,7 +773,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "J2-21,R3-30,CR1-2,U2-15,#PWR5-64,D1-4,JP2-3,TP1-3,C2-27,L1,Y1,IC1",
+    "used_designators": "J2-29,R3-40,CR1-2,U2-20,#PWR5-96,D1-6,JP2-3,TP1-14,C2-50,L1-2,Y1-2,IC1-2,BT1,Q1,Z1,P1",
     "variants": []
   },
   "sheets": [
@@ -799,6 +800,18 @@
     [
       "d2394ce3-138c-41d3-b671-ed7bb41bd531",
       "CM4 USB"
+    ],
+    [
+      "178ab382-c047-4f5a-a5ef-a8fa12476b83",
+      "CM4 RTC Fan"
+    ],
+    [
+      "4ff2b757-65f0-444a-9d14-d22a2480f4db",
+      "CM4 PSUs"
+    ],
+    [
+      "ef813bd0-1dcc-4bb6-b5ad-2af8d5ca2397",
+      "Motherboard"
     ]
   ],
   "text_variables": {},

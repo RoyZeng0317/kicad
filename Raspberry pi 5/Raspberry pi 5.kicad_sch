@@ -4686,7 +4686,99 @@
 		)
 	)
 	(sheet
-		(at 163.83 49.53)
+		(at 162.56 99.06)
+		(size 43.18 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "178ab382-c047-4f5a-a5ef-a8fa12476b83")
+		(property "Sheetname" "CM4 RTC Fan"
+			(at 162.56 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM4 RTC Fan.kicad_sch"
+			(at 162.56 131.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Raspberry pi 5"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 139.7)
+		(size 40.64 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4ff2b757-65f0-444a-9d14-d22a2480f4db")
+		(property "Sheetname" "CM4 PSUs"
+			(at 118.11 138.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM4 PSUs.kicad_sch"
+			(at 118.11 168.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Raspberry pi 5"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 17.78)
 		(size 43.18 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4702,7 +4794,7 @@
 		)
 		(uuid "8ddd5382-c29a-4ed3-8be9-b30b4659f3e1")
 		(property "Sheetname" "CM4 High Speed"
-			(at 163.83 48.8184 0)
+			(at 162.56 17.0684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4713,7 +4805,7 @@
 			)
 		)
 		(property "Sheetfile" "CM4 High Speed.kicad_sch"
-			(at 163.83 79.3246 0)
+			(at 162.56 47.5746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4732,7 +4824,7 @@
 		)
 	)
 	(sheet
-		(at 162.56 88.9)
+		(at 161.29 57.15)
 		(size 43.18 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4748,7 +4840,7 @@
 		)
 		(uuid "bb3bcaf6-4e04-4bcc-8510-1e84453d8d63")
 		(property "Sheetname" "CM4 PCIe"
-			(at 162.56 88.1884 0)
+			(at 161.29 56.4384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4759,7 +4851,7 @@
 			)
 		)
 		(property "Sheetfile" "CM4 PCIe.kicad_sch"
-			(at 162.56 122.5046 0)
+			(at 161.29 90.7546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4778,7 +4870,7 @@
 		)
 	)
 	(sheet
-		(at 118.11 88.9)
+		(at 116.84 57.15)
 		(size 41.91 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4794,7 +4886,7 @@
 		)
 		(uuid "c91add89-c203-4283-833f-5c818ffce6d6")
 		(property "Sheetname" "CM4 Ethernet"
-			(at 118.11 88.1884 0)
+			(at 116.84 56.4384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4805,7 +4897,7 @@
 			)
 		)
 		(property "Sheetfile" "CM4 Ethernet.kicad_sch"
-			(at 118.11 122.5046 0)
+			(at 116.84 90.7546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4824,7 +4916,7 @@
 		)
 	)
 	(sheet
-		(at 118.11 49.53)
+		(at 116.84 17.78)
 		(size 43.18 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4840,7 +4932,7 @@
 		)
 		(uuid "c93c5551-bbc2-499a-9f11-7ebb9b21275e")
 		(property "Sheetname" "ComputeModule4"
-			(at 118.11 48.8184 0)
+			(at 116.84 17.0684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4851,7 +4943,7 @@
 			)
 		)
 		(property "Sheetfile" "ComputeModule4.kicad_sch"
-			(at 118.11 80.5946 0)
+			(at 116.84 48.8446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4870,7 +4962,7 @@
 		)
 	)
 	(sheet
-		(at 119.38 130.81)
+		(at 118.11 99.06)
 		(size 40.64 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4886,7 +4978,7 @@
 		)
 		(uuid "d2394ce3-138c-41d3-b671-ed7bb41bd531")
 		(property "Sheetname" "CM4 USB"
-			(at 119.38 130.0984 0)
+			(at 118.11 98.3484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4897,7 +4989,7 @@
 			)
 		)
 		(property "Sheetfile" "CM4 USB.kicad_sch"
-			(at 119.38 163.1446 0)
+			(at 118.11 131.3946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4911,6 +5003,52 @@
 			(project "Raspberry pi 5"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 139.7)
+		(size 41.91 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ef813bd0-1dcc-4bb6-b5ad-2af8d5ca2397")
+		(property "Sheetname" "Motherboard"
+			(at 162.56 138.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motherboard.kicad_sch"
+			(at 162.56 166.9546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Raspberry pi 5"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "9")
 				)
 			)
 		)

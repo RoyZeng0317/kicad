@@ -11,4 +11,8 @@
 	(lib (name "SRN6045TA-3R3Y") (type "KiCad") (uri "${KIPRJMOD}/SRN6045TA-3R3Y/SRN6045TA-3R3Y.kicad_sym") (options "") (descr ""))
 	(lib (name "AP64501SP-13") (type "KiCad") (uri "${KIPRJMOD}/AP64501SP-13/AP64501SP-13.kicad_sym") (options "") (descr ""))
 	(lib (name "AP22653W6-7") (type "KiCad") (uri "${KIPRJMOD}/AP22653W6-7/AP22653W6-7.kicad_sym") (options "") (descr ""))
+	(lib (name "BAT54C-7-F") (type "KiCad") (uri "${KIPRJMOD}/BAT54C-7-F/BAT54C-7-F.kicad_sym") (options "") (descr ""))
+	(lib (name "470531000") (type "KiCad") (uri "${KIPRJMOD}/470531000/470531000.kicad_sym") (options "") (descr ""))
+	(lib (name "MMBZ5242BLT3G") (type "KiCad") (uri "${KIPRJMOD}/MMBZ5242BLT3G/MMBZ5242BLT3G.kicad_sym") (options "") (descr ""))
+	(lib (name "HC32F460JETA-LQFP48") (type "KiCad") (uri "${KIPRJMOD}/HC32F460JETA-LQFP48/HC32F460JETA-LQFP48.kicad_sym") (options "") (descr ""))
 )
