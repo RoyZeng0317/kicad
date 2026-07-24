@@ -4686,8 +4686,8 @@
 		)
 	)
 	(sheet
-		(at 175.26 27.94)
-		(size 40.64 30.48)
+		(at 163.83 49.53)
+		(size 43.18 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4702,7 +4702,7 @@
 		)
 		(uuid "8ddd5382-c29a-4ed3-8be9-b30b4659f3e1")
 		(property "Sheetname" "CM4 High Speed"
-			(at 175.26 27.2284 0)
+			(at 163.83 48.8184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4713,7 +4713,7 @@
 			)
 		)
 		(property "Sheetfile" "CM4 High Speed.kicad_sch"
-			(at 175.26 59.0046 0)
+			(at 163.83 79.3246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4732,8 +4732,8 @@
 		)
 	)
 	(sheet
-		(at 177.8 77.47)
-		(size 39.37 30.48)
+		(at 162.56 88.9)
+		(size 43.18 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4748,7 +4748,7 @@
 		)
 		(uuid "bb3bcaf6-4e04-4bcc-8510-1e84453d8d63")
 		(property "Sheetname" "CM4 PCIe"
-			(at 177.8 76.7584 0)
+			(at 162.56 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4759,7 +4759,7 @@
 			)
 		)
 		(property "Sheetfile" "CM4 PCIe.kicad_sch"
-			(at 177.8 108.5346 0)
+			(at 162.56 122.5046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4778,7 +4778,7 @@
 		)
 	)
 	(sheet
-		(at 118.11 76.2)
+		(at 118.11 88.9)
 		(size 41.91 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4794,7 +4794,7 @@
 		)
 		(uuid "c91add89-c203-4283-833f-5c818ffce6d6")
 		(property "Sheetname" "CM4 Ethernet"
-			(at 118.11 75.4884 0)
+			(at 118.11 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4805,7 +4805,7 @@
 			)
 		)
 		(property "Sheetfile" "CM4 Ethernet.kicad_sch"
-			(at 118.11 109.8046 0)
+			(at 118.11 122.5046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4824,7 +4824,7 @@
 		)
 	)
 	(sheet
-		(at 118.11 27.94)
+		(at 118.11 49.53)
 		(size 43.18 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4840,7 +4840,7 @@
 		)
 		(uuid "c93c5551-bbc2-499a-9f11-7ebb9b21275e")
 		(property "Sheetname" "ComputeModule4"
-			(at 118.11 27.2284 0)
+			(at 118.11 48.8184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4851,7 +4851,7 @@
 			)
 		)
 		(property "Sheetfile" "ComputeModule4.kicad_sch"
-			(at 118.11 59.0046 0)
+			(at 118.11 80.5946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4870,8 +4870,8 @@
 		)
 	)
 	(sheet
-		(at 118.11 121.92)
-		(size 41.91 33.02)
+		(at 119.38 130.81)
+		(size 40.64 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4886,7 +4886,7 @@
 		)
 		(uuid "d2394ce3-138c-41d3-b671-ed7bb41bd531")
 		(property "Sheetname" "CM4 USB"
-			(at 118.11 121.2084 0)
+			(at 119.38 130.0984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4897,7 +4897,7 @@
 			)
 		)
 		(property "Sheetfile" "CM4 USB.kicad_sch"
-			(at 118.11 155.5246 0)
+			(at 119.38 163.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

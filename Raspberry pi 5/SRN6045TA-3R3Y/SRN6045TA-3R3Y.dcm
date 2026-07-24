@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRN6045TA-3R3Y
+D BOURNS - SRN6045TA-3R3Y - INDUCTOR, AEC-Q200, 3.3UH, 5A, 30% Semi-shielded Power Inductors
+K
+F http://www.bourns.com/docs/Product-Datasheets/SRN6045TA.pdf
+$ENDCMP
+#
+#End Doc Library
