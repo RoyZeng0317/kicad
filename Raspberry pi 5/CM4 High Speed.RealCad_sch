@@ -1,0 +1,7870 @@
+{
+  "name": "CM4 High Speed",
+  "format": "RealCad-Schematic",
+  "version": 1,
+  "source": "kicad_sch",
+  "components": [
+    {
+      "id": "C1",
+      "symbol": {
+        "name": "power:GNDREF",
+        "properties": {
+          "Reference": "#PWR016",
+          "Value": "GNDREF",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Power symbol creates a global label with name \"GNDREF\" , reference supply ground",
+          "ki_keywords": "global power"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "",
+            "x": 0.0,
+            "y": 0.0,
+            "rotation": 270.0,
+            "length": 0.0,
+            "electrical_type": "power_in",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.635,
+                -1.905
+              ],
+              [
+                0.635,
+                -1.905
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.127,
+                -2.54
+              ],
+              [
+                0.127,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                -1.27
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                1.27,
+                -1.27
+              ],
+              [
+                -1.27,
+                -1.27
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 200,
+      "y": 200,
+      "ref": "#PWR016"
+    },
+    {
+      "id": "C2",
+      "symbol": {
+        "name": "Connector:Conn_01x22_Socket",
+        "properties": {
+          "Reference": "J9",
+          "Value": "Conn_01x22_Socket",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Generic connector, single row, 01x22, script generated",
+          "ki_locked": "",
+          "ki_keywords": "connector",
+          "ki_fp_filters": "Connector*:*_1x??_*"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "Pin_1",
+            "x": -5.08,
+            "y": 25.4,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "2",
+            "name": "Pin_2",
+            "x": -5.08,
+            "y": 22.86,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "3",
+            "name": "Pin_3",
+            "x": -5.08,
+            "y": 20.32,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "4",
+            "name": "Pin_4",
+            "x": -5.08,
+            "y": 17.78,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "5",
+            "name": "Pin_5",
+            "x": -5.08,
+            "y": 15.24,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "6",
+            "name": "Pin_6",
+            "x": -5.08,
+            "y": 12.7,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "7",
+            "name": "Pin_7",
+            "x": -5.08,
+            "y": 10.16,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "8",
+            "name": "Pin_8",
+            "x": -5.08,
+            "y": 7.62,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "9",
+            "name": "Pin_9",
+            "x": -5.08,
+            "y": 5.08,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "10",
+            "name": "Pin_10",
+            "x": -5.08,
+            "y": 2.54,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "11",
+            "name": "Pin_11",
+            "x": -5.08,
+            "y": 0.0,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "12",
+            "name": "Pin_12",
+            "x": -5.08,
+            "y": -2.54,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "13",
+            "name": "Pin_13",
+            "x": -5.08,
+            "y": -5.08,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "14",
+            "name": "Pin_14",
+            "x": -5.08,
+            "y": -7.62,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "15",
+            "name": "Pin_15",
+            "x": -5.08,
+            "y": -10.16,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "16",
+            "name": "Pin_16",
+            "x": -5.08,
+            "y": -12.7,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "17",
+            "name": "Pin_17",
+            "x": -5.08,
+            "y": -15.24,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "18",
+            "name": "Pin_18",
+            "x": -5.08,
+            "y": -17.78,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "19",
+            "name": "Pin_19",
+            "x": -5.08,
+            "y": -20.32,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "20",
+            "name": "Pin_20",
+            "x": -5.08,
+            "y": -22.86,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "21",
+            "name": "Pin_21",
+            "x": -5.08,
+            "y": -25.4,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "22",
+            "name": "Pin_22",
+            "x": -5.08,
+            "y": -27.94,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              24.892
+            ],
+            "mid": [
+              -0.5058,
+              25.4
+            ],
+            "end": [
+              0.0,
+              25.908
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              22.352
+            ],
+            "mid": [
+              -0.5058,
+              22.86
+            ],
+            "end": [
+              0.0,
+              23.368
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              19.812
+            ],
+            "mid": [
+              -0.5058,
+              20.32
+            ],
+            "end": [
+              0.0,
+              20.828
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              17.272
+            ],
+            "mid": [
+              -0.5058,
+              17.78
+            ],
+            "end": [
+              0.0,
+              18.288
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              14.732
+            ],
+            "mid": [
+              -0.5058,
+              15.24
+            ],
+            "end": [
+              0.0,
+              15.748
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              12.192
+            ],
+            "mid": [
+              -0.5058,
+              12.7
+            ],
+            "end": [
+              0.0,
+              13.208
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              9.652
+            ],
+            "mid": [
+              -0.5058,
+              10.16
+            ],
+            "end": [
+              0.0,
+              10.668
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              7.112
+            ],
+            "mid": [
+              -0.5058,
+              7.62
+            ],
+            "end": [
+              0.0,
+              8.128
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              4.572
+            ],
+            "mid": [
+              -0.5058,
+              5.08
+            ],
+            "end": [
+              0.0,
+              5.588
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              2.032
+            ],
+            "mid": [
+              -0.5058,
+              2.54
+            ],
+            "end": [
+              0.0,
+              3.048
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -0.508
+            ],
+            "mid": [
+              -0.5058,
+              0.0
+            ],
+            "end": [
+              0.0,
+              0.508
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -3.048
+            ],
+            "mid": [
+              -0.5058,
+              -2.54
+            ],
+            "end": [
+              0.0,
+              -2.032
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -5.588
+            ],
+            "mid": [
+              -0.5058,
+              -5.08
+            ],
+            "end": [
+              0.0,
+              -4.572
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -8.128
+            ],
+            "mid": [
+              -0.5058,
+              -7.62
+            ],
+            "end": [
+              0.0,
+              -7.112
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -10.668
+            ],
+            "mid": [
+              -0.5058,
+              -10.16
+            ],
+            "end": [
+              0.0,
+              -9.652
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -13.208
+            ],
+            "mid": [
+              -0.5058,
+              -12.7
+            ],
+            "end": [
+              0.0,
+              -12.192
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -15.748
+            ],
+            "mid": [
+              -0.5058,
+              -15.24
+            ],
+            "end": [
+              0.0,
+              -14.732
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -18.288
+            ],
+            "mid": [
+              -0.5058,
+              -17.78
+            ],
+            "end": [
+              0.0,
+              -17.272
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -20.828
+            ],
+            "mid": [
+              -0.5058,
+              -20.32
+            ],
+            "end": [
+              0.0,
+              -19.812
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -23.368
+            ],
+            "mid": [
+              -0.5058,
+              -22.86
+            ],
+            "end": [
+              0.0,
+              -22.352
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -25.908
+            ],
+            "mid": [
+              -0.5058,
+              -25.4
+            ],
+            "end": [
+              0.0,
+              -24.892
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -28.448
+            ],
+            "mid": [
+              -0.5058,
+              -27.94
+            ],
+            "end": [
+              0.0,
+              -27.432
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                25.4
+              ],
+              [
+                -0.508,
+                25.4
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                22.86
+              ],
+              [
+                -0.508,
+                22.86
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                20.32
+              ],
+              [
+                -0.508,
+                20.32
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                17.78
+              ],
+              [
+                -0.508,
+                17.78
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                15.24
+              ],
+              [
+                -0.508,
+                15.24
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                12.7
+              ],
+              [
+                -0.508,
+                12.7
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                10.16
+              ],
+              [
+                -0.508,
+                10.16
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                7.62
+              ],
+              [
+                -0.508,
+                7.62
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                5.08
+              ],
+              [
+                -0.508,
+                5.08
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                2.54
+              ],
+              [
+                -0.508,
+                2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                0.0
+              ],
+              [
+                -0.508,
+                0.0
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -2.54
+              ],
+              [
+                -0.508,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -5.08
+              ],
+              [
+                -0.508,
+                -5.08
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -7.62
+              ],
+              [
+                -0.508,
+                -7.62
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -10.16
+              ],
+              [
+                -0.508,
+                -10.16
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -12.7
+              ],
+              [
+                -0.508,
+                -12.7
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -15.24
+              ],
+              [
+                -0.508,
+                -15.24
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -17.78
+              ],
+              [
+                -0.508,
+                -17.78
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -20.32
+              ],
+              [
+                -0.508,
+                -20.32
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -22.86
+              ],
+              [
+                -0.508,
+                -22.86
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -25.4
+              ],
+              [
+                -0.508,
+                -25.4
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -27.94
+              ],
+              [
+                -0.508,
+                -27.94
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 350,
+      "y": 200,
+      "ref": "J9"
+    },
+    {
+      "id": "C3",
+      "symbol": {
+        "name": "power:GNDREF",
+        "properties": {
+          "Reference": "#PWR023",
+          "Value": "GNDREF",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Power symbol creates a global label with name \"GNDREF\" , reference supply ground",
+          "ki_keywords": "global power"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "",
+            "x": 0.0,
+            "y": 0.0,
+            "rotation": 270.0,
+            "length": 0.0,
+            "electrical_type": "power_in",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.635,
+                -1.905
+              ],
+              [
+                0.635,
+                -1.905
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.127,
+                -2.54
+              ],
+              [
+                0.127,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                -1.27
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                1.27,
+                -1.27
+              ],
+              [
+                -1.27,
+                -1.27
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 500,
+      "y": 200,
+      "ref": "#PWR023"
+    },
+    {
+      "id": "C4",
+      "symbol": {
+        "name": "Power_Protection:TPD2EUSB30",
+        "properties": {
+          "Reference": "U5",
+          "Value": "TPD2EUSB30",
+          "Footprint": "Package_TO_SOT_SMD:Texas_DRT-3",
+          "Datasheet": "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf",
+          "Description": "2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3",
+          "ki_keywords": "ESD protection USB 3.0",
+          "ki_fp_filters": "Texas*DRT*"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "D+",
+            "x": -10.16,
+            "y": 0.0,
+            "rotation": 0.0,
+            "length": 5.08,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "2",
+            "name": "D-",
+            "x": 10.16,
+            "y": 0.0,
+            "rotation": 180.0,
+            "length": 5.08,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "3",
+            "name": "GND",
+            "x": 0.0,
+            "y": -10.16,
+            "rotation": 90.0,
+            "length": 5.08,
+            "electrical_type": "passive",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "rectangle",
+            "start": [
+              -5.08,
+              5.08
+            ],
+            "end": [
+              5.08,
+              -5.08
+            ]
+          },
+          {
+            "type": "rectangle",
+            "start": [
+              -3.175,
+              3.81
+            ],
+            "end": [
+              3.175,
+              -3.81
+            ]
+          },
+          {
+            "type": "circle",
+            "center": [
+              -3.175,
+              0.0
+            ],
+            "radius": 0.2794
+          },
+          {
+            "type": "circle",
+            "center": [
+              0.0,
+              3.81
+            ],
+            "radius": 0.2794
+          },
+          {
+            "type": "circle",
+            "center": [
+              0.0,
+              -3.81
+            ],
+            "radius": 0.2794
+          },
+          {
+            "type": "circle",
+            "center": [
+              3.175,
+              0.0
+            ],
+            "radius": 0.2794
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -5.08,
+                0.0
+              ],
+              [
+                -3.175,
+                0.0
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -3.81,
+                2.54
+              ],
+              [
+                -2.54,
+                2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -3.81,
+                -1.27
+              ],
+              [
+                -2.54,
+                -1.27
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -2.54,
+                1.27
+              ],
+              [
+                -3.81,
+                1.27
+              ],
+              [
+                -3.175,
+                2.54
+              ],
+              [
+                -2.54,
+                1.27
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -2.54,
+                -2.54
+              ],
+              [
+                -3.81,
+                -2.54
+              ],
+              [
+                -3.175,
+                -1.27
+              ],
+              [
+                -2.54,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                3.81
+              ],
+              [
+                0.0,
+                -5.08
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.635,
+                -0.508
+              ],
+              [
+                -0.635,
+                -0.508
+              ],
+              [
+                0.0,
+                0.762
+              ],
+              [
+                0.635,
+                -0.508
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.762,
+                0.762
+              ],
+              [
+                -0.762,
+                0.762
+              ],
+              [
+                -0.762,
+                0.508
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                2.54,
+                2.54
+              ],
+              [
+                3.81,
+                2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                2.54,
+                -1.27
+              ],
+              [
+                3.81,
+                -1.27
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                3.81,
+                1.27
+              ],
+              [
+                2.54,
+                1.27
+              ],
+              [
+                3.175,
+                2.54
+              ],
+              [
+                3.81,
+                1.27
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                3.81,
+                -2.54
+              ],
+              [
+                2.54,
+                -2.54
+              ],
+              [
+                3.175,
+                -1.27
+              ],
+              [
+                3.81,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                5.08,
+                0.0
+              ],
+              [
+                3.175,
+                0.0
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 650,
+      "y": 200,
+      "ref": "U5"
+    },
+    {
+      "id": "C5",
+      "symbol": {
+        "name": "Connector:Conn_01x22_Socket",
+        "properties": {
+          "Reference": "J10",
+          "Value": "Conn_01x22_Socket",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Generic connector, single row, 01x22, script generated",
+          "ki_locked": "",
+          "ki_keywords": "connector",
+          "ki_fp_filters": "Connector*:*_1x??_*"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "Pin_1",
+            "x": -5.08,
+            "y": 25.4,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "2",
+            "name": "Pin_2",
+            "x": -5.08,
+            "y": 22.86,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "3",
+            "name": "Pin_3",
+            "x": -5.08,
+            "y": 20.32,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "4",
+            "name": "Pin_4",
+            "x": -5.08,
+            "y": 17.78,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "5",
+            "name": "Pin_5",
+            "x": -5.08,
+            "y": 15.24,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "6",
+            "name": "Pin_6",
+            "x": -5.08,
+            "y": 12.7,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "7",
+            "name": "Pin_7",
+            "x": -5.08,
+            "y": 10.16,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "8",
+            "name": "Pin_8",
+            "x": -5.08,
+            "y": 7.62,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "9",
+            "name": "Pin_9",
+            "x": -5.08,
+            "y": 5.08,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "10",
+            "name": "Pin_10",
+            "x": -5.08,
+            "y": 2.54,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "11",
+            "name": "Pin_11",
+            "x": -5.08,
+            "y": 0.0,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "12",
+            "name": "Pin_12",
+            "x": -5.08,
+            "y": -2.54,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "13",
+            "name": "Pin_13",
+            "x": -5.08,
+            "y": -5.08,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "14",
+            "name": "Pin_14",
+            "x": -5.08,
+            "y": -7.62,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "15",
+            "name": "Pin_15",
+            "x": -5.08,
+            "y": -10.16,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "16",
+            "name": "Pin_16",
+            "x": -5.08,
+            "y": -12.7,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "17",
+            "name": "Pin_17",
+            "x": -5.08,
+            "y": -15.24,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "18",
+            "name": "Pin_18",
+            "x": -5.08,
+            "y": -17.78,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "19",
+            "name": "Pin_19",
+            "x": -5.08,
+            "y": -20.32,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "20",
+            "name": "Pin_20",
+            "x": -5.08,
+            "y": -22.86,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "21",
+            "name": "Pin_21",
+            "x": -5.08,
+            "y": -25.4,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "22",
+            "name": "Pin_22",
+            "x": -5.08,
+            "y": -27.94,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              24.892
+            ],
+            "mid": [
+              -0.5058,
+              25.4
+            ],
+            "end": [
+              0.0,
+              25.908
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              22.352
+            ],
+            "mid": [
+              -0.5058,
+              22.86
+            ],
+            "end": [
+              0.0,
+              23.368
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              19.812
+            ],
+            "mid": [
+              -0.5058,
+              20.32
+            ],
+            "end": [
+              0.0,
+              20.828
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              17.272
+            ],
+            "mid": [
+              -0.5058,
+              17.78
+            ],
+            "end": [
+              0.0,
+              18.288
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              14.732
+            ],
+            "mid": [
+              -0.5058,
+              15.24
+            ],
+            "end": [
+              0.0,
+              15.748
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              12.192
+            ],
+            "mid": [
+              -0.5058,
+              12.7
+            ],
+            "end": [
+              0.0,
+              13.208
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              9.652
+            ],
+            "mid": [
+              -0.5058,
+              10.16
+            ],
+            "end": [
+              0.0,
+              10.668
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              7.112
+            ],
+            "mid": [
+              -0.5058,
+              7.62
+            ],
+            "end": [
+              0.0,
+              8.128
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              4.572
+            ],
+            "mid": [
+              -0.5058,
+              5.08
+            ],
+            "end": [
+              0.0,
+              5.588
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              2.032
+            ],
+            "mid": [
+              -0.5058,
+              2.54
+            ],
+            "end": [
+              0.0,
+              3.048
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -0.508
+            ],
+            "mid": [
+              -0.5058,
+              0.0
+            ],
+            "end": [
+              0.0,
+              0.508
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -3.048
+            ],
+            "mid": [
+              -0.5058,
+              -2.54
+            ],
+            "end": [
+              0.0,
+              -2.032
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -5.588
+            ],
+            "mid": [
+              -0.5058,
+              -5.08
+            ],
+            "end": [
+              0.0,
+              -4.572
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -8.128
+            ],
+            "mid": [
+              -0.5058,
+              -7.62
+            ],
+            "end": [
+              0.0,
+              -7.112
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -10.668
+            ],
+            "mid": [
+              -0.5058,
+              -10.16
+            ],
+            "end": [
+              0.0,
+              -9.652
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -13.208
+            ],
+            "mid": [
+              -0.5058,
+              -12.7
+            ],
+            "end": [
+              0.0,
+              -12.192
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -15.748
+            ],
+            "mid": [
+              -0.5058,
+              -15.24
+            ],
+            "end": [
+              0.0,
+              -14.732
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -18.288
+            ],
+            "mid": [
+              -0.5058,
+              -17.78
+            ],
+            "end": [
+              0.0,
+              -17.272
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -20.828
+            ],
+            "mid": [
+              -0.5058,
+              -20.32
+            ],
+            "end": [
+              0.0,
+              -19.812
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -23.368
+            ],
+            "mid": [
+              -0.5058,
+              -22.86
+            ],
+            "end": [
+              0.0,
+              -22.352
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -25.908
+            ],
+            "mid": [
+              -0.5058,
+              -25.4
+            ],
+            "end": [
+              0.0,
+              -24.892
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -28.448
+            ],
+            "mid": [
+              -0.5058,
+              -27.94
+            ],
+            "end": [
+              0.0,
+              -27.432
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                25.4
+              ],
+              [
+                -0.508,
+                25.4
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                22.86
+              ],
+              [
+                -0.508,
+                22.86
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                20.32
+              ],
+              [
+                -0.508,
+                20.32
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                17.78
+              ],
+              [
+                -0.508,
+                17.78
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                15.24
+              ],
+              [
+                -0.508,
+                15.24
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                12.7
+              ],
+              [
+                -0.508,
+                12.7
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                10.16
+              ],
+              [
+                -0.508,
+                10.16
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                7.62
+              ],
+              [
+                -0.508,
+                7.62
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                5.08
+              ],
+              [
+                -0.508,
+                5.08
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                2.54
+              ],
+              [
+                -0.508,
+                2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                0.0
+              ],
+              [
+                -0.508,
+                0.0
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -2.54
+              ],
+              [
+                -0.508,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -5.08
+              ],
+              [
+                -0.508,
+                -5.08
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -7.62
+              ],
+              [
+                -0.508,
+                -7.62
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -10.16
+              ],
+              [
+                -0.508,
+                -10.16
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -12.7
+              ],
+              [
+                -0.508,
+                -12.7
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -15.24
+              ],
+              [
+                -0.508,
+                -15.24
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -17.78
+              ],
+              [
+                -0.508,
+                -17.78
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -20.32
+              ],
+              [
+                -0.508,
+                -20.32
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -22.86
+              ],
+              [
+                -0.508,
+                -22.86
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -25.4
+              ],
+              [
+                -0.508,
+                -25.4
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -27.94
+              ],
+              [
+                -0.508,
+                -27.94
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 800,
+      "y": 200,
+      "ref": "J10"
+    },
+    {
+      "id": "C6",
+      "symbol": {
+        "name": "power:GNDREF",
+        "properties": {
+          "Reference": "#PWR013",
+          "Value": "GNDREF",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Power symbol creates a global label with name \"GNDREF\" , reference supply ground",
+          "ki_keywords": "global power"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "",
+            "x": 0.0,
+            "y": 0.0,
+            "rotation": 270.0,
+            "length": 0.0,
+            "electrical_type": "power_in",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.635,
+                -1.905
+              ],
+              [
+                0.635,
+                -1.905
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.127,
+                -2.54
+              ],
+              [
+                0.127,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                -1.27
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                1.27,
+                -1.27
+              ],
+              [
+                -1.27,
+                -1.27
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 950,
+      "y": 200,
+      "ref": "#PWR013"
+    },
+    {
+      "id": "C7",
+      "symbol": {
+        "name": "Device:R_US",
+        "properties": {
+          "Reference": "R10",
+          "Value": "2.2k 1%",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Resistor, US symbol",
+          "ki_keywords": "R res resistor",
+          "ki_fp_filters": "R_*"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "",
+            "x": 0.0,
+            "y": 3.81,
+            "rotation": 270.0,
+            "length": 1.27,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "2",
+            "name": "",
+            "x": 0.0,
+            "y": -3.81,
+            "rotation": 90.0,
+            "length": 1.27,
+            "electrical_type": "passive",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                2.286
+              ],
+              [
+                0.0,
+                2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                2.286
+              ],
+              [
+                1.016,
+                1.905
+              ],
+              [
+                0.0,
+                1.524
+              ],
+              [
+                -1.016,
+                1.143
+              ],
+              [
+                0.0,
+                0.762
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                0.762
+              ],
+              [
+                1.016,
+                0.381
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                -1.016,
+                -0.381
+              ],
+              [
+                0.0,
+                -0.762
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                -0.762
+              ],
+              [
+                1.016,
+                -1.143
+              ],
+              [
+                0.0,
+                -1.524
+              ],
+              [
+                -1.016,
+                -1.905
+              ],
+              [
+                0.0,
+                -2.286
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                -2.286
+              ],
+              [
+                0.0,
+                -2.54
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 200,
+      "y": 350,
+      "ref": "R10"
+    },
+    {
+      "id": "C8",
+      "symbol": {
+        "name": "Device:R_US",
+        "properties": {
+          "Reference": "R9",
+          "Value": "2.2k 1%",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Resistor, US symbol",
+          "ki_keywords": "R res resistor",
+          "ki_fp_filters": "R_*"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "",
+            "x": 0.0,
+            "y": 3.81,
+            "rotation": 270.0,
+            "length": 1.27,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "2",
+            "name": "",
+            "x": 0.0,
+            "y": -3.81,
+            "rotation": 90.0,
+            "length": 1.27,
+            "electrical_type": "passive",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                2.286
+              ],
+              [
+                0.0,
+                2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                2.286
+              ],
+              [
+                1.016,
+                1.905
+              ],
+              [
+                0.0,
+                1.524
+              ],
+              [
+                -1.016,
+                1.143
+              ],
+              [
+                0.0,
+                0.762
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                0.762
+              ],
+              [
+                1.016,
+                0.381
+              ],
+              [
+                0.0,
+                0.0
+              ],
+              [
+                -1.016,
+                -0.381
+              ],
+              [
+                0.0,
+                -0.762
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                -0.762
+              ],
+              [
+                1.016,
+                -1.143
+              ],
+              [
+                0.0,
+                -1.524
+              ],
+              [
+                -1.016,
+                -1.905
+              ],
+              [
+                0.0,
+                -2.286
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                -2.286
+              ],
+              [
+                0.0,
+                -2.54
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 350,
+      "y": 350,
+      "ref": "R9"
+    },
+    {
+      "id": "C9",
+      "symbol": {
+        "name": "power:GNDREF",
+        "properties": {
+          "Reference": "#PWR021",
+          "Value": "GNDREF",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Power symbol creates a global label with name \"GNDREF\" , reference supply ground",
+          "ki_keywords": "global power"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "",
+            "x": 0.0,
+            "y": 0.0,
+            "rotation": 270.0,
+            "length": 0.0,
+            "electrical_type": "power_in",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.635,
+                -1.905
+              ],
+              [
+                0.635,
+                -1.905
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.127,
+                -2.54
+              ],
+              [
+                0.127,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                -1.27
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                1.27,
+                -1.27
+              ],
+              [
+                -1.27,
+                -1.27
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 500,
+      "y": 350,
+      "ref": "#PWR021"
+    },
+    {
+      "id": "C10",
+      "symbol": {
+        "name": "power:GNDREF",
+        "properties": {
+          "Reference": "#PWR014",
+          "Value": "GNDREF",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Power symbol creates a global label with name \"GNDREF\" , reference supply ground",
+          "ki_keywords": "global power"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "",
+            "x": 0.0,
+            "y": 0.0,
+            "rotation": 270.0,
+            "length": 0.0,
+            "electrical_type": "power_in",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.635,
+                -1.905
+              ],
+              [
+                0.635,
+                -1.905
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.127,
+                -2.54
+              ],
+              [
+                0.127,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                -1.27
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                1.27,
+                -1.27
+              ],
+              [
+                -1.27,
+                -1.27
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 650,
+      "y": 350,
+      "ref": "#PWR014"
+    },
+    {
+      "id": "C11",
+      "symbol": {
+        "name": "2x DF40C-100DS-0.4V:Module1B",
+        "properties": {
+          "Reference": "U3",
+          "Value": "",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": ""
+        },
+        "pins": [
+          {
+            "number": "101",
+            "name": "USB_OTG_ID",
+            "x": 33.02,
+            "y": 63.5,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "102",
+            "name": "PICe_CLK_nREQ",
+            "x": -35.56,
+            "y": 63.5,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "103",
+            "name": "USB2_N",
+            "x": 33.02,
+            "y": 60.96,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "104",
+            "name": "Reserved",
+            "x": -35.56,
+            "y": 60.96,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "105",
+            "name": "USB2_P",
+            "x": 33.02,
+            "y": 58.42,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "106",
+            "name": "Reserved",
+            "x": -35.56,
+            "y": 58.42,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "107",
+            "name": "GND",
+            "x": 33.02,
+            "y": 55.88,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "108",
+            "name": "GND",
+            "x": -35.56,
+            "y": 55.88,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "109",
+            "name": "PCIe_nRST",
+            "x": 33.02,
+            "y": 53.34,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "110",
+            "name": "PCIe_CLIK_P",
+            "x": -35.56,
+            "y": 53.34,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "111",
+            "name": "VDAC_COMP",
+            "x": 33.02,
+            "y": 50.8,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "112",
+            "name": "PICe_CLK_N",
+            "x": -35.56,
+            "y": 50.8,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "113",
+            "name": "GND",
+            "x": 33.02,
+            "y": 48.26,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "114",
+            "name": "GND",
+            "x": -35.56,
+            "y": 48.26,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "115",
+            "name": "CAM1_D0_N",
+            "x": 33.02,
+            "y": 45.72,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "116",
+            "name": "PCIe_RX_P",
+            "x": -35.56,
+            "y": 45.72,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "117",
+            "name": "CAM1_D0_P",
+            "x": 33.02,
+            "y": 43.18,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "118",
+            "name": "PICe_RX_N",
+            "x": -35.56,
+            "y": 43.18,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "119",
+            "name": "GND",
+            "x": 33.02,
+            "y": 40.64,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "120",
+            "name": "GND",
+            "x": -35.56,
+            "y": 40.64,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "121",
+            "name": "CAM1_D1_N",
+            "x": 33.02,
+            "y": 38.1,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "122",
+            "name": "PCIe_TX_P",
+            "x": -35.56,
+            "y": 38.1,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "123",
+            "name": "CAM1_D1_P",
+            "x": 33.02,
+            "y": 35.56,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "124",
+            "name": "PICe_TX_N",
+            "x": -35.56,
+            "y": 35.56,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "125",
+            "name": "GND",
+            "x": 33.02,
+            "y": 33.02,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "126",
+            "name": "GND",
+            "x": -35.56,
+            "y": 33.02,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "127",
+            "name": "CAM1_C_N",
+            "x": 33.02,
+            "y": 30.48,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "128",
+            "name": "CAM0_D0_N",
+            "x": -35.56,
+            "y": 30.48,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "129",
+            "name": "CAM1_C_P",
+            "x": 33.02,
+            "y": 27.94,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "130",
+            "name": "CAM0_D0_P",
+            "x": -35.56,
+            "y": 27.94,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "131",
+            "name": "GND",
+            "x": 33.02,
+            "y": 25.4,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "132",
+            "name": "GND",
+            "x": -35.56,
+            "y": 25.4,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "133",
+            "name": "CAM1_D2_N",
+            "x": 33.02,
+            "y": 22.86,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "134",
+            "name": "CAM0_D1_N",
+            "x": -35.56,
+            "y": 22.86,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "135",
+            "name": "CAM1_D2_P",
+            "x": 33.02,
+            "y": 20.32,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "136",
+            "name": "CAM0_D1_P",
+            "x": -35.56,
+            "y": 20.32,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "137",
+            "name": "GND",
+            "x": 33.02,
+            "y": 17.78,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "138",
+            "name": "GND",
+            "x": -35.56,
+            "y": 17.78,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "139",
+            "name": "CAM1_D3_N",
+            "x": 33.02,
+            "y": 15.24,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "140",
+            "name": "CAM0_C_N",
+            "x": -35.56,
+            "y": 15.24,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "141",
+            "name": "CAM1_D3_P",
+            "x": 33.02,
+            "y": 12.7,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "142",
+            "name": "CAM0_C_P",
+            "x": -35.56,
+            "y": 12.7,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "143",
+            "name": "HDMI1_HOTPLUG",
+            "x": 33.02,
+            "y": 10.16,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "144",
+            "name": "GND",
+            "x": -35.56,
+            "y": 10.16,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "145",
+            "name": "HDMI1_SDA",
+            "x": 33.02,
+            "y": 7.62,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "146",
+            "name": "HDMI1_TX2_P",
+            "x": -35.56,
+            "y": 7.62,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "147",
+            "name": "HDMI1_SCL",
+            "x": 33.02,
+            "y": 5.08,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "148",
+            "name": "HDMI1_TX2_N",
+            "x": -35.56,
+            "y": 5.08,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "149",
+            "name": "HDMI1_CEC",
+            "x": 33.02,
+            "y": 2.54,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "150",
+            "name": "GND",
+            "x": -35.56,
+            "y": 2.54,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "151",
+            "name": "HDMI0_CEC",
+            "x": 33.02,
+            "y": 0.0,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "152",
+            "name": "HDMI1_TX1_P",
+            "x": -35.56,
+            "y": 0.0,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "153",
+            "name": "HDMI0_HOTPLUG",
+            "x": 33.02,
+            "y": -2.54,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "154",
+            "name": "HDMI1_TX1_N",
+            "x": -35.56,
+            "y": -2.54,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "155",
+            "name": "GND",
+            "x": 33.02,
+            "y": -5.08,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "156",
+            "name": "GND",
+            "x": -35.56,
+            "y": -5.08,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "157",
+            "name": "DSI0_D0_N",
+            "x": 33.02,
+            "y": -7.62,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "158",
+            "name": "HDMI1_TX0_P",
+            "x": -35.56,
+            "y": -7.62,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "159",
+            "name": "DSI0_D0_P",
+            "x": 33.02,
+            "y": -10.16,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "160",
+            "name": "HDMI1_TX0_N",
+            "x": -35.56,
+            "y": -10.16,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "161",
+            "name": "GND",
+            "x": 33.02,
+            "y": -12.7,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "162",
+            "name": "GND",
+            "x": -35.56,
+            "y": -12.7,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "163",
+            "name": "DSI0_D1_N",
+            "x": 33.02,
+            "y": -15.24,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "164",
+            "name": "HDMI1_CLK_P",
+            "x": -35.56,
+            "y": -15.24,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "165",
+            "name": "DSI0_D1_P",
+            "x": 33.02,
+            "y": -17.78,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "166",
+            "name": "HDMI1_CLK_N",
+            "x": -35.56,
+            "y": -17.78,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "167",
+            "name": "GND",
+            "x": 33.02,
+            "y": -20.32,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "168",
+            "name": "GND",
+            "x": -35.56,
+            "y": -20.32,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "169",
+            "name": "DSI0_C_N",
+            "x": 33.02,
+            "y": -22.86,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "170",
+            "name": "HDMI0_TX2_P",
+            "x": -35.56,
+            "y": -22.86,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "171",
+            "name": "DSI0_C_P",
+            "x": 33.02,
+            "y": -25.4,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "172",
+            "name": "HDMI0_TX2_N",
+            "x": -35.56,
+            "y": -25.4,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "173",
+            "name": "GND",
+            "x": 33.02,
+            "y": -27.94,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "174",
+            "name": "GND",
+            "x": -35.56,
+            "y": -27.94,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "175",
+            "name": "DSI1_D0_N",
+            "x": 33.02,
+            "y": -30.48,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "176",
+            "name": "HDMI0_TX1_P",
+            "x": -35.56,
+            "y": -30.48,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "177",
+            "name": "DSI1_D0_P",
+            "x": 33.02,
+            "y": -33.02,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "178",
+            "name": "HDMI0_TX1_N",
+            "x": -35.56,
+            "y": -33.02,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "179",
+            "name": "GND",
+            "x": 33.02,
+            "y": -35.56,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "180",
+            "name": "GND",
+            "x": -35.56,
+            "y": -35.56,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "181",
+            "name": "DSI1_D1_N",
+            "x": 33.02,
+            "y": -38.1,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "182",
+            "name": "HDMI0_TX0_P",
+            "x": -35.56,
+            "y": -38.1,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "183",
+            "name": "DSI1_D1_P",
+            "x": 33.02,
+            "y": -40.64,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "184",
+            "name": "HDMI0_TX0_N",
+            "x": -35.56,
+            "y": -40.64,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "185",
+            "name": "GND",
+            "x": 33.02,
+            "y": -43.18,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "186",
+            "name": "GND",
+            "x": -35.56,
+            "y": -43.18,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "187",
+            "name": "DSI1_C_N",
+            "x": 33.02,
+            "y": -45.72,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "188",
+            "name": "HDMI0_CLK_P",
+            "x": -35.56,
+            "y": -45.72,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "189",
+            "name": "DSI1_C_P",
+            "x": 33.02,
+            "y": -48.26,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "190",
+            "name": "HDMI0_CLK_N",
+            "x": -35.56,
+            "y": -48.26,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "191",
+            "name": "GND",
+            "x": 33.02,
+            "y": -50.8,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "192",
+            "name": "GND",
+            "x": -35.56,
+            "y": -50.8,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "193",
+            "name": "DSI1_D2_N",
+            "x": 33.02,
+            "y": -53.34,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "194",
+            "name": "DSI1_D3_N",
+            "x": -35.56,
+            "y": -53.34,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "195",
+            "name": "DSI1_D2_P",
+            "x": 33.02,
+            "y": -55.88,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "196",
+            "name": "DSI_D3_P",
+            "x": -35.56,
+            "y": -55.88,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "197",
+            "name": "GND",
+            "x": 33.02,
+            "y": -58.42,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "198",
+            "name": "GND",
+            "x": -35.56,
+            "y": -58.42,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "199",
+            "name": "HDMI0_SDA",
+            "x": 33.02,
+            "y": -60.96,
+            "rotation": 180.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "200",
+            "name": "HDMI0_SCL",
+            "x": -35.56,
+            "y": -60.96,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "rectangle",
+            "start": [
+              -31.75,
+              64.77
+            ],
+            "end": [
+              29.21,
+              -63.5
+            ]
+          }
+        ]
+      },
+      "x": 800,
+      "y": 350,
+      "ref": "U3"
+    },
+    {
+      "id": "C12",
+      "symbol": {
+        "name": "power:GNDREF",
+        "properties": {
+          "Reference": "#PWR022",
+          "Value": "GNDREF",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Power symbol creates a global label with name \"GNDREF\" , reference supply ground",
+          "ki_keywords": "global power"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "",
+            "x": 0.0,
+            "y": 0.0,
+            "rotation": 270.0,
+            "length": 0.0,
+            "electrical_type": "power_in",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.635,
+                -1.905
+              ],
+              [
+                0.635,
+                -1.905
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.127,
+                -2.54
+              ],
+              [
+                0.127,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                -1.27
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                1.27,
+                -1.27
+              ],
+              [
+                -1.27,
+                -1.27
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 950,
+      "y": 350,
+      "ref": "#PWR022"
+    },
+    {
+      "id": "C13",
+      "symbol": {
+        "name": "Connector:HDMI_A",
+        "properties": {
+          "Reference": "J6",
+          "Value": "HDMI_A",
+          "Footprint": "",
+          "Datasheet": "https://en.wikipedia.org/wiki/HDMI",
+          "Description": "HDMI type A connector",
+          "ki_keywords": "hdmi conn",
+          "ki_fp_filters": "HDMI*A*"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "D2+",
+            "x": -10.16,
+            "y": 20.32,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "2",
+            "name": "D2S",
+            "x": -5.08,
+            "y": -27.94,
+            "rotation": 90.0,
+            "length": 2.54,
+            "electrical_type": "power_in",
+            "shape": "line"
+          },
+          {
+            "number": "3",
+            "name": "D2-",
+            "x": -10.16,
+            "y": 17.78,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "4",
+            "name": "D1+",
+            "x": -10.16,
+            "y": 15.24,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "5",
+            "name": "D1S",
+            "x": -2.54,
+            "y": -27.94,
+            "rotation": 90.0,
+            "length": 2.54,
+            "electrical_type": "power_in",
+            "shape": "line"
+          },
+          {
+            "number": "6",
+            "name": "D1-",
+            "x": -10.16,
+            "y": 12.7,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "7",
+            "name": "D0+",
+            "x": -10.16,
+            "y": 10.16,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "8",
+            "name": "D0S",
+            "x": 0.0,
+            "y": -27.94,
+            "rotation": 90.0,
+            "length": 2.54,
+            "electrical_type": "power_in",
+            "shape": "line"
+          },
+          {
+            "number": "9",
+            "name": "D0-",
+            "x": -10.16,
+            "y": 7.62,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "10",
+            "name": "CK+",
+            "x": -10.16,
+            "y": 5.08,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "11",
+            "name": "CKS",
+            "x": 2.54,
+            "y": -27.94,
+            "rotation": 90.0,
+            "length": 2.54,
+            "electrical_type": "power_in",
+            "shape": "line"
+          },
+          {
+            "number": "12",
+            "name": "CK-",
+            "x": -10.16,
+            "y": 2.54,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "13",
+            "name": "CEC",
+            "x": -10.16,
+            "y": -2.54,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "bidirectional",
+            "shape": "line"
+          },
+          {
+            "number": "14",
+            "name": "UTILITY",
+            "x": -10.16,
+            "y": -15.24,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "15",
+            "name": "SCL",
+            "x": -10.16,
+            "y": -7.62,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "16",
+            "name": "SDA",
+            "x": -10.16,
+            "y": -10.16,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "bidirectional",
+            "shape": "line"
+          },
+          {
+            "number": "17",
+            "name": "GND",
+            "x": 5.08,
+            "y": -27.94,
+            "rotation": 90.0,
+            "length": 2.54,
+            "electrical_type": "power_in",
+            "shape": "line"
+          },
+          {
+            "number": "18",
+            "name": "+5V",
+            "x": 0.0,
+            "y": 27.94,
+            "rotation": 270.0,
+            "length": 2.54,
+            "electrical_type": "power_in",
+            "shape": "line"
+          },
+          {
+            "number": "19",
+            "name": "HPD",
+            "x": -10.16,
+            "y": -17.78,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "SH",
+            "name": "SH",
+            "x": 7.62,
+            "y": -27.94,
+            "rotation": 90.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                16.51
+              ],
+              [
+                0.0,
+                18.034
+              ],
+              [
+                0.0,
+                17.272
+              ],
+              [
+                1.905,
+                17.272
+              ],
+              [
+                1.905,
+                18.034
+              ],
+              [
+                1.905,
+                16.51
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                2.667,
+                18.034
+              ],
+              [
+                4.318,
+                18.034
+              ],
+              [
+                4.572,
+                17.78
+              ],
+              [
+                4.572,
+                16.764
+              ],
+              [
+                4.318,
+                16.51
+              ],
+              [
+                2.667,
+                16.51
+              ],
+              [
+                2.667,
+                17.272
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                8.128,
+                16.51
+              ],
+              [
+                8.128,
+                18.034
+              ]
+            ]
+          },
+          {
+            "type": "rectangle",
+            "start": [
+              -7.62,
+              25.4
+            ],
+            "end": [
+              10.16,
+              -25.4
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                12.7
+              ],
+              [
+                0.0,
+                -12.7
+              ],
+              [
+                3.81,
+                -12.7
+              ],
+              [
+                5.08,
+                -10.16
+              ],
+              [
+                7.62,
+                -8.89
+              ],
+              [
+                7.62,
+                8.89
+              ],
+              [
+                5.08,
+                10.16
+              ],
+              [
+                3.81,
+                12.7
+              ],
+              [
+                0.0,
+                12.7
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                2.54,
+                8.89
+              ],
+              [
+                3.81,
+                8.89
+              ],
+              [
+                5.08,
+                6.35
+              ],
+              [
+                5.08,
+                -5.715
+              ],
+              [
+                3.81,
+                -8.255
+              ],
+              [
+                2.54,
+                -8.255
+              ],
+              [
+                2.54,
+                8.89
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                5.334,
+                16.51
+              ],
+              [
+                5.334,
+                18.034
+              ],
+              [
+                6.35,
+                18.034
+              ],
+              [
+                6.35,
+                16.51
+              ],
+              [
+                6.35,
+                18.034
+              ],
+              [
+                7.112,
+                18.034
+              ],
+              [
+                7.366,
+                17.78
+              ],
+              [
+                7.366,
+                16.51
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 200,
+      "y": 500,
+      "ref": "J6"
+    },
+    {
+      "id": "C14",
+      "symbol": {
+        "name": "Connector:USB_OTG",
+        "properties": {
+          "Reference": "J5",
+          "Value": "USB_OTG",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "USB mini/micro connector",
+          "ki_keywords": "connector USB",
+          "ki_fp_filters": "USB*"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "VBUS",
+            "x": 7.62,
+            "y": 5.08,
+            "rotation": 180.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "2",
+            "name": "D-",
+            "x": 7.62,
+            "y": -2.54,
+            "rotation": 180.0,
+            "length": 2.54,
+            "electrical_type": "bidirectional",
+            "shape": "line"
+          },
+          {
+            "number": "3",
+            "name": "D+",
+            "x": 7.62,
+            "y": 0.0,
+            "rotation": 180.0,
+            "length": 2.54,
+            "electrical_type": "bidirectional",
+            "shape": "line"
+          },
+          {
+            "number": "4",
+            "name": "ID",
+            "x": 7.62,
+            "y": -5.08,
+            "rotation": 180.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "5",
+            "name": "GND",
+            "x": 0.0,
+            "y": -10.16,
+            "rotation": 90.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "SH",
+            "name": "Shield",
+            "x": -2.54,
+            "y": -10.16,
+            "rotation": 90.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "rectangle",
+            "start": [
+              -5.08,
+              -7.62
+            ],
+            "end": [
+              5.08,
+              7.62
+            ]
+          },
+          {
+            "type": "rectangle",
+            "start": [
+              -0.127,
+              -7.62
+            ],
+            "end": [
+              0.127,
+              -6.858
+            ]
+          },
+          {
+            "type": "rectangle",
+            "start": [
+              0.254,
+              1.27
+            ],
+            "end": [
+              -0.508,
+              0.508
+            ]
+          },
+          {
+            "type": "rectangle",
+            "start": [
+              5.08,
+              4.953
+            ],
+            "end": [
+              4.318,
+              5.207
+            ]
+          },
+          {
+            "type": "rectangle",
+            "start": [
+              5.08,
+              -0.127
+            ],
+            "end": [
+              4.318,
+              0.127
+            ]
+          },
+          {
+            "type": "rectangle",
+            "start": [
+              5.08,
+              -2.667
+            ],
+            "end": [
+              4.318,
+              -2.413
+            ]
+          },
+          {
+            "type": "rectangle",
+            "start": [
+              5.08,
+              -5.207
+            ],
+            "end": [
+              4.318,
+              -4.953
+            ]
+          },
+          {
+            "type": "circle",
+            "center": [
+              -3.81,
+              2.159
+            ],
+            "radius": 0.635
+          },
+          {
+            "type": "circle",
+            "center": [
+              -0.635,
+              3.429
+            ],
+            "radius": 0.381
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -4.699,
+                5.842
+              ],
+              [
+                -4.699,
+                5.588
+              ],
+              [
+                -4.445,
+                4.826
+              ],
+              [
+                -4.445,
+                4.572
+              ],
+              [
+                -1.651,
+                4.572
+              ],
+              [
+                -1.651,
+                4.826
+              ],
+              [
+                -1.397,
+                5.588
+              ],
+              [
+                -1.397,
+                5.842
+              ],
+              [
+                -4.699,
+                5.842
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -4.318,
+                5.588
+              ],
+              [
+                -1.778,
+                5.588
+              ],
+              [
+                -2.032,
+                4.826
+              ],
+              [
+                -4.064,
+                4.826
+              ],
+              [
+                -4.318,
+                5.588
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -3.175,
+                2.159
+              ],
+              [
+                -2.54,
+                2.159
+              ],
+              [
+                -1.27,
+                3.429
+              ],
+              [
+                -0.635,
+                3.429
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -2.54,
+                2.159
+              ],
+              [
+                -1.905,
+                2.159
+              ],
+              [
+                -1.27,
+                0.889
+              ],
+              [
+                0.0,
+                0.889
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.905,
+                2.159
+              ],
+              [
+                0.635,
+                2.159
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.635,
+                2.794
+              ],
+              [
+                0.635,
+                1.524
+              ],
+              [
+                1.905,
+                2.159
+              ],
+              [
+                0.635,
+                2.794
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 350,
+      "y": 500,
+      "ref": "J5"
+    },
+    {
+      "id": "C15",
+      "symbol": {
+        "name": "power:GNDREF",
+        "properties": {
+          "Reference": "#PWR018",
+          "Value": "GNDREF",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Power symbol creates a global label with name \"GNDREF\" , reference supply ground",
+          "ki_keywords": "global power"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "",
+            "x": 0.0,
+            "y": 0.0,
+            "rotation": 270.0,
+            "length": 0.0,
+            "electrical_type": "power_in",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.635,
+                -1.905
+              ],
+              [
+                0.635,
+                -1.905
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.127,
+                -2.54
+              ],
+              [
+                0.127,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                -1.27
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                1.27,
+                -1.27
+              ],
+              [
+                -1.27,
+                -1.27
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 500,
+      "y": 500,
+      "ref": "#PWR018"
+    },
+    {
+      "id": "C16",
+      "symbol": {
+        "name": "power:GNDREF",
+        "properties": {
+          "Reference": "#PWR015",
+          "Value": "GNDREF",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Power symbol creates a global label with name \"GNDREF\" , reference supply ground",
+          "ki_keywords": "global power"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "",
+            "x": 0.0,
+            "y": 0.0,
+            "rotation": 270.0,
+            "length": 0.0,
+            "electrical_type": "power_in",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.635,
+                -1.905
+              ],
+              [
+                0.635,
+                -1.905
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.127,
+                -2.54
+              ],
+              [
+                0.127,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                -1.27
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                1.27,
+                -1.27
+              ],
+              [
+                -1.27,
+                -1.27
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 650,
+      "y": 500,
+      "ref": "#PWR015"
+    },
+    {
+      "id": "C17",
+      "symbol": {
+        "name": "power:GNDREF",
+        "properties": {
+          "Reference": "#PWR019",
+          "Value": "GNDREF",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Power symbol creates a global label with name \"GNDREF\" , reference supply ground",
+          "ki_keywords": "global power"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "",
+            "x": 0.0,
+            "y": 0.0,
+            "rotation": 270.0,
+            "length": 0.0,
+            "electrical_type": "power_in",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.635,
+                -1.905
+              ],
+              [
+                0.635,
+                -1.905
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.127,
+                -2.54
+              ],
+              [
+                0.127,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                -1.27
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                1.27,
+                -1.27
+              ],
+              [
+                -1.27,
+                -1.27
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 800,
+      "y": 500,
+      "ref": "#PWR019"
+    },
+    {
+      "id": "C18",
+      "symbol": {
+        "name": "power:GNDREF",
+        "properties": {
+          "Reference": "#PWR020",
+          "Value": "GNDREF",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Power symbol creates a global label with name \"GNDREF\" , reference supply ground",
+          "ki_keywords": "global power"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "",
+            "x": 0.0,
+            "y": 0.0,
+            "rotation": 270.0,
+            "length": 0.0,
+            "electrical_type": "power_in",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.635,
+                -1.905
+              ],
+              [
+                0.635,
+                -1.905
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.127,
+                -2.54
+              ],
+              [
+                0.127,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                -1.27
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                1.27,
+                -1.27
+              ],
+              [
+                -1.27,
+                -1.27
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 950,
+      "y": 500,
+      "ref": "#PWR020"
+    },
+    {
+      "id": "C19",
+      "symbol": {
+        "name": "Connector:Conn_01x22_Socket",
+        "properties": {
+          "Reference": "J8",
+          "Value": "Conn_01x22_Socket",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Generic connector, single row, 01x22, script generated",
+          "ki_locked": "",
+          "ki_keywords": "connector",
+          "ki_fp_filters": "Connector*:*_1x??_*"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "Pin_1",
+            "x": -5.08,
+            "y": 25.4,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "2",
+            "name": "Pin_2",
+            "x": -5.08,
+            "y": 22.86,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "3",
+            "name": "Pin_3",
+            "x": -5.08,
+            "y": 20.32,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "4",
+            "name": "Pin_4",
+            "x": -5.08,
+            "y": 17.78,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "5",
+            "name": "Pin_5",
+            "x": -5.08,
+            "y": 15.24,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "6",
+            "name": "Pin_6",
+            "x": -5.08,
+            "y": 12.7,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "7",
+            "name": "Pin_7",
+            "x": -5.08,
+            "y": 10.16,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "8",
+            "name": "Pin_8",
+            "x": -5.08,
+            "y": 7.62,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "9",
+            "name": "Pin_9",
+            "x": -5.08,
+            "y": 5.08,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "10",
+            "name": "Pin_10",
+            "x": -5.08,
+            "y": 2.54,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "11",
+            "name": "Pin_11",
+            "x": -5.08,
+            "y": 0.0,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "12",
+            "name": "Pin_12",
+            "x": -5.08,
+            "y": -2.54,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "13",
+            "name": "Pin_13",
+            "x": -5.08,
+            "y": -5.08,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "14",
+            "name": "Pin_14",
+            "x": -5.08,
+            "y": -7.62,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "15",
+            "name": "Pin_15",
+            "x": -5.08,
+            "y": -10.16,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "16",
+            "name": "Pin_16",
+            "x": -5.08,
+            "y": -12.7,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "17",
+            "name": "Pin_17",
+            "x": -5.08,
+            "y": -15.24,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "18",
+            "name": "Pin_18",
+            "x": -5.08,
+            "y": -17.78,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "19",
+            "name": "Pin_19",
+            "x": -5.08,
+            "y": -20.32,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "20",
+            "name": "Pin_20",
+            "x": -5.08,
+            "y": -22.86,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "21",
+            "name": "Pin_21",
+            "x": -5.08,
+            "y": -25.4,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "22",
+            "name": "Pin_22",
+            "x": -5.08,
+            "y": -27.94,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              24.892
+            ],
+            "mid": [
+              -0.5058,
+              25.4
+            ],
+            "end": [
+              0.0,
+              25.908
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              22.352
+            ],
+            "mid": [
+              -0.5058,
+              22.86
+            ],
+            "end": [
+              0.0,
+              23.368
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              19.812
+            ],
+            "mid": [
+              -0.5058,
+              20.32
+            ],
+            "end": [
+              0.0,
+              20.828
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              17.272
+            ],
+            "mid": [
+              -0.5058,
+              17.78
+            ],
+            "end": [
+              0.0,
+              18.288
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              14.732
+            ],
+            "mid": [
+              -0.5058,
+              15.24
+            ],
+            "end": [
+              0.0,
+              15.748
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              12.192
+            ],
+            "mid": [
+              -0.5058,
+              12.7
+            ],
+            "end": [
+              0.0,
+              13.208
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              9.652
+            ],
+            "mid": [
+              -0.5058,
+              10.16
+            ],
+            "end": [
+              0.0,
+              10.668
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              7.112
+            ],
+            "mid": [
+              -0.5058,
+              7.62
+            ],
+            "end": [
+              0.0,
+              8.128
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              4.572
+            ],
+            "mid": [
+              -0.5058,
+              5.08
+            ],
+            "end": [
+              0.0,
+              5.588
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              2.032
+            ],
+            "mid": [
+              -0.5058,
+              2.54
+            ],
+            "end": [
+              0.0,
+              3.048
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -0.508
+            ],
+            "mid": [
+              -0.5058,
+              0.0
+            ],
+            "end": [
+              0.0,
+              0.508
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -3.048
+            ],
+            "mid": [
+              -0.5058,
+              -2.54
+            ],
+            "end": [
+              0.0,
+              -2.032
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -5.588
+            ],
+            "mid": [
+              -0.5058,
+              -5.08
+            ],
+            "end": [
+              0.0,
+              -4.572
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -8.128
+            ],
+            "mid": [
+              -0.5058,
+              -7.62
+            ],
+            "end": [
+              0.0,
+              -7.112
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -10.668
+            ],
+            "mid": [
+              -0.5058,
+              -10.16
+            ],
+            "end": [
+              0.0,
+              -9.652
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -13.208
+            ],
+            "mid": [
+              -0.5058,
+              -12.7
+            ],
+            "end": [
+              0.0,
+              -12.192
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -15.748
+            ],
+            "mid": [
+              -0.5058,
+              -15.24
+            ],
+            "end": [
+              0.0,
+              -14.732
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -18.288
+            ],
+            "mid": [
+              -0.5058,
+              -17.78
+            ],
+            "end": [
+              0.0,
+              -17.272
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -20.828
+            ],
+            "mid": [
+              -0.5058,
+              -20.32
+            ],
+            "end": [
+              0.0,
+              -19.812
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -23.368
+            ],
+            "mid": [
+              -0.5058,
+              -22.86
+            ],
+            "end": [
+              0.0,
+              -22.352
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -25.908
+            ],
+            "mid": [
+              -0.5058,
+              -25.4
+            ],
+            "end": [
+              0.0,
+              -24.892
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -28.448
+            ],
+            "mid": [
+              -0.5058,
+              -27.94
+            ],
+            "end": [
+              0.0,
+              -27.432
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                25.4
+              ],
+              [
+                -0.508,
+                25.4
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                22.86
+              ],
+              [
+                -0.508,
+                22.86
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                20.32
+              ],
+              [
+                -0.508,
+                20.32
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                17.78
+              ],
+              [
+                -0.508,
+                17.78
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                15.24
+              ],
+              [
+                -0.508,
+                15.24
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                12.7
+              ],
+              [
+                -0.508,
+                12.7
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                10.16
+              ],
+              [
+                -0.508,
+                10.16
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                7.62
+              ],
+              [
+                -0.508,
+                7.62
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                5.08
+              ],
+              [
+                -0.508,
+                5.08
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                2.54
+              ],
+              [
+                -0.508,
+                2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                0.0
+              ],
+              [
+                -0.508,
+                0.0
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -2.54
+              ],
+              [
+                -0.508,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -5.08
+              ],
+              [
+                -0.508,
+                -5.08
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -7.62
+              ],
+              [
+                -0.508,
+                -7.62
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -10.16
+              ],
+              [
+                -0.508,
+                -10.16
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -12.7
+              ],
+              [
+                -0.508,
+                -12.7
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -15.24
+              ],
+              [
+                -0.508,
+                -15.24
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -17.78
+              ],
+              [
+                -0.508,
+                -17.78
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -20.32
+              ],
+              [
+                -0.508,
+                -20.32
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -22.86
+              ],
+              [
+                -0.508,
+                -22.86
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -25.4
+              ],
+              [
+                -0.508,
+                -25.4
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -27.94
+              ],
+              [
+                -0.508,
+                -27.94
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 200,
+      "y": 650,
+      "ref": "J8"
+    },
+    {
+      "id": "C20",
+      "symbol": {
+        "name": "Connector:Conn_01x22_Socket",
+        "properties": {
+          "Reference": "J11",
+          "Value": "Conn_01x22_Socket",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Generic connector, single row, 01x22, script generated",
+          "ki_locked": "",
+          "ki_keywords": "connector",
+          "ki_fp_filters": "Connector*:*_1x??_*"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "Pin_1",
+            "x": -5.08,
+            "y": 25.4,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "2",
+            "name": "Pin_2",
+            "x": -5.08,
+            "y": 22.86,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "3",
+            "name": "Pin_3",
+            "x": -5.08,
+            "y": 20.32,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "4",
+            "name": "Pin_4",
+            "x": -5.08,
+            "y": 17.78,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "5",
+            "name": "Pin_5",
+            "x": -5.08,
+            "y": 15.24,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "6",
+            "name": "Pin_6",
+            "x": -5.08,
+            "y": 12.7,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "7",
+            "name": "Pin_7",
+            "x": -5.08,
+            "y": 10.16,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "8",
+            "name": "Pin_8",
+            "x": -5.08,
+            "y": 7.62,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "9",
+            "name": "Pin_9",
+            "x": -5.08,
+            "y": 5.08,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "10",
+            "name": "Pin_10",
+            "x": -5.08,
+            "y": 2.54,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "11",
+            "name": "Pin_11",
+            "x": -5.08,
+            "y": 0.0,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "12",
+            "name": "Pin_12",
+            "x": -5.08,
+            "y": -2.54,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "13",
+            "name": "Pin_13",
+            "x": -5.08,
+            "y": -5.08,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "14",
+            "name": "Pin_14",
+            "x": -5.08,
+            "y": -7.62,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "15",
+            "name": "Pin_15",
+            "x": -5.08,
+            "y": -10.16,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "16",
+            "name": "Pin_16",
+            "x": -5.08,
+            "y": -12.7,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "17",
+            "name": "Pin_17",
+            "x": -5.08,
+            "y": -15.24,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "18",
+            "name": "Pin_18",
+            "x": -5.08,
+            "y": -17.78,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "19",
+            "name": "Pin_19",
+            "x": -5.08,
+            "y": -20.32,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "20",
+            "name": "Pin_20",
+            "x": -5.08,
+            "y": -22.86,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "21",
+            "name": "Pin_21",
+            "x": -5.08,
+            "y": -25.4,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "22",
+            "name": "Pin_22",
+            "x": -5.08,
+            "y": -27.94,
+            "rotation": 0.0,
+            "length": 3.81,
+            "electrical_type": "passive",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              24.892
+            ],
+            "mid": [
+              -0.5058,
+              25.4
+            ],
+            "end": [
+              0.0,
+              25.908
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              22.352
+            ],
+            "mid": [
+              -0.5058,
+              22.86
+            ],
+            "end": [
+              0.0,
+              23.368
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              19.812
+            ],
+            "mid": [
+              -0.5058,
+              20.32
+            ],
+            "end": [
+              0.0,
+              20.828
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              17.272
+            ],
+            "mid": [
+              -0.5058,
+              17.78
+            ],
+            "end": [
+              0.0,
+              18.288
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              14.732
+            ],
+            "mid": [
+              -0.5058,
+              15.24
+            ],
+            "end": [
+              0.0,
+              15.748
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              12.192
+            ],
+            "mid": [
+              -0.5058,
+              12.7
+            ],
+            "end": [
+              0.0,
+              13.208
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              9.652
+            ],
+            "mid": [
+              -0.5058,
+              10.16
+            ],
+            "end": [
+              0.0,
+              10.668
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              7.112
+            ],
+            "mid": [
+              -0.5058,
+              7.62
+            ],
+            "end": [
+              0.0,
+              8.128
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              4.572
+            ],
+            "mid": [
+              -0.5058,
+              5.08
+            ],
+            "end": [
+              0.0,
+              5.588
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              2.032
+            ],
+            "mid": [
+              -0.5058,
+              2.54
+            ],
+            "end": [
+              0.0,
+              3.048
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -0.508
+            ],
+            "mid": [
+              -0.5058,
+              0.0
+            ],
+            "end": [
+              0.0,
+              0.508
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -3.048
+            ],
+            "mid": [
+              -0.5058,
+              -2.54
+            ],
+            "end": [
+              0.0,
+              -2.032
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -5.588
+            ],
+            "mid": [
+              -0.5058,
+              -5.08
+            ],
+            "end": [
+              0.0,
+              -4.572
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -8.128
+            ],
+            "mid": [
+              -0.5058,
+              -7.62
+            ],
+            "end": [
+              0.0,
+              -7.112
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -10.668
+            ],
+            "mid": [
+              -0.5058,
+              -10.16
+            ],
+            "end": [
+              0.0,
+              -9.652
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -13.208
+            ],
+            "mid": [
+              -0.5058,
+              -12.7
+            ],
+            "end": [
+              0.0,
+              -12.192
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -15.748
+            ],
+            "mid": [
+              -0.5058,
+              -15.24
+            ],
+            "end": [
+              0.0,
+              -14.732
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -18.288
+            ],
+            "mid": [
+              -0.5058,
+              -17.78
+            ],
+            "end": [
+              0.0,
+              -17.272
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -20.828
+            ],
+            "mid": [
+              -0.5058,
+              -20.32
+            ],
+            "end": [
+              0.0,
+              -19.812
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -23.368
+            ],
+            "mid": [
+              -0.5058,
+              -22.86
+            ],
+            "end": [
+              0.0,
+              -22.352
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -25.908
+            ],
+            "mid": [
+              -0.5058,
+              -25.4
+            ],
+            "end": [
+              0.0,
+              -24.892
+            ]
+          },
+          {
+            "type": "arc",
+            "start": [
+              0.0,
+              -28.448
+            ],
+            "mid": [
+              -0.5058,
+              -27.94
+            ],
+            "end": [
+              0.0,
+              -27.432
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                25.4
+              ],
+              [
+                -0.508,
+                25.4
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                22.86
+              ],
+              [
+                -0.508,
+                22.86
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                20.32
+              ],
+              [
+                -0.508,
+                20.32
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                17.78
+              ],
+              [
+                -0.508,
+                17.78
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                15.24
+              ],
+              [
+                -0.508,
+                15.24
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                12.7
+              ],
+              [
+                -0.508,
+                12.7
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                10.16
+              ],
+              [
+                -0.508,
+                10.16
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                7.62
+              ],
+              [
+                -0.508,
+                7.62
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                5.08
+              ],
+              [
+                -0.508,
+                5.08
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                2.54
+              ],
+              [
+                -0.508,
+                2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                0.0
+              ],
+              [
+                -0.508,
+                0.0
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -2.54
+              ],
+              [
+                -0.508,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -5.08
+              ],
+              [
+                -0.508,
+                -5.08
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -7.62
+              ],
+              [
+                -0.508,
+                -7.62
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -10.16
+              ],
+              [
+                -0.508,
+                -10.16
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -12.7
+              ],
+              [
+                -0.508,
+                -12.7
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -15.24
+              ],
+              [
+                -0.508,
+                -15.24
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -17.78
+              ],
+              [
+                -0.508,
+                -17.78
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -20.32
+              ],
+              [
+                -0.508,
+                -20.32
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -22.86
+              ],
+              [
+                -0.508,
+                -22.86
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -25.4
+              ],
+              [
+                -0.508,
+                -25.4
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -1.27,
+                -27.94
+              ],
+              [
+                -0.508,
+                -27.94
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 350,
+      "y": 650,
+      "ref": "J11"
+    },
+    {
+      "id": "C21",
+      "symbol": {
+        "name": "Connector:HDMI_A",
+        "properties": {
+          "Reference": "J7",
+          "Value": "HDMI_A",
+          "Footprint": "",
+          "Datasheet": "https://en.wikipedia.org/wiki/HDMI",
+          "Description": "HDMI type A connector",
+          "ki_keywords": "hdmi conn",
+          "ki_fp_filters": "HDMI*A*"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "D2+",
+            "x": -10.16,
+            "y": 20.32,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "2",
+            "name": "D2S",
+            "x": -5.08,
+            "y": -27.94,
+            "rotation": 90.0,
+            "length": 2.54,
+            "electrical_type": "power_in",
+            "shape": "line"
+          },
+          {
+            "number": "3",
+            "name": "D2-",
+            "x": -10.16,
+            "y": 17.78,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "4",
+            "name": "D1+",
+            "x": -10.16,
+            "y": 15.24,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "5",
+            "name": "D1S",
+            "x": -2.54,
+            "y": -27.94,
+            "rotation": 90.0,
+            "length": 2.54,
+            "electrical_type": "power_in",
+            "shape": "line"
+          },
+          {
+            "number": "6",
+            "name": "D1-",
+            "x": -10.16,
+            "y": 12.7,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "7",
+            "name": "D0+",
+            "x": -10.16,
+            "y": 10.16,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "8",
+            "name": "D0S",
+            "x": 0.0,
+            "y": -27.94,
+            "rotation": 90.0,
+            "length": 2.54,
+            "electrical_type": "power_in",
+            "shape": "line"
+          },
+          {
+            "number": "9",
+            "name": "D0-",
+            "x": -10.16,
+            "y": 7.62,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "10",
+            "name": "CK+",
+            "x": -10.16,
+            "y": 5.08,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "11",
+            "name": "CKS",
+            "x": 2.54,
+            "y": -27.94,
+            "rotation": 90.0,
+            "length": 2.54,
+            "electrical_type": "power_in",
+            "shape": "line"
+          },
+          {
+            "number": "12",
+            "name": "CK-",
+            "x": -10.16,
+            "y": 2.54,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "13",
+            "name": "CEC",
+            "x": -10.16,
+            "y": -2.54,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "bidirectional",
+            "shape": "line"
+          },
+          {
+            "number": "14",
+            "name": "UTILITY",
+            "x": -10.16,
+            "y": -15.24,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "15",
+            "name": "SCL",
+            "x": -10.16,
+            "y": -7.62,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "16",
+            "name": "SDA",
+            "x": -10.16,
+            "y": -10.16,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "bidirectional",
+            "shape": "line"
+          },
+          {
+            "number": "17",
+            "name": "GND",
+            "x": 5.08,
+            "y": -27.94,
+            "rotation": 90.0,
+            "length": 2.54,
+            "electrical_type": "power_in",
+            "shape": "line"
+          },
+          {
+            "number": "18",
+            "name": "+5V",
+            "x": 0.0,
+            "y": 27.94,
+            "rotation": 270.0,
+            "length": 2.54,
+            "electrical_type": "power_in",
+            "shape": "line"
+          },
+          {
+            "number": "19",
+            "name": "HPD",
+            "x": -10.16,
+            "y": -17.78,
+            "rotation": 0.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          },
+          {
+            "number": "SH",
+            "name": "SH",
+            "x": 7.62,
+            "y": -27.94,
+            "rotation": 90.0,
+            "length": 2.54,
+            "electrical_type": "passive",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                16.51
+              ],
+              [
+                0.0,
+                18.034
+              ],
+              [
+                0.0,
+                17.272
+              ],
+              [
+                1.905,
+                17.272
+              ],
+              [
+                1.905,
+                18.034
+              ],
+              [
+                1.905,
+                16.51
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                2.667,
+                18.034
+              ],
+              [
+                4.318,
+                18.034
+              ],
+              [
+                4.572,
+                17.78
+              ],
+              [
+                4.572,
+                16.764
+              ],
+              [
+                4.318,
+                16.51
+              ],
+              [
+                2.667,
+                16.51
+              ],
+              [
+                2.667,
+                17.272
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                8.128,
+                16.51
+              ],
+              [
+                8.128,
+                18.034
+              ]
+            ]
+          },
+          {
+            "type": "rectangle",
+            "start": [
+              -7.62,
+              25.4
+            ],
+            "end": [
+              10.16,
+              -25.4
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                12.7
+              ],
+              [
+                0.0,
+                -12.7
+              ],
+              [
+                3.81,
+                -12.7
+              ],
+              [
+                5.08,
+                -10.16
+              ],
+              [
+                7.62,
+                -8.89
+              ],
+              [
+                7.62,
+                8.89
+              ],
+              [
+                5.08,
+                10.16
+              ],
+              [
+                3.81,
+                12.7
+              ],
+              [
+                0.0,
+                12.7
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                2.54,
+                8.89
+              ],
+              [
+                3.81,
+                8.89
+              ],
+              [
+                5.08,
+                6.35
+              ],
+              [
+                5.08,
+                -5.715
+              ],
+              [
+                3.81,
+                -8.255
+              ],
+              [
+                2.54,
+                -8.255
+              ],
+              [
+                2.54,
+                8.89
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                5.334,
+                16.51
+              ],
+              [
+                5.334,
+                18.034
+              ],
+              [
+                6.35,
+                18.034
+              ],
+              [
+                6.35,
+                16.51
+              ],
+              [
+                6.35,
+                18.034
+              ],
+              [
+                7.112,
+                18.034
+              ],
+              [
+                7.366,
+                17.78
+              ],
+              [
+                7.366,
+                16.51
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 500,
+      "y": 650,
+      "ref": "J7"
+    },
+    {
+      "id": "C22",
+      "symbol": {
+        "name": "power:GNDREF",
+        "properties": {
+          "Reference": "#PWR017",
+          "Value": "GNDREF",
+          "Footprint": "",
+          "Datasheet": "",
+          "Description": "Power symbol creates a global label with name \"GNDREF\" , reference supply ground",
+          "ki_keywords": "global power"
+        },
+        "pins": [
+          {
+            "number": "1",
+            "name": "",
+            "x": 0.0,
+            "y": 0.0,
+            "rotation": 270.0,
+            "length": 0.0,
+            "electrical_type": "power_in",
+            "shape": "line"
+          }
+        ],
+        "graphics": [
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.635,
+                -1.905
+              ],
+              [
+                0.635,
+                -1.905
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                -0.127,
+                -2.54
+              ],
+              [
+                0.127,
+                -2.54
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                0.0,
+                -1.27
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          },
+          {
+            "type": "polyline",
+            "points": [
+              [
+                1.27,
+                -1.27
+              ],
+              [
+                -1.27,
+                -1.27
+              ]
+            ]
+          }
+        ]
+      },
+      "x": 650,
+      "y": 650,
+      "ref": "#PWR017"
+    }
+  ],
+  "wires": [
+    {
+      "from": [
+        "C1",
+        "1"
+      ],
+      "to": [
+        "C7",
+        "2"
+      ]
+    },
+    {
+      "from": [
+        "C2",
+        "1"
+      ],
+      "to": [
+        "C2",
+        "4"
+      ]
+    },
+    {
+      "from": [
+        "C2",
+        "4"
+      ],
+      "to": [
+        "C2",
+        "7"
+      ]
+    },
+    {
+      "from": [
+        "C2",
+        "7"
+      ],
+      "to": [
+        "C2",
+        "10"
+      ]
+    },
+    {
+      "from": [
+        "C2",
+        "10"
+      ],
+      "to": [
+        "C2",
+        "13"
+      ]
+    },
+    {
+      "from": [
+        "C2",
+        "13"
+      ],
+      "to": [
+        "C2",
+        "16"
+      ]
+    },
+    {
+      "from": [
+        "C2",
+        "16"
+      ],
+      "to": [
+        "C2",
+        "19"
+      ]
+    },
+    {
+      "from": [
+        "C2",
+        "19"
+      ],
+      "to": [
+        "C9",
+        "1"
+      ]
+    },
+    {
+      "from": [
+        "C3",
+        "1"
+      ],
+      "to": [
+        "C20",
+        "1"
+      ]
+    },
+    {
+      "from": [
+        "C20",
+        "1"
+      ],
+      "to": [
+        "C20",
+        "4"
+      ]
+    },
+    {
+      "from": [
+        "C20",
+        "4"
+      ],
+      "to": [
+        "C20",
+        "7"
+      ]
+    },
+    {
+      "from": [
+        "C20",
+        "7"
+      ],
+      "to": [
+        "C20",
+        "10"
+      ]
+    },
+    {
+      "from": [
+        "C20",
+        "10"
+      ],
+      "to": [
+        "C20",
+        "13"
+      ]
+    },
+    {
+      "from": [
+        "C20",
+        "13"
+      ],
+      "to": [
+        "C20",
+        "16"
+      ]
+    },
+    {
+      "from": [
+        "C20",
+        "16"
+      ],
+      "to": [
+        "C20",
+        "19"
+      ]
+    },
+    {
+      "from": [
+        "C4",
+        "3"
+      ],
+      "to": [
+        "C16",
+        "1"
+      ]
+    },
+    {
+      "from": [
+        "C5",
+        "1"
+      ],
+      "to": [
+        "C5",
+        "4"
+      ]
+    },
+    {
+      "from": [
+        "C5",
+        "4"
+      ],
+      "to": [
+        "C5",
+        "7"
+      ]
+    },
+    {
+      "from": [
+        "C5",
+        "7"
+      ],
+      "to": [
+        "C5",
+        "10"
+      ]
+    },
+    {
+      "from": [
+        "C5",
+        "10"
+      ],
+      "to": [
+        "C5",
+        "13"
+      ]
+    },
+    {
+      "from": [
+        "C5",
+        "13"
+      ],
+      "to": [
+        "C5",
+        "16"
+      ]
+    },
+    {
+      "from": [
+        "C5",
+        "16"
+      ],
+      "to": [
+        "C5",
+        "19"
+      ]
+    },
+    {
+      "from": [
+        "C5",
+        "19"
+      ],
+      "to": [
+        "C12",
+        "1"
+      ]
+    },
+    {
+      "from": [
+        "C6",
+        "1"
+      ],
+      "to": [
+        "C11",
+        "108"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "108"
+      ],
+      "to": [
+        "C11",
+        "114"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "114"
+      ],
+      "to": [
+        "C11",
+        "120"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "120"
+      ],
+      "to": [
+        "C11",
+        "126"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "126"
+      ],
+      "to": [
+        "C11",
+        "132"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "132"
+      ],
+      "to": [
+        "C11",
+        "138"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "138"
+      ],
+      "to": [
+        "C11",
+        "144"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "144"
+      ],
+      "to": [
+        "C11",
+        "150"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "150"
+      ],
+      "to": [
+        "C11",
+        "156"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "156"
+      ],
+      "to": [
+        "C11",
+        "162"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "162"
+      ],
+      "to": [
+        "C11",
+        "168"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "168"
+      ],
+      "to": [
+        "C11",
+        "174"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "174"
+      ],
+      "to": [
+        "C11",
+        "180"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "180"
+      ],
+      "to": [
+        "C11",
+        "186"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "186"
+      ],
+      "to": [
+        "C11",
+        "192"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "192"
+      ],
+      "to": [
+        "C11",
+        "198"
+      ]
+    },
+    {
+      "from": [
+        "C7",
+        "1"
+      ],
+      "to": [
+        "C8",
+        "2"
+      ]
+    },
+    {
+      "from": [
+        "C10",
+        "1"
+      ],
+      "to": [
+        "C11",
+        "107"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "107"
+      ],
+      "to": [
+        "C11",
+        "113"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "113"
+      ],
+      "to": [
+        "C11",
+        "119"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "119"
+      ],
+      "to": [
+        "C11",
+        "125"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "125"
+      ],
+      "to": [
+        "C11",
+        "131"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "131"
+      ],
+      "to": [
+        "C11",
+        "137"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "137"
+      ],
+      "to": [
+        "C11",
+        "155"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "155"
+      ],
+      "to": [
+        "C11",
+        "161"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "161"
+      ],
+      "to": [
+        "C11",
+        "167"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "167"
+      ],
+      "to": [
+        "C11",
+        "173"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "173"
+      ],
+      "to": [
+        "C11",
+        "179"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "179"
+      ],
+      "to": [
+        "C11",
+        "185"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "185"
+      ],
+      "to": [
+        "C11",
+        "191"
+      ]
+    },
+    {
+      "from": [
+        "C11",
+        "191"
+      ],
+      "to": [
+        "C11",
+        "197"
+      ]
+    },
+    {
+      "from": [
+        "C13",
+        "2"
+      ],
+      "to": [
+        "C13",
+        "11"
+      ]
+    },
+    {
+      "from": [
+        "C13",
+        "11"
+      ],
+      "to": [
+        "C13",
+        "17"
+      ]
+    },
+    {
+      "from": [
+        "C13",
+        "17"
+      ],
+      "to": [
+        "C13",
+        "SH"
+      ]
+    },
+    {
+      "from": [
+        "C13",
+        "SH"
+      ],
+      "to": [
+        "C15",
+        "1"
+      ]
+    },
+    {
+      "from": [
+        "C14",
+        "5"
+      ],
+      "to": [
+        "C22",
+        "1"
+      ]
+    },
+    {
+      "from": [
+        "C17",
+        "1"
+      ],
+      "to": [
+        "C21",
+        "2"
+      ]
+    },
+    {
+      "from": [
+        "C21",
+        "2"
+      ],
+      "to": [
+        "C21",
+        "5"
+      ]
+    },
+    {
+      "from": [
+        "C21",
+        "5"
+      ],
+      "to": [
+        "C21",
+        "8"
+      ]
+    },
+    {
+      "from": [
+        "C21",
+        "8"
+      ],
+      "to": [
+        "C21",
+        "11"
+      ]
+    },
+    {
+      "from": [
+        "C21",
+        "11"
+      ],
+      "to": [
+        "C21",
+        "17"
+      ]
+    },
+    {
+      "from": [
+        "C21",
+        "17"
+      ],
+      "to": [
+        "C21",
+        "SH"
+      ]
+    },
+    {
+      "from": [
+        "C18",
+        "1"
+      ],
+      "to": [
+        "C19",
+        "1"
+      ]
+    },
+    {
+      "from": [
+        "C19",
+        "1"
+      ],
+      "to": [
+        "C19",
+        "4"
+      ]
+    },
+    {
+      "from": [
+        "C19",
+        "4"
+      ],
+      "to": [
+        "C19",
+        "7"
+      ]
+    },
+    {
+      "from": [
+        "C19",
+        "7"
+      ],
+      "to": [
+        "C19",
+        "10"
+      ]
+    },
+    {
+      "from": [
+        "C19",
+        "10"
+      ],
+      "to": [
+        "C19",
+        "13"
+      ]
+    },
+    {
+      "from": [
+        "C19",
+        "13"
+      ],
+      "to": [
+        "C19",
+        "16"
+      ]
+    },
+    {
+      "from": [
+        "C19",
+        "16"
+      ],
+      "to": [
+        "C19",
+        "19"
+      ]
+    }
+  ]
+}
