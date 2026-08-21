@@ -1,0 +1,4 @@
+(design_block_lib_table
+	(version 7)
+	(lib (name "EPM3064.pretty") (type "KiCad") (uri "${KIPRJMOD}/EPM3064.pretty") (options "") (descr ""))
+)
