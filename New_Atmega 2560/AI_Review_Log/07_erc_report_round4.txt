@@ -1,0 +1,276 @@
+ERC report (2026-08-28T12:51:32, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[undefined_netclass]: 網路類 8 未定義
+    ; error
+    @(13.97 mm, 173.99 mm): Directive Label [Net Class 8]
+[undefined_netclass]: 網路類 4 未定義
+    ; error
+    @(13.97 mm, 181.61 mm): Directive Label [Net Class 4]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(29.21 mm, 22.86 mm): Symbol J1 Pin 3 [Passive, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(29.21 mm, 36.83 mm): Symbol #PWR01 Pin 1 [Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(44.45 mm, 176.53 mm): Symbol J2 Pin 1 [Pin_1, Passive, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(78.74 mm, 148.59 mm): Symbol U2 Pin 2 [-, Input, Line]
+[missing_power_pin]: 符號「U2」的輸入電源接腳位於單元「[ C ]}」內但未被放置
+    ; error
+    @(86.36 mm, 146.05 mm): Symbol U2 [LMV358]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(90.17 mm, 85.09 mm): Symbol #PWR08 Pin 1 [Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(93.98 mm, 146.05 mm): Symbol U2 Pin 1 [Output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(107.95 mm, 13.97 mm): Symbol RN2B1 Pin 1 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(107.95 mm, 19.05 mm): Symbol RN2C1 Pin 1 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(107.95 mm, 24.13 mm): Symbol RN3C1 Pin 1 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(107.95 mm, 29.21 mm): Symbol RN1A1 Pin 1 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(107.95 mm, 34.29 mm): Symbol RN1D1 Pin 1 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(114.30 mm, 179.07 mm): Symbol U3 Pin 4 [BP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(114.30 mm, 179.07 mm): Symbol U3 Pin 4 [BP, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(115.57 mm, 13.97 mm): Symbol RN2B1 Pin 2 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(115.57 mm, 19.05 mm): Symbol RN2C1 Pin 2 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(115.57 mm, 24.13 mm): Symbol RN3C1 Pin 2 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(115.57 mm, 29.21 mm): Symbol RN1A1 Pin 2 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(115.57 mm, 34.29 mm): Symbol RN1D1 Pin 2 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(119.38 mm, 55.88 mm): Symbol U1 Pin 98 [AREF, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(119.38 mm, 114.30 mm): Symbol U1 Pin 65 [PJ2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(119.38 mm, 116.84 mm): Symbol U1 Pin 66 [PJ3, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(119.38 mm, 119.38 mm): Symbol U1 Pin 67 [PJ4, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(119.38 mm, 121.92 mm): Symbol U1 Pin 68 [PJ5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(119.38 mm, 124.46 mm): Symbol U1 Pin 69 [PJ6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(119.38 mm, 127.00 mm): Symbol U1 Pin 79 [PJ7, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(119.38 mm, 137.16 mm): Symbol U1 Pin 14 [PH2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(119.38 mm, 149.86 mm): Symbol U1 Pin 27 [PH7, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(119.38 mm, 162.56 mm): Symbol U1 Pin 28 [PG3, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(119.38 mm, 165.10 mm): Symbol U1 Pin 29 [PG4, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(160.02 mm, 116.84 mm): Symbol U1 Pin 46 [PD3, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(160.02 mm, 119.38 mm): Symbol U1 Pin 47 [PD4, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(160.02 mm, 121.92 mm): Symbol U1 Pin 48 [PD5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(160.02 mm, 124.46 mm): Symbol U1 Pin 49 [PD6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(160.02 mm, 137.16 mm): Symbol U1 Pin 4 [PE2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(160.02 mm, 147.32 mm): Symbol U1 Pin 8 [PE6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(160.02 mm, 149.86 mm): Symbol U1 Pin 9 [PE7, Bidirectional, Line]
+[label_dangling]: Label not connected
+    ; error
+    @(162.56 mm, 154.94 mm): Label 'ADC7'
+[label_dangling]: Label not connected
+    ; error
+    @(162.56 mm, 154.94 mm): Label 'ADC7'
+[label_dangling]: Label not connected
+    ; error
+    @(162.56 mm, 157.48 mm): Label 'ADC6'
+[label_dangling]: Label not connected
+    ; error
+    @(162.56 mm, 157.48 mm): Label 'ADC6'
+[label_dangling]: Label not connected
+    ; error
+    @(162.56 mm, 160.02 mm): Label 'ADC5'
+[label_dangling]: Label not connected
+    ; error
+    @(162.56 mm, 160.02 mm): Label 'ADC5'
+[missing_power_pin]: 符號「U4」的輸入電源接腳位於單元「[ C ]}」內但未被放置
+    ; error
+    @(181.61 mm, 24.13 mm): Symbol U4 [LMV358]
+[footprint_link_issues]: 封裝「SW_SPST_Omron_B3FS-1xxx」未在元件庫「Button_Switch_SMD」中找到
+    ; warning
+    @(25.40 mm, 191.77 mm): Symbol SW1 [SW_Push]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(72.39 mm, 148.59 mm): Label '3V3'
+[lib_symbol_issues]: 目前的配置不包含符號庫「mc33269_sym」
+    ; warning
+    @(73.66 mm, 17.78 mm): Symbol IC1 [_2]
+[lib_symbol_issues]: 目前的配置不包含符號庫「mc33269_sym」
+    ; warning
+    @(76.20 mm, 36.83 mm): Symbol IC2 [_1]
+[missing_input_pin]: 符號「U2」的輸入接腳位於單元「[ B ]」內但未被放置
+    ; warning
+    @(86.36 mm, 146.05 mm): Symbol U2 [LMV358]
+[missing_unit]: 符號 U2 有未放置的單元 [ B, C ]
+    ; warning
+    @(86.36 mm, 146.05 mm): Symbol U2 [LMV358]
+[multiple_net_names]: +5V 和 AVCC 都連接到同一項上; 將使用 +5V 作為網表中的網路名稱
+    ; warning
+    @(30.48 mm, 175.26 mm): Symbol #PWR016 Pin 1 [Power input, Line]
+    @(142.24 mm, 33.02 mm): Label 'AVCC'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(170.18 mm, 116.84 mm): Label 'TXD1'
+[missing_input_pin]: 符號「U4」的輸入接腳位於單元「[ B ]」內但未被放置
+    ; warning
+    @(181.61 mm, 24.13 mm): Symbol U4 [LMV358]
+[missing_unit]: 符號 U4 有未放置的單元 [ B, C ]
+    ; warning
+    @(181.61 mm, 24.13 mm): Symbol U4 [LMV358]
+[lib_symbol_issues]: 目前的配置不包含符號庫「mh2029-300y」
+    ; warning
+    @(48.26 mm, 99.06 mm): Symbol FB1 [SMD-FERRITE-BEAD-30R-3A(0805)]
+[lib_symbol_issues]: 目前的配置不包含符號庫「MF-MSMF050」
+    ; warning
+    @(64.77 mm, 64.77 mm): Symbol F1 [MF-MSMF050]
+[unconnected_wire_endpoint]: 未連接的線路端點
+    ; warning
+    @(72.39 mm, 76.20 mm): Horizontal Wire, length 2.54 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(74.93 mm, 76.20 mm): Label 'USBVCC'
+[footprint_link_issues]: 封裝「Crystal_SMD_Murata_CSTxExxV-3Pin_3.2x1.3mm」未在元件庫「Crystal」中找到
+    ; warning
+    @(114.30 mm, 86.36 mm): Symbol Y2 [Crystal]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(148.59 mm, 64.77 mm): Label 'USBVCC'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(191.77 mm, 101.60 mm): Label 'PE0'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(191.77 mm, 106.68 mm): Label 'PE1'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(209.55 mm, 134.62 mm): Label 'RESET'
+
+***** Sheet /USB/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(39.37 mm, 53.34 mm): Symbol P1 Pin A4 [VBUS, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(39.37 mm, 60.96 mm): Symbol P1 Pin B5 [VCONN, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(39.37 mm, 66.04 mm): Symbol P1 Pin A7 [D-, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(39.37 mm, 71.12 mm): Symbol P1 Pin A6 [D+, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(63.50 mm, 99.06 mm): Symbol R6 Pin 1 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(63.50 mm, 106.68 mm): Symbol R6 Pin 2 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(72.39 mm, 99.06 mm): Symbol R7 Pin 1 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(72.39 mm, 106.68 mm): Symbol R7 Pin 2 [Passive, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(92.71 mm, 60.96 mm): Symbol J8 Pin 3 [VSS, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(93.98 mm, 99.06 mm): Symbol R3 Pin 1 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(93.98 mm, 104.14 mm): Symbol R4 Pin 1 [Passive, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(148.59 mm, 71.12 mm): Symbol U5 Pin 31 [UVCC, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(148.59 mm, 142.24 mm): Symbol U5 Pin 28 [UGND, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(168.91 mm, 78.74 mm): Symbol U5 Pin 14 [PB0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(168.91 mm, 101.60 mm): Symbol U5 Pin 5 [PC2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(168.91 mm, 104.14 mm): Symbol U5 Pin 26 [PC4, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(168.91 mm, 106.68 mm): Symbol U5 Pin 25 [PC5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(168.91 mm, 109.22 mm): Symbol U5 Pin 23 [PC6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(168.91 mm, 111.76 mm): Symbol U5 Pin 22 [PC7, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(168.91 mm, 116.84 mm): Symbol U5 Pin 6 [PD0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(168.91 mm, 119.38 mm): Symbol U5 Pin 7 [PD1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(168.91 mm, 132.08 mm): Symbol U5 Pin 12 [PD6, Bidirectional, Line]
+
+ ** ERC messages: 87  Errors 68  Warnings 19
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

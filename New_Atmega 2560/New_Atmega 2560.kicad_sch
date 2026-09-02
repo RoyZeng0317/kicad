@@ -7394,6 +7394,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 33.02) (xy 142.24 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194903c7-fb7e-464d-a8b0-530949377040")
+	)
+	(wire
+		(pts
 			(xy 34.29 123.19) (xy 38.1 123.19)
 		)
 		(stroke
@@ -8144,16 +8154,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 31.75) (xy 142.24 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fa12214-c69b-408b-8e11-e1bdf33d3033")
-	)
-	(wire
-		(pts
 			(xy 55.88 81.28) (xy 80.01 81.28)
 		)
 		(stroke
@@ -8411,16 +8411,6 @@
 			(type default)
 		)
 		(uuid "77c07e38-10b5-4ef9-9870-99527a87a144")
-	)
-	(wire
-		(pts
-			(xy 139.7 31.75) (xy 133.35 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77d136c2-e9c8-4832-8aca-8a9e4889a0c9")
 	)
 	(wire
 		(pts
@@ -9364,6 +9354,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 30.48) (xy 139.7 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d5f429-4e68-4f2c-9365-f7adf4353bcf")
+	)
+	(wire
+		(pts
 			(xy 19.05 125.73) (xy 19.05 123.19)
 		)
 		(stroke
@@ -9594,7 +9594,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 33.02) (xy 139.7 31.75)
+			(xy 139.7 33.02) (xy 139.7 30.48)
 		)
 		(stroke
 			(width 0)
@@ -9832,7 +9832,7 @@
 		)
 		(uuid "031de91b-2e72-4ba3-aacc-141288602a8e")
 	)
-	(label "XTL2"
+	(label "XTAL2"
 		(at 113.03 50.8 0)
 		(effects
 			(font
@@ -10203,7 +10203,7 @@
 		(uuid "3bcb8b0a-5697-4503-a483-3f7295edb3e7")
 	)
 	(label "AVCC"
-		(at 142.24 31.75 0)
+		(at 142.24 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10642,7 +10642,7 @@
 		)
 		(uuid "97e8b97b-ff9f-491c-a074-cf0bec6f3ed4")
 	)
-	(label "+3v3"
+	(label "+3V3"
 		(at 118.11 176.53 0)
 		(effects
 			(font
@@ -10652,7 +10652,7 @@
 		)
 		(uuid "9a02de55-9195-412e-8685-b6db83d19e2c")
 	)
-	(label "XTL1"
+	(label "XTAL1"
 		(at 113.03 45.72 0)
 		(effects
 			(font
@@ -10873,7 +10873,7 @@
 		(uuid "b4110a85-7ea1-43d7-a4b5-528b922d4d1a")
 	)
 	(label "VCC"
-		(at 133.35 31.75 0)
+		(at 135.89 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11294,7 +11294,7 @@
 			(justify right bottom)
 		)
 		(uuid "22d07cde-6307-4fc4-b00f-2be7c8de2337")
-		(property "Net Class" "8"
+		(property "Netclass" "8"
 			(at 14.6685 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11330,7 +11330,7 @@
 			(justify left bottom)
 		)
 		(uuid "e77ceb0b-4fd0-401f-b886-f5dbae814e97")
-		(property "Net Class" "4"
+		(property "Netclass" "4"
 			(at 14.6685 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13917,6 +13917,94 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 24.13 36.83) (xy 29.21 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aafc1001-0009-4a01-9001-a0edf5310039")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aafc1001-0005-4a01-9001-a0edf5310035")
+		(property "Reference" "#PWR033"
+			(at 24.13 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aafc1001-0006-4a01-9001-a0edf5310036")
+		)
+		(instances
+			(project "New_Atmega 2560"
+				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C_US")
 		(at 90.17 91.44 0)
@@ -14891,6 +14979,94 @@
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 90.17 85.09) (xy 96.52 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aafc1001-0010-4a01-9001-a0edf5310040")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 96.52 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aafc1001-0007-4a01-9001-a0edf5310037")
+		(property "Reference" "#PWR034"
+			(at 96.52 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 94 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 90.17 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aafc1001-0008-4a01-9001-a0edf5310038")
+		)
+		(instances
+			(project "New_Atmega 2560"
+				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15911,6 +16087,162 @@
 			(project "New_Atmega 2560"
 				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 133.35 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aafc1001-0001-4a01-9001-a0edf5310031")
+		(property "Reference" "#PWR031"
+			(at 133.35 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 133.35 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 133.35 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aafc1001-0002-4a01-9001-a0edf5310032")
+		)
+		(instances
+			(project "New_Atmega 2560"
+				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 142.24 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aafc1001-0003-4a01-9001-a0edf5310033")
+		(property "Reference" "#PWR032"
+			(at 142.24 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 142.24 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 142.24 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aafc1001-0004-4a01-9001-a0edf5310034")
+		)
+		(instances
+			(project "New_Atmega 2560"
+				(path "/f123d371-868a-48f0-9f6c-663b3f4e9af5"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
